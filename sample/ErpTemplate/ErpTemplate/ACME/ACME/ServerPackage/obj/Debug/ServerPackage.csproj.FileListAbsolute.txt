@@ -1,0 +1,13 @@
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\EEPNetServer\Solution1\ServerPackage.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\EEPNetServer\Solution1\ServerPackage.pdb
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\EEPNetServer\Solution1\vi-VN\ServerPackage.resources.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\ACME\ServerPackage\obj\Debug\ServerPackage.csprojResolveAssemblyReference.cache
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\ACME\ServerPackage\obj\Debug\ServerPackage.csproj.GenerateResource.Cache
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\ACME\ServerPackage\obj\Debug\vi-VN\ServerPackage.resources.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\ACME\ServerPackage\obj\Debug\ServerPackage.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\ACME\ServerPackage\obj\Debug\ServerPackage.pdb
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\EEPNetServer\ACME\ServerPackage.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\EEPNetServer\ACME\ServerPackage.pdb
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\EEPNetServer\ACME\vi-VN\ServerPackage.resources.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\ACME\ServerPackage\obj\Debug\ServerPackage.Component.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\ACME\ServerPackage\obj\Debug\ServerPackage.Component.vi-VN.resources

@@ -1,0 +1,473 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=big5">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="SO.files/filelist.xml">
+<link rel=Edit-Time-Data href="SO.files/editdata.mso">
+<link rel=OLE-Object-Data href="SO.files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>lleytonchen</o:LastAuthor>
+  <o:LastPrinted>2009-07-02T05:11:39Z</o:LastPrinted>
+  <o:Created>2009-07-02T02:23:06Z</o:Created>
+  <o:LastSaved>2009-07-06T13:55:17Z</o:LastSaved>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.2in .39in 0in .39in;
+	mso-header-margin:.51in;
+	mso-footer-margin:.51in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:一般;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-size:10.0pt;}
+.xl25
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:left;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl26
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:left;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl27
+	{mso-style-parent:style0;
+	font-size:14.0pt;}
+.xl28
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl29
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl30
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	white-space:normal;}
+.xl31
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:left;}
+.xl32
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:left;
+	white-space:normal;}
+.xl33
+	{mso-style-parent:style0;
+	white-space:normal;}
+.xl34
+	{mso-style-parent:style0;
+	text-align:left;
+	white-space:normal;}
+.xl35
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl36
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl37
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl38
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:right;
+	white-space:normal;}
+.xl39
+	{mso-style-parent:style0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl40
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:right;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl41
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:right;}
+.xl42
+	{mso-style-parent:style0;
+	font-size:20.0pt;
+	text-align:center;}
+.xl43
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	text-decoration:underline;
+	text-underline-style:single;
+	text-align:center;}
+.xl44
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:left;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl45
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:left;
+	border-top:2.0pt double windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl46
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	border-top:2.0pt double windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>WebNotify</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>330</x:DefaultRowHeight>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>140</x:PaperSizeIndex>
+      <x:HorizontalResolution>180</x:HorizontalResolution>
+      <x:VerticalResolution>180</x:VerticalResolution>
+     </x:Print>
+     <x:PageBreakZoom>60</x:PageBreakZoom>
+     <x:Selected/>
+     <x:DoNotDisplayGridlines/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>24</x:ActiveRow>
+       <x:ActiveCol>3</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>8895</x:WindowHeight>
+  <x:WindowWidth>14955</x:WindowWidth>
+  <x:WindowTopX>-225</x:WindowTopX>
+  <x:WindowTopY>135</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=943 style='border-collapse:
+ collapse;table-layout:fixed;width:708pt'>
+ <col width=70 style='mso-width-source:userset;mso-width-alt:2240;width:53pt'>
+ <col width=111 style='mso-width-source:userset;mso-width-alt:3552;width:83pt'>
+ <col width=73 style='mso-width-source:userset;mso-width-alt:2336;width:55pt'>
+ <col width=133 style='mso-width-source:userset;mso-width-alt:4256;width:100pt'>
+ <col width=64 style='mso-width-source:userset;mso-width-alt:2048;width:48pt'>
+ <col width=92 style='mso-width-source:userset;mso-width-alt:2944;width:69pt'>
+ <col width=68 style='mso-width-source:userset;mso-width-alt:2176;width:51pt'>
+ <col width=106 style='mso-width-source:userset;mso-width-alt:3392;width:80pt'>
+ <col width=75 style='mso-width-source:userset;mso-width-alt:2400;width:56pt'>
+ <col width=79 style='mso-width-source:userset;mso-width-alt:2528;width:59pt'>
+ <col width=72 style='width:54pt'>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td colspan=9 height=36 class=xl42 width=792 style='height:27.0pt;width:595pt'>進金生實業股份有限公司</td>
+  <td width=79 style='width:59pt'></td>
+  <td width=72 style='width:54pt'></td>
+ </tr>
+ <tr height=26 style='mso-height-source:userset;height:19.5pt'>
+  <td colspan=9 height=26 class=xl43 style='height:19.5pt'>訂購憑單</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=19 style='mso-height-source:userset;height:14.25pt'>
+  <td height=19 class=xl25 width=70 style='height:14.25pt;width:53pt'>印表日期:</td>
+  <td class=xl26>&lt;&lt;印表日期&gt;&gt;</td>
+  <td class=xl28>　</td>
+  <td class=xl28>　</td>
+  <td class=xl28>　</td>
+  <td class=xl29>　</td>
+  <td class=xl29>　</td>
+  <td class=xl29>　</td>
+  <td class=xl29>　</td>
+  <td class=xl29>　</td>
+  <td class=xl29>　</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl30 width=70 style='height:15.0pt;width:53pt'>訂購日期:</td>
+  <td class=xl31>&lt;&lt;訂購日期&gt;&gt;</td>
+  <td colspan=3 class=xl27 style='mso-ignore:colspan'></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+  <td class=xl24>單<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span>號:</td>
+  <td class=xl24>&lt;&lt;單號&gt;&gt;</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl30 width=70 style='height:12.75pt;width:53pt'>客戶編號:</td>
+  <td class=xl31>&lt;&lt;客戶編號&gt;&gt;</td>
+  <td colspan=5 class=xl31>&lt;&lt;客戶名稱&gt;&gt;</td>
+  <td></td>
+  <td class=xl24>PO<span style='mso-spacerun:yes'>&nbsp; </span>單號:</td>
+  <td class=xl24>&lt;&lt;PO單號&gt;&gt;</td>
+  <td></td>
+ </tr>
+ <tr height=19 style='mso-height-source:userset;height:14.25pt'>
+  <td height=19 class=xl30 width=70 style='height:14.25pt;width:53pt'>帳單地址:</td>
+  <td colspan=4 class=xl32 width=381 style='width:286pt'>&lt;&lt;帳單地址&gt;&gt;</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+  <td class=xl24>統一編號:</td>
+  <td class=xl24 colspan=2 style='mso-ignore:colspan'>&lt;&lt;統一編號&gt;&gt;</td>
+ </tr>
+ <tr height=38 style='mso-height-source:userset;height:28.5pt'>
+  <td height=38 class=xl30 width=70 style='height:28.5pt;width:53pt'>送貨地址:</td>
+  <td colspan=6 class=xl31>&lt;&lt;送貨地址&gt;&gt;</td>
+  <td></td>
+  <td class=xl24>幣別編號:</td>
+  <td class=xl24>&lt;&lt;幣別&gt;&gt;</td>
+  <td></td>
+ </tr>
+ <tr height=23 style='mso-height-source:userset;height:17.25pt'>
+  <td height=23 class=xl30 width=70 style='height:17.25pt;width:53pt'>聯 絡 人:</td>
+  <td class=xl32 width=111 style='width:83pt'>&lt;&lt;聯絡人&gt;&gt;</td>
+  <td class=xl32 width=73 style='width:55pt'>聯絡電話:</td>
+  <td class=xl32 width=133 style='width:100pt'>&lt;&lt;電話&gt;&gt;</td>
+  <td class=xl32 width=64 style='width:48pt'>銷售人員:</td>
+  <td class=xl32 width=92 style='width:69pt'>&lt;&lt;業務&gt;&gt;</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl24>製單人員:</td>
+  <td class=xl24>&lt;&lt;製單人&gt;&gt;</td>
+  <td></td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl33 style='height:15.0pt'></td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'></td>
+  <td class=xl32 width=64 style='width:48pt'>匯率:</td>
+  <td class=xl32 width=92 style='width:69pt'>&lt;&lt;匯率&gt;&gt;</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=23 style='mso-height-source:userset;height:17.25pt'>
+  <td height=23 class=xl24 style='height:17.25pt'>備<span
+  style='mso-spacerun:yes'>&nbsp;&nbsp; </span>註:</td>
+  <td class=xl24>&lt;&lt;貿易條件&gt;&gt;</td>
+  <td class=xl32 width=73 style='width:55pt'>From:</td>
+  <td class=xl32 width=133 style='width:100pt'>&lt;&lt;FROM1&gt;&gt;</td>
+  <td class=xl32 width=64 style='width:48pt'>To:</td>
+  <td class=xl32 width=92 style='width:69pt'>&lt;&lt;TO1&gt;&gt;</td>
+  <td class=xl30 width=68 style='width:51pt'>By:</td>
+  <td colspan=2 class=xl30 width=181 style='width:136pt'>&lt;&lt;運輸方式&gt;&gt;</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=23 style='mso-height-source:userset;height:17.25pt'>
+  <td height=23 class=xl30 style='height:17.25pt'></td>
+  <td class=xl32 width=111 style='width:83pt'>&lt;&lt;IIS&gt;&gt;</td>
+  <td colspan=2 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl32 width=64 style='width:48pt'>保固:</td>
+  <td class=xl32 width=92 style='width:69pt'>&lt;&lt;保固&gt;&gt;</td>
+  <td colspan=3 class=xl24>&lt;&lt;付款方法&gt;&gt;</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td colspan=2 height=22 class=xl44 style='height:16.5pt'>產品編號</td>
+  <td colspan=2 class=xl44>品名規格</td>
+  <td class=xl36 width=64 style='width:48pt'>數量</td>
+  <td class=xl36 width=92 style='width:69pt'>單位</td>
+  <td class=xl36 width=68 style='width:51pt'>單價</td>
+  <td class=xl37 width=106 style='width:80pt'>金額</td>
+  <td class=xl36 width=75 style='width:56pt'>訂單交期</td>
+  <td class=xl36 width=79 style='width:59pt'>離倉日期</td>
+  <td class=xl35>　</td>
+ </tr>
+ <tr height=26 style='mso-height-source:userset;height:19.5pt'>
+  <td colspan=2 height=26 class=xl45 style='height:19.5pt'>[[產品編號]]</td>
+  <td colspan=2 class=xl46>[[品名規格]]</td>
+  <td class=xl38 width=64 style='width:48pt'>[[數量]]</td>
+  <td></td>
+  <td class=xl30 width=68 style='width:51pt'>[[數量]]</td>
+  <td class=xl38 width=106 style='width:80pt'>[[金額]]</td>
+  <td class=xl30 width=75 style='width:56pt'>[[訂單交期]]</td>
+  <td class=xl30 width=79 style='width:59pt'>[[離倉日期]]</td>
+  <td></td>
+ </tr>
+ <tr height=23 style='mso-height-source:userset;height:17.25pt'>
+  <td height=23 colspan=4 style='height:17.25pt;mso-ignore:colspan'></td>
+  <td class=xl39>　</td>
+  <td class=xl39>　</td>
+  <td class=xl39>　</td>
+  <td class=xl40>合計:</td>
+  <td colspan=2 class=xl40>&lt;&lt;合計&gt;&gt;</td>
+  <td class=xl39>　</td>
+ </tr>
+ <tr height=23 style='mso-height-source:userset;height:17.25pt'>
+  <td height=23 colspan=7 style='height:17.25pt;mso-ignore:colspan'></td>
+  <td class=xl41>稅金:</td>
+  <td colspan=2 class=xl41>&lt;&lt;稅金&gt;&gt;</td>
+  <td></td>
+ </tr>
+ <tr height=23 style='mso-height-source:userset;height:17.25pt'>
+  <td height=23 colspan=7 style='height:17.25pt;mso-ignore:colspan'></td>
+  <td class=xl41>總計:</td>
+  <td colspan=2 class=xl41>&lt;&lt;總計&gt;&gt;</td>
+  <td></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 colspan=7 style='height:16.5pt;mso-ignore:colspan'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+  <td></td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 colspan=11 style='height:16.5pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=44 style='height:33.0pt;mso-xlrowspan:2'>
+  <td height=44 colspan=11 style='height:33.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 class=xl29 style='height:16.5pt'>　</td>
+  <td class=xl29>　</td>
+  <td class=xl29>　</td>
+  <td class=xl29>　</td>
+  <td class=xl29>　</td>
+  <td class=xl29>　</td>
+  <td class=xl29>　</td>
+  <td class=xl29>　</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=50 style='mso-height-source:userset;height:37.5pt'>
+  <td height=50 class=xl24 style='height:37.5pt'>核准:</td>
+  <td></td>
+  <td class=xl24>業務:</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl24>製單:</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+  <td class=xl39>　</td>
+  <td class=xl39>　</td>
+  <td class=xl39>　</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=70 style='width:53pt'></td>
+  <td width=111 style='width:83pt'></td>
+  <td width=73 style='width:55pt'></td>
+  <td width=133 style='width:100pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=92 style='width:69pt'></td>
+  <td width=68 style='width:51pt'></td>
+  <td width=106 style='width:80pt'></td>
+  <td width=75 style='width:56pt'></td>
+  <td width=79 style='width:59pt'></td>
+  <td width=72 style='width:54pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

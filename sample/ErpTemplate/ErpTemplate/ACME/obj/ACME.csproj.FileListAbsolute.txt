@@ -1,0 +1,1592 @@
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.EmpLookup.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBaseS1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMenuTable.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOCRD.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOrderTest.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmORDR.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOSHP.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmProduct.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmPurchase.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmTable.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmVoucher.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmEMP.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.EmpLookup.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBaseS1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMenuTable.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOCRD.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOrderTest.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmORDR.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOSHP.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmProduct.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmPurchase.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmTable.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmVoucher.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmEMP.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\複製 -ErpTemplate20071030\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.EmpLookup.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBaseS1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMenuTable.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOCRD.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOrderTest.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmORDR.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOSHP.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmProduct.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmPurchase.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmTable.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmVoucher.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmEMP.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmApplym.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUserSample.resources
+C:\Documents and Settings\lleytonchen\桌面\project\ErpTemplate1\ErpTemplate20071030sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOrdr1.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CuLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.EmpLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmApplym.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBaseS1.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer1.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMenuTable.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOCRD.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOrderTest.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmORDR.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOrdr1.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOSHP.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmProduct.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmPurchase.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmTable.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUserSample.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmVoucher.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmEMP.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\Documents and Settings\lleytonchen\My Documents\ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CuLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.EmpLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmApplym.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBaseS1.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer1.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMenuTable.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOCRD.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOrderTest.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmORDR.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOrdr1.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOSHP.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmProduct.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmPurchase.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmTable.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUserSample.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmVoucher.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmEMP.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\My Documents\複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CuLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.EmpLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmApplym.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBaseS1.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCustomer1.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMenuTable.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOCRD.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOrderTest.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmORDR.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOrdr1.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmOSHP.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmProduct.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmPurchase.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmTable.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUserSample.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmVoucher.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmEMP.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\Documents and Settings\lleytonchen\My Documents\複製 (2) -複製 -ErpTemplate20071203\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.ResolveComReference.cache
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCust1.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CrystalReport1.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustReport1.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OVPMlReport1.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTReport.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTReport2.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTReport3.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CrystalReport15.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Cry.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Cry2.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Cry3.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSearpt.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Cry4.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Cry5.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CrystalReport2.rpt
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCust.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCustRpt.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTRpt.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTRpt3.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTRrt2.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeStock.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeAccRep1.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APCR.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear2.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLCReq.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLC.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLC2.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ASMain.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ASSub.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACCLookup.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CuLookup.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.EmpLookup.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Baseform.fmShowKey.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.inLookup.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SPlLookup.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UserValueDialog.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.KPlLookup.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPay.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPayrpt.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTax.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmDsmenu.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OVPM.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OvpmRpt.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MediaPay.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt2.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt5.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RMASear.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaForm2.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmWebBrowser.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsu.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt2.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaNo.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmorsn.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScheSap.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMail.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.owhs.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipInsu.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvoseq.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SAPbobsCOM.dll
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\0609sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SAPbobsCOM.dll
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.ResolveComReference.cache
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCust1.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CrystalReport1.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustReport1.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OVPMlReport1.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTReport.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTReport2.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTReport3.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Cry.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Cry2.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Cry3.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSearpt.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Cry4.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Cry5.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CrystalReport2.rpt
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTRpt.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTRpt3.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACSTRrt2.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeStock.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeAccRep1.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AR.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APCR.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear2.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLCReq.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLC.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLC2.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ASMain.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ASSub.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACCLookup.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CuLookup.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.EmpLookup.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Baseform.fmShowKey.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.inLookup.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SPlLookup.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UserValueDialog.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.KPlLookup.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPay.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPayrpt.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTax.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmDsmenu.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OVPM.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OvpmRpt.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MediaPay.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt2.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt5.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCardcode.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaForm2.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RMASear.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmWebBrowser.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsu.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt2.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaNo.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmorsn.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScheSap.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMail.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.owhs.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipInsu.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvoseq.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\bb\新資料夾\0711sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SAPbobsCOM.dll
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.ResolveComReference.cache
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Item.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Sales.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.APSCry3.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.AccountCard.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport1.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport2.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CustReport1.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport4.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.OVPMlReport1.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry2.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry3.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.APSearpt.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry5.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport3.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form5Cry.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.APSCry.rpt
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCard.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeBS.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeItemHelper.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeStock.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeAccRep1.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AR.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACDsign.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCardRpt.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmStockValue.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Sales.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Item.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS1.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ApsCry1.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APCR.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLCReq.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear2.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLC.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS2.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ApsCry3.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APModChart.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APTot.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACCLookup.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Baseform.fmShowKey.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.inLookup.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SPlLookup.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UserValueDialog.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.bowhs.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Card.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBaseGrid.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmGA_KIND.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmGA_OPAY.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmGA_OPAYList.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART2.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PACK.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rmar.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SapForm.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OdlnUpload.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UploadLog.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PI.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SaScheSap.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipChart2.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt5.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PettyCash.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPay.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPayrpt.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTax.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OVPM.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OvpmRpt.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MediaPay.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt2.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt5.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmDsmenu.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipChart.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvoseq.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Right.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaForm2.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCardcode.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RMASear.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmWebBrowser.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsu.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma_Institem.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt2.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaNo.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt4.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScheSap.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMail.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.owhs.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipInsu.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt3.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipInsuRpt.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart1.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockFreeze.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt6.resources
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\bb\新資料夾\1113sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Microsoft.Web.Preview.dll
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SHDocVw.dll
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\AxInterop.SHDocVw.dll
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\Interop.SHDocVw.dll
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\AxInterop.SHDocVw.dll
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.ResolveComReference.cache
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR2.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CustReport1.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Item.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Sales.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4C.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4D.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.APSCry3.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.AccountCard.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport1.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport2.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.OVPMlReport1.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry2.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry3.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry5.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport3.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.APSCry.rpt
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCard.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeBS.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeItemHelper.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeStock.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeAccRep1.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AR.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCardRpt.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.FmAcmeAging.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrial.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmStockValue.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Sales.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Item.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrial1.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4C.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4D.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GNSearch.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GDImport.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GDModel.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockSearch.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart2.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS1.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ApsCry1.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLCReq.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLC.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS2.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ApsCry3.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APModChart.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APTot.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APOcrd.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GDALL.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APInvoice.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACCLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Baseform.fmShowKey.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.inLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SPlLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UserValueDialog.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Card.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.DataImport.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ADInvoice.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust2.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Ocrd.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART2.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PACK.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rmar.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SapForm.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OdlnUpload.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UploadLog.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PI.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SaScheSap.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SAOcrd.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPay.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPayrpt.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTax.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OVPM.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OvpmRpt.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MediaPay.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt2.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt5.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmDsmenu.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipChart.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvoseq.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Right.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaForm2.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCardcode.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RMASear.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmWebBrowser.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsu.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma_Institem.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt2.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaNo.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt4.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScheSap.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMail.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.owhs.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipInsu.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt3.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart1.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockFreeze.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt6.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7AR.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MisSearch.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipChart2009.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7AR2.resources
+C:\Documents and Settings\lleytonchen\My Documents\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Microsoft.Web.Preview.dll
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.ResolveComReference.cache
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR2.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CustReport1.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Item.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Sales.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4C.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4D.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.APSCry3.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.AccountCard.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport1.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport2.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.OVPMlReport1.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry3.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry5.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport3.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.APSCry.rpt
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCard.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeBS.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeItemHelper.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeStock.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeAccRep1.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AR.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCardRpt.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.FmAcmeAging.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrial.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmStockValue.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Sales.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Item.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrial1.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4C.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4D.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GNSearch.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountAPZ.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GDImport.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockSearch.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart2.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS1.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ApsCry1.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLCReq.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLC.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS2.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ApsCry3.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APModChart.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APTot.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APOcrd.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AUOPOS1.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACCLookup.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Baseform.fmShowKey.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.inLookup.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SPlLookup.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UserValueDialog.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Card.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust2.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Ocrd.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART2.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PACK.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rmar.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SapForm.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OdlnUpload.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PI.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SaScheSap.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SAOcrd.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPay.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPayrpt.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTax.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OVPM.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OvpmRpt.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MediaPay.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt5.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmDsmenu.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipChart.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvoseq.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Right.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaForm2.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCardcode.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RMASear.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmWebBrowser.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsu.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma_Institem.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt2.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaNo.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt4.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScheSap.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMail.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.owhs.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipInsu.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt3.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart1.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockFreeze.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt6.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7AR.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MisSearch.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipChart2009.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7AR2.resources
+C:\bb\新資料夾\0209sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Microsoft.Web.Preview.dll
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.ResolveComReference.cache
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmStage.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR2.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CustReport1.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry31.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Item1.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport33.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry3c.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Salesc.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Itemc.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Item.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Sales.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4C.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4D.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.APSCry3.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.AccountCard.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport1.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport2.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.OVPMlReport1.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry3.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry5.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport3.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.APSCry.rpt
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCard.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeBS.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeItemHelper.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeStock.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeAccRep1.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AR.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckDetail.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ProductSum.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MultiValueDialog.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.owhs.WH.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCardRpt.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckPaid.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.FmAcmeAging.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrial.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmStockValue.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Sales.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Item.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrial1.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4C.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4D.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GNSearch.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountAPZ.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt31.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Item1.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ORCT.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOinv.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOinv2.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOrin1.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ReportForm.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOjdt.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckMoney.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OPCH.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3c.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Salesc.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Itemc.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeGD.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CardType.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Forcast.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GDImport.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockSearch.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart2.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS1.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ApsCry1.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLCReq.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLC.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS2.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ApsCry3.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APModChart.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APTot.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACCLookup.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Baseform.fmShowKey.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.inLookup.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SPlLookup.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UserValueDialog.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Card.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmMis.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmSales.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exBindingNavigator.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeCRM.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCrmSec.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.fmRptStage.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.fmShowSpec.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScrollingText.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3Rpt3.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmarRep.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust2.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Ocrd.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART2.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PACK.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rmar.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SapForm.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOrdr.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmSAP_SO.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PI.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPay.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPayrpt.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTax.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OVPM.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OvpmRpt.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MediaPay.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt5.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmDsmenu.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipChart.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvoseq.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Right.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaForm2.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCardcode.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RMASear.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmWebBrowser.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsu.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma_Institem.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt2.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaNo.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt4.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScheSap.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMail.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipInsu.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt3.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart1.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockFreeze.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt6.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7AR.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MisSearch.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipChart2009.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7AR2.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Statistics.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.WH_main.resources
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\bb\新資料夾\0706sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AUOPOS1.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Microsoft.Web.Preview.dll
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\AxInterop.SHDocVw.dll
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.ResolveComReference.cache
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmStage.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR2.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CustReport1.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry31.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Item1.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport33.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry3c.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Salesc.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Itemc.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Item.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Sales.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4C.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4D.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.APSCry3.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.AccountCard.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport1.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport2.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.OVPMlReport1.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry3.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry5.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport3.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.APSCry.rpt
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCard.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeBS.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeItemHelper.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeStock.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeAccRep1.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AR.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckDetail.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ProductSum.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AUOPOS1.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MultiValueDialog.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Serial.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockCheck.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.WH.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCardRpt.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckPaid.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.FmAcmeAging.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrial.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmStockValue.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Sales.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Item.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrial1.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4C.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4D.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GNSearch.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountAPZ.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt31.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Item1.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ORCT.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOinv.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOinv2.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOrin1.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ReportForm.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOjdt.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckMoney.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OPCH.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3c.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Salesc.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Itemc.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CardType.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GDImport.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart2.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS1.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ApsCry1.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLCReq.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLC.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS2.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ApsCry3.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APModChart.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APTot.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACCLookup.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Baseform.fmShowKey.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmUSERS.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.inLookup.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SPlLookup.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UserValueDialog.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Card.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmMis.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmSales.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exBindingNavigator.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeCRM.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCrmSec.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.fmRptStage.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.fmShowSpec.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScrollingText.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3Rpt3.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsert.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmarRep.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust2.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Ocrd.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART2.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PACK.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rmar.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SapForm.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOrdr.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmSAP_SO.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PI.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPay.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPayrpt.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTax.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OVPM.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OvpmRpt.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MediaPay.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt5.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmDsmenu.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipChart.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvoseq.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Right.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaForm2.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCardcode.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RMASear.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmWebBrowser.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsu.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma_Institem.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt2.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaNo.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt4.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScheSap.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmMail.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipInsu.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form3.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.frmLoad.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Rpt3.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart1.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockFreeze.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt6.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7AR.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MisSearch.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipChart2009.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7AR2.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Statistics.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.WH_main.resources
+C:\bb\新資料夾\20090714sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.ResolveComReference.cache
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmStage.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR2.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CustReport1.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry31.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Item1.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry3c.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Salesc.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Itemc.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.FormLC2.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CRYVoucher.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Rafa.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Rafa2.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.TEST.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Item.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Sales.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4C.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4D.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.AccountCard.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry3.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry5.rpt
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACCOUNT.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCard.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACCStatistic.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AUOENDDATE.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckMoney2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.DOCCUR.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.examation.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeFIFO.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeOJDT.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrialReport.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.TRAIL.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UNLOCK_List.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UNLOCK.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmGoldenTax.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmStockMove.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.VAT.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Voucher.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LC.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckPaid2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckPaid.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeFIFOS.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmStockMove2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOpch1.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Debby.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GDImport2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APPRODUCT.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS1.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS3.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangePay.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.JOJO.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP_WHS.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP_WHS_List.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PROFIT.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CHILookup.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmACME_MIS_TASK.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmACME_MIS_TASK_List.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmLogin.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MultiValueDialog2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SPlLookup.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UserValueDialog.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CHOLookup.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SPlLookupDRS.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GanttViewer.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmMis.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmSales.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exBindingNavigator.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeCRM.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.fmCrmFcst.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCrmSec.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.fmRptStage.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.fmShowSpec.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScrollingText.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeItemHelper.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AR.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckDetail.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ProductSum.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MultiValueDialog.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Din1.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Din2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Din3.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Dinbendon.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GBPOTATOAR.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AUINV.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CAR.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART2_LED.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.DOCUPLOAD.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Judy.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ODLN.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ODLNN.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PLATE.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.POTAO.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.POTAO2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.POTATOAR.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.POTATOAR2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCarton.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SERIAL.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StacPack.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.STOCK.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockCheck.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SERIALS.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCardRpt.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrial.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmStockValue.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Sales.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Item.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4C.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4D.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GNSearch.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountAPZ.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt31.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Item1.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ORCT.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OVPM2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOinv2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOrin1.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ReportForm.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOjdt.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckMoney.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OPCH.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3c.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Salesc.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Itemc.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CardType.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GDImport.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLC.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APModChart.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APTot.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Baseform.fmShowKey.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.inLookup.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Card.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.FormTT2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.VoucherRPT.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.FormRafa.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.FormRafa2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOPCH.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Neco.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCardcode.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaF.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsert.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaLED.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmarRep.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PACK.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rmar.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RMASEARSZ.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaSZ.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SZ.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UPDATESAP.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeCommission.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ONETIME.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SHIPAP.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOrdr.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.EMP.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PI.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPay.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPayrpt.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTax.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt5.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmDsmenu.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.TT.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckPaid1.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeSales.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Fee.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmFTP.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PORT.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaForm2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RMASear.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsu.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma_Institem.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaNo.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScheSap.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipInsu.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart1.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockFreeze.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7AR2.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Statistics.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.WH_main.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmRep01.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.S1.resources
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\axshdocvw.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\BarChart.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\CarlosAg.ExcelXmlWriter.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SAPbobsCOM.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\bb\新資料夾\sample\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe.config
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exe
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.pdb
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.exe
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\bin\Debug\ACME.pdb
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\bin\Debug\axshdocvw.dll
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\bin\Debug\BarChart.dll
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\bin\Debug\CarlosAg.ExcelXmlWriter.dll
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\bin\Debug\DragD.QuickWhereComponent.dll
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SAPbobsCOM.dll
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\bin\Debug\Interop.SHDocVw.dll
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ResolveAssemblyReference.cache
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.ResolveComReference.cache
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmStage.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CrystalReport6AR2.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CustReport1.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry31.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Item1.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry3c.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Salesc.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Itemc.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.FormLC2.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.CRYVoucher.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Rafa.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Rafa2.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.TEST.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Item.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Sales.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4C.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4D.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.AccountCard.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry3.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry4.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Report.Form1Cry5.rpt
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACCOUNT.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCard.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ACCStatistic.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AUOENDDATE.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckMoney2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.DOCCUR.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.examation.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeFIFO.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeOJDT.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrialReport.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.TRAIL.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UNLOCK_List.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UNLOCK.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmGoldenTax.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmStockMove.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.VAT.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Voucher.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LC.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckPaid2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckPaid.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeFIFOS.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmStockMove2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOpch1.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Debby.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GDImport2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APPRODUCT.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS1.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS3.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangePay.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.JOJO.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP_WHS.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP_WHS_List.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PROFIT.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CHILookup.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmACME_MIS_TASK.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmACME_MIS_TASK_List.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmLogin.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MultiValueDialog2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SPlLookup.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UserValueDialog.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CHOLookup.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SPlLookupDRS.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GanttViewer.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmMis.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.CrmSales.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.exBindingNavigator.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeCRM.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.fmCrmFcst.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmCrmSec.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.fmRptStage.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CRM.fmShowSpec.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScrollingText.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AcmeItemHelper.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AR.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckDetail.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ProductSum.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MultiValueDialog.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Din1.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Din2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Din3.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Dinbendon.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GBPOTATOAR.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AUINV.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CAR.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART2_LED.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.DOCUPLOAD.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Judy.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ODLN.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ODLNN.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PLATE.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.POTAO.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.POTAO2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.POTATOAR.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.POTATOAR2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCarton.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SERIAL.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StacPack.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.STOCK.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockCheck.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SERIALS.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountCardRpt.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTrial.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmStockValue.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Sales.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Item.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4C.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4D.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GNSearch.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AccountAPZ.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt31.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Item1.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ORCT.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OVPM2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOinv2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOrin1.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ReportForm.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOjdt.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckMoney.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.OPCH.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3c.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Salesc.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Itemc.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CardType.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.GDImport.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APSear.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.AP.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APLC.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APS2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APModChart.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APTot.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Baseform.fmShowKey.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.inLookup.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.LookupDialog.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SqlLookup.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2Card.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.FormTT2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.VoucherRPT.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.FormRafa.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.FormRafa2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOPCH.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Neco.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCardcode.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaF.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsert.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaLED.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmarRep.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CART2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PACK.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rmar.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RMASEARSZ.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaSZ.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SZ.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.UPDATESAP.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeCommission.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ONETIME.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SHIPAP.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeOrdr.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.EMP.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PI.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPay.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CustPayrpt.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmAcmeTax.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmBase1.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt3.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt4.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form1Rpt5.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmDsmenu.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.TT.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.CheckPaid1.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ChangeSales.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Fee.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmFTP.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.PORT.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaForm2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RMASear.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaInsu.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma_Institem.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaCust.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Rma.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.RmaNo.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ScheSap.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.ShipInsu.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmInvo.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmShip.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.MDIfrmMain.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Properties.Resources.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.SplashForm.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.APChart1.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.StockFreeze.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Form4Rpt7AR2.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.Statistics.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.WH_main.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.fmRep01.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.S1.resources
+C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\obj\Debug\ACME.csproj.GenerateResource.Cache

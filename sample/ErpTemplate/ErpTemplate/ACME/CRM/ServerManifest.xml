@@ -1,0 +1,13 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<update>
+  <name file="ACME.exe">
+    <filename>ACME.exe</filename>
+    <fileversion>1.0.3.7</fileversion>
+    <filelastmodified>2009/03/02 上午 10:08:35</filelastmodified>
+  </name>
+  <name file="DragD.QuickWhereComponent">
+    <filename>DragD.QuickWhereComponent</filename>
+    <fileversion>1.0.1.0</fileversion>
+    <filelastmodified>2007年4月25日, 上午 11:38:40</filelastmodified>
+  </name>
+</update>

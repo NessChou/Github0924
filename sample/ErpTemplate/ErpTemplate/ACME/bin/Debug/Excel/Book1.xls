@@ -1,0 +1,286 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=big5">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="Book1.files/filelist.xml">
+<link rel=Edit-Time-Data href="Book1.files/editdata.mso">
+<link rel=OLE-Object-Data href="Book1.files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>LleytonChen</o:LastAuthor>
+  <o:LastPrinted>2007-10-08T10:05:45Z</o:LastPrinted>
+  <o:LastSaved>2008-01-10T04:07:26Z</o:LastSaved>
+  <o:Version>11.6568</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.59in .39in 0in .39in;
+	mso-header-margin:.51in;
+	mso-footer-margin:.51in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:一般;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	text-align:center;
+	border:.5pt solid black;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl25
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl26
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	text-align:center;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl27
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	border:.5pt solid windowtext;}
+.xl28
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl29
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	mso-number-format:"0_\)\;\[Red\]\\\(0\\\)";
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl30
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl31
+	{mso-style-parent:style0;
+	font-size:24.0pt;
+	text-align:center;
+	white-space:normal;}
+.xl32
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	text-align:center;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid black;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl33
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	text-align:center;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl34
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	text-align:left;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl35
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	text-align:left;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>WebNotify</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>330</x:DefaultRowHeight>
+     <x:FitToPage/>
+     <x:FitToPage/>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+      <x:HorizontalResolution>180</x:HorizontalResolution>
+      <x:VerticalResolution>180</x:VerticalResolution>
+     </x:Print>
+     <x:Selected/>
+     <x:DoNotDisplayGridlines/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>3</x:ActiveRow>
+       <x:RangeSelection>$4:$15</x:RangeSelection>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>8895</x:WindowHeight>
+  <x:WindowWidth>14955</x:WindowWidth>
+  <x:WindowTopX>120</x:WindowTopX>
+  <x:WindowTopY>15</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+ <x:ExcelName>
+  <x:Name>Print_Area</x:Name>
+  <x:SheetIndex>1</x:SheetIndex>
+  <x:Formula>=WebNotify!$A$1:$G$20</x:Formula>
+ </x:ExcelName>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=718 style='border-collapse:
+ collapse;table-layout:fixed;width:539pt'>
+ <col width=148 style='mso-width-source:userset;mso-width-alt:4736;width:111pt'>
+ <col width=185 style='mso-width-source:userset;mso-width-alt:5920;width:139pt'>
+ <col width=92 style='mso-width-source:userset;mso-width-alt:2944;width:69pt'>
+ <col width=47 style='mso-width-source:userset;mso-width-alt:1504;width:35pt'>
+ <col width=83 style='mso-width-source:userset;mso-width-alt:2656;width:62pt'>
+ <col width=61 style='mso-width-source:userset;mso-width-alt:1952;width:46pt'>
+ <col width=102 style='mso-width-source:userset;mso-width-alt:3264;width:77pt'>
+ <col width=11 style='mso-width-source:userset;mso-width-alt:352;width:8pt'>
+ <tr height=43 style='mso-height-source:userset;height:32.25pt'>
+  <td colspan=7 height=43 class=xl31 width=718 style='height:32.25pt;
+  width:539pt'>進金生實業股份有限公司</td>
+ </tr>
+ <tr height=26 style='height:19.5pt'>
+  <td height=26 class=xl24 width=148 style='height:19.5pt;width:111pt'>產品編號</td>
+  <td class=xl25 width=185 style='width:139pt'>品名規格</td>
+  <td colspan=2 class=xl32 width=139 style='border-right:.5pt solid black;
+  border-left:none;width:104pt'>料號</td>
+  <td class=xl25 width=83 style='width:62pt'>出貨數量</td>
+  <td class=xl25 width=61 style='width:46pt'>單位</td>
+  <td class=xl26 width=102 style='width:77pt'>庫存數量</td>
+ </tr>
+ <tr height=26 style='height:19.5pt'>
+  <td height=26 class=xl27 style='height:19.5pt'>[[產品編號]]</td>
+  <td class=xl28>　</td>
+  <td colspan=2 class=xl34 style='border-right:.5pt solid black;border-left:
+  none'>　</td>
+  <td class=xl29>　</td>
+  <td class=xl30>　</td>
+  <td class=xl30>　</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=148 style='width:111pt'></td>
+  <td width=185 style='width:139pt'></td>
+  <td width=92 style='width:69pt'></td>
+  <td width=47 style='width:35pt'></td>
+  <td width=83 style='width:62pt'></td>
+  <td width=61 style='width:46pt'></td>
+  <td width=102 style='width:77pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

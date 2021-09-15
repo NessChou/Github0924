@@ -1,0 +1,145 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ACME.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WindowsApplication1_Service_WebService1" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/myweb/WebService/WebService1.asmx</Value>
+    </Setting>
+    <Setting Name="KINGSConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;pbZX5/8YYrsoAlGPBAD5eZzhAn8+7sOASFZzZ5CF4TZ6HSQuGKRBrD0sT7EXnMsC9pZuX3YC045U1rleuHU6n2y/6PENKYbRbNzP5u+4zfNYz3uEuY839KvXMusplX5blTtPHCznQrI+CFpjV1qfXpLrr3NqT2h+EsLSN41d7ippyaFOn4s6SvUQLC7lFqqAfzXB9msGJuf0e66z96Bx/t7UxspwSgLJUH1kLl8pYYNb59yu9S1ntqedSNNim79TpGxf5U6sIySZ6ZP5f/LIlg==&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">pbZX5/8YYrsoAlGPBAD5eZzhAn8+7sOASFZzZ5CF4TZ6HSQuGKRBrD0sT7EXnMsC9pZuX3YC045U1rleuHU6n2y/6PENKYbRbNzP5u+4zfNYz3uEuY839KvXMusplX5blTtPHCznQrI+CFpjV1qfXpLrr3NqT2h+EsLSN41d7ippyaFOn4s6SvUQLC7lFqqAfzXB9msGJuf0e66z96Bx/t7UxspwSgLJUH1kLl8pYYNb59yu9S1ntqedSNNim79TpGxf5U6sIySZ6ZP5f/LIlg==</Value>
+    </Setting>
+    <Setting Name="SPConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=acmesap;Initial Catalog=AcmeSqlSP;Persist Security Info=True;User ID=sapdbo;Password=@rmas&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=acmesap;Initial Catalog=AcmeSqlSP;Persist Security Info=True;User ID=sapdbo;Password=@rmas</Value>
+    </Setting>
+    <Setting Name="new01ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=acmesap;Initial Catalog=AcmeSqlSP;Persist Security Info=True;User ID=sapdbo;Password=@rmas&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=acmesap;Initial Catalog=AcmeSqlSP;Persist Security Info=True;User ID=sapdbo;Password=@rmas</Value>
+    </Setting>
+    <Setting Name="lpConnectionString" Type="(Connection string)" Scope="User">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;pbZX5/8YYrsoAlGPBAD5eZzhAn8+7sOASFZzZ5CF4Tb3fy+D79ZuyWvaxsd3Z6oPURrVZSOC9YGUCZ4RyJAMYZ/KY4PY14tZ9/YXceodsJEGS8HckWMMhQCRM0Z4PNIehtvBj0s2dXI8UD0Dw/AVAjSc3SaJXa5QjdGeGyetC7meotv06iYp6ymi0+KEvbUF9I1BTSYCm0K9P1cH3fsI60tXR2aRbupo9zFwAve1GKKE4w70f3w9x21dbAthFaFUifna05oOxgqQsM0amg+wRDYaQtoTjwtjTivyeSKe6TQ=&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">pbZX5/8YYrsoAlGPBAD5eZzhAn8+7sOASFZzZ5CF4Tb3fy+D79ZuyWvaxsd3Z6oPURrVZSOC9YGUCZ4RyJAMYZ/KY4PY14tZ9/YXceodsJEGS8HckWMMhQCRM0Z4PNIehtvBj0s2dXI8UD0Dw/AVAjSc3SaJXa5QjdGeGyetC7meotv06iYp6ymi0+KEvbUF9I1BTSYCm0K9P1cH3fsI60tXR2aRbupo9zFwAve1GKKE4w70f3w9x21dbAthFaFUifna05oOxgqQsM0amg+wRDYaQtoTjwtjTivyeSKe6TQ=</Value>
+    </Setting>
+    <Setting Name="AcmeSql02ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=acmesap;Initial Catalog=AcmeSql02;Persist Security Info=True;User ID=sapdbo;Password=@rmas&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=acmesap;Initial Catalog=AcmeSql02;Persist Security Info=True;User ID=sapdbo;Password=@rmas</Value>
+    </Setting>
+    <Setting Name="AcmeSql02ConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=acmesap;Initial Catalog=AcmeSql01;Persist Security Info=True;User ID=sapdbo&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=acmesap;Initial Catalog=AcmeSql01;Persist Security Info=True;User ID=sapdbo</Value>
+    </Setting>
+    <Setting Name="AcmeSql98ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=acmesap;Initial Catalog=AcmeSql98;User ID=sapdbo;Password=@rmas&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=acmesap;Initial Catalog=AcmeSql98;User ID=sapdbo;Password=@rmas</Value>
+    </Setting>
+    <Setting Name="EEPConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ACMESRV07;Initial Catalog=EEP;User ID=dbsa;Password=1234&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ACMESRV07;Initial Catalog=EEP;User ID=dbsa;Password=1234</Value>
+    </Setting>
+    <Setting Name="AcmeSql02ConnectionString11" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=acmesap;Initial Catalog=AcmeSql02;User ID=sapdbo;Password=@rmas&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=acmesap;Initial Catalog=AcmeSql02;User ID=sapdbo;Password=@rmas</Value>
+    </Setting>
+    <Setting Name="acm_ehrdb01ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ACMESRV07;Initial Catalog=acm_ehrdb01;User ID=dbsa;Password=1234&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ACMESRV07;Initial Catalog=acm_ehrdb01;User ID=dbsa;Password=1234</Value>
+    </Setting>
+    <Setting Name="AcmeSqlEEPConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=acmesap;Initial Catalog=AcmeSqlEEP;User ID=sapdbo;Password=@rmas&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=acmesap;Initial Catalog=AcmeSqlEEP;User ID=sapdbo;Password=@rmas</Value>
+    </Setting>
+    <Setting Name="EEPConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ACMESRV07;Initial Catalog=EEP;Persist Security Info=True;User ID=sa;Password=1234&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ACMESRV07;Initial Catalog=EEP;Persist Security Info=True;User ID=sa;Password=1234</Value>
+    </Setting>
+    <Setting Name="DNNConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=acmesap;Initial Catalog=DNN;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=acmesap;Initial Catalog=DNN;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="CHIComp16ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.10.1.40;Initial Catalog=CHIComp16;Persist Security Info=True;User ID=webstock;Password=@cmewebstock&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.10.1.40;Initial Catalog=CHIComp16;Persist Security Info=True;User ID=webstock;Password=@cmewebstock</Value>
+    </Setting>
+    <Setting Name="SPConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;pbZX5/8YYrsoAlGPBAD5eZzhAn8+7sOASFZzZ5CF4TZPgn+iqqthWqjFKHllorekL+YiPIklvIozfciBlOBKA7RPtMf/m8GeNMbHOy1FhPstcPMXKP5ZPZsnW3A7Ih75omi43XK+qbUp9/wWIqiqaxS6wTsPIjtfjNDtMzMgZaet3Y6ahqtihkPu7F03ZxDFwd3xSl4zkMeE16NBK7fmw5lS/SD8OrsgESwlg+c/YwZIyBvhfJRxPqBPYX1ZbrlmWyhgpbtvc4GizGIuoO/VgQ==&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">pbZX5/8YYrsoAlGPBAD5eZzhAn8+7sOASFZzZ5CF4TZPgn+iqqthWqjFKHllorekL+YiPIklvIozfciBlOBKA7RPtMf/m8GeNMbHOy1FhPstcPMXKP5ZPZsnW3A7Ih75omi43XK+qbUp9/wWIqiqaxS6wTsPIjtfjNDtMzMgZaet3Y6ahqtihkPu7F03ZxDFwd3xSl4zkMeE16NBK7fmw5lS/SD8OrsgESwlg+c/YwZIyBvhfJRxPqBPYX1ZbrlmWyhgpbtvc4GizGIuoO/VgQ==</Value>
+    </Setting>
+    <Setting Name="ACMEConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;pbZX5/8YYrsoAlGPBAD5eZzhAn8+7sOASFZzZ5CF4TZPgn+iqqthWqjFKHllorekL+YiPIklvIozfciBlOBKA7RPtMf/m8GeNMbHOy1FhPsLPumLtfsLEHFxRg2C/cN2osvA8Bc9mZSJ4MfJ7CgtjgsaiXX69LiKK3B/H5QrldYKTzCPRwy3pnZ+7ESInX0zO4k1x0wElK+8vNl8EEjoLNo6Y4MHSYvmSrgzRXuwelrpQWaO6wOqsVB1bKQTwY2ryrTT3D/S1gOCnUqkQwdBrQ==&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">pbZX5/8YYrsoAlGPBAD5eZzhAn8+7sOASFZzZ5CF4TZPgn+iqqthWqjFKHllorekL+YiPIklvIozfciBlOBKA7RPtMf/m8GeNMbHOy1FhPsLPumLtfsLEHFxRg2C/cN2osvA8Bc9mZSJ4MfJ7CgtjgsaiXX69LiKK3B/H5QrldYKTzCPRwy3pnZ+7ESInX0zO4k1x0wElK+8vNl8EEjoLNo6Y4MHSYvmSrgzRXuwelrpQWaO6wOqsVB1bKQTwY2ryrTT3D/S1gOCnUqkQwdBrQ==</Value>
+    </Setting>
+    <Setting Name="DNN2ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ACMESAP;Initial Catalog=DNN2;Persist Security Info=True;User ID=sapdbo;Password=@rmas&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ACMESAP;Initial Catalog=DNN2;Persist Security Info=True;User ID=sapdbo;Password=@rmas</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

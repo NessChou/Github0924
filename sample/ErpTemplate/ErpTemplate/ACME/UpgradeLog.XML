@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ACME">
+</Property><Property Name="方案檔" Value="C:\bb\新資料夾\sample VS2010\ErpTemplate\ErpTemplate\ACME\ACME.sln">
+</Property><Property Name="Date" Value="2013年7月15日">
+</Property><Property Name="Time" Value="上午 08:52">
+</Property></Properties><Event ErrorLevel="4" Project="ACME" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="警告: 此專案需要 Visual Studio 中已不再採用的 Crystal Reports。請按一下這裡取得詳細資訊。">
+</Event><Event ErrorLevel="1" Project="ACME" Source="ACME.csproj" Description="您的專案是以 .NET Framework 2.0 或 3.0 為目標。如果您的專案使用需要較新版 .NET Framework 的組件，專案建置將會失敗。您可以變更 .NET Framework 版本，方法是按一下專案功能表上的 [屬性]，然後在 [.NET Framework] 下拉式方塊中選取新的版本 (在 Visual Basic 中，它的位置是在按一下 [進階編譯選項...] 按鈕時顯示的 [編譯] 索引標籤上)。">
+</Event><Event ErrorLevel="0" Project="ACME" Source="ACME.csproj" Description="專案轉換成功">
+</Event><Event ErrorLevel="3" Project="ACME" Source="ACME.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ACME.sln" Description="方案轉換成功">
+</Event><Event ErrorLevel="3" Project="" Source="ACME.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ACME" Source="ACME.csproj" Description="掃描完成: 專案檔不需要升級。">
+</Event></UpgradeLog>
