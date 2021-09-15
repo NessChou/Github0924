@@ -37,7 +37,6 @@ namespace ACME
             this.txbShipDateEnd = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCustNumber = new System.Windows.Forms.Button();
-            this.btnCheckOPCH = new System.Windows.Forms.Button();
             this.btnQuery = new System.Windows.Forms.Button();
             this.btnImport = new System.Windows.Forms.Button();
             this.cmbBU = new System.Windows.Forms.ComboBox();
@@ -81,7 +80,6 @@ namespace ACME
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.btnCancelCardCode);
             this.panel1.Controls.Add(this.btnCustNumber);
-            this.panel1.Controls.Add(this.btnCheckOPCH);
             this.panel1.Controls.Add(this.btnQuery);
             this.panel1.Controls.Add(this.btnImport);
             this.panel1.Controls.Add(this.cmbBU);
@@ -160,16 +158,6 @@ namespace ACME
             this.btnCustNumber.Text = "y";
             this.btnCustNumber.UseVisualStyleBackColor = true;
             this.btnCustNumber.Click += new System.EventHandler(this.btnCustNumber_Click);
-            // 
-            // btnCheckOPCH
-            // 
-            this.btnCheckOPCH.Location = new System.Drawing.Point(1059, 11);
-            this.btnCheckOPCH.Name = "btnCheckOPCH";
-            this.btnCheckOPCH.Size = new System.Drawing.Size(66, 35);
-            this.btnCheckOPCH.TabIndex = 4;
-            this.btnCheckOPCH.Text = "檢核";
-            this.btnCheckOPCH.UseVisualStyleBackColor = true;
-            this.btnCheckOPCH.Visible = false;
             // 
             // btnQuery
             // 
@@ -473,7 +461,6 @@ namespace ACME
         private System.Windows.Forms.Button btnCustNumber;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txbCardCode;
-        private System.Windows.Forms.Button btnCheckOPCH;
         private System.Windows.Forms.DataGridViewTextBoxColumn DocDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn OPDNDocEntry;
         private System.Windows.Forms.DataGridViewTextBoxColumn por1BaseEntry;
