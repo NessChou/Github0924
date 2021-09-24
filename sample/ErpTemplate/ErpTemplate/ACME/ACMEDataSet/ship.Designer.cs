@@ -16328,6 +16328,8 @@ namespace ACME.ACMEDataSet {
             
             private global::System.Data.DataColumn columnaTime;
             
+            private global::System.Data.DataColumn columnCAX;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public SHIP_FEEDataTable() {
@@ -16851,6 +16853,14 @@ namespace ACME.ACMEDataSet {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn CAXColumn {
+                get {
+                    return this.columnCAX;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -16946,7 +16956,8 @@ namespace ACME.ACMEDataSet {
                         string DHL5, 
                         string DHL6, 
                         string DHL7, 
-                        string aTime) {
+                        string aTime, 
+                        string CAX) {
                 SHIP_FEERow rowSHIP_FEERow = ((SHIP_FEERow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -17009,7 +17020,8 @@ namespace ACME.ACMEDataSet {
                         DHL5,
                         DHL6,
                         DHL7,
-                        aTime};
+                        aTime,
+                        CAX};
                 if ((parentShipping_mainRowByShipping_main_SHIP_FEE != null)) {
                     columnValuesArray[1] = parentShipping_mainRowByShipping_main_SHIP_FEE[0];
                 }
@@ -17103,6 +17115,7 @@ namespace ACME.ACMEDataSet {
                 this.columnDHL6 = base.Columns["DHL6"];
                 this.columnDHL7 = base.Columns["DHL7"];
                 this.columnaTime = base.Columns["aTime"];
+                this.columnCAX = base.Columns["CAX"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -17230,6 +17243,8 @@ namespace ACME.ACMEDataSet {
                 base.Columns.Add(this.columnDHL7);
                 this.columnaTime = new global::System.Data.DataColumn("aTime", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnaTime);
+                this.columnCAX = new global::System.Data.DataColumn("CAX", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCAX);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnID}, true));
                 this.columnID.AutoIncrement = true;
@@ -30449,6 +30464,22 @@ namespace ACME.ACMEDataSet {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string CAX {
+                get {
+                    try {
+                        return ((string)(this[this.tableSHIP_FEE.CAXColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'SHIP_FEE\' 中資料行 \'CAX\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableSHIP_FEE.CAXColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public Shipping_mainRow Shipping_mainRow {
                 get {
                     return ((Shipping_mainRow)(this.GetParentRow(this.Table.ParentRelations["Shipping_main_SHIP_FEE"])));
@@ -31176,6 +31207,18 @@ namespace ACME.ACMEDataSet {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetaTimeNull() {
                 this[this.tableSHIP_FEE.aTimeColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsCAXNull() {
+                return this.IsNull(this.tableSHIP_FEE.CAXColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetCAXNull() {
+                this[this.tableSHIP_FEE.CAXColumn] = global::System.Convert.DBNull;
             }
         }
         

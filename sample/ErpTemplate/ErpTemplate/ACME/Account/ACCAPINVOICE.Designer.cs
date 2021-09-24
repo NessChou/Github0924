@@ -30,12 +30,17 @@ namespace ACME
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ACCAPINVOICE));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txbShipDateStart = new System.Windows.Forms.TextBox();
             this.txbShipDateEnd = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnCancelCardCode = new System.Windows.Forms.Button();
             this.btnCustNumber = new System.Windows.Forms.Button();
             this.btnQuery = new System.Windows.Forms.Button();
             this.btnImport = new System.Windows.Forms.Button();
@@ -68,7 +73,8 @@ namespace ACME
             this.U_ACME_RATE1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.u_acme_lc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TaxIdNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnCancelCardCode = new System.Windows.Forms.Button();
+            this.InvoiceType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.InvoiceDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -93,7 +99,7 @@ namespace ACME
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1171, 113);
+            this.panel1.Size = new System.Drawing.Size(1435, 113);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -146,6 +152,18 @@ namespace ACME
             this.label2.Size = new System.Drawing.Size(22, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "訖";
+            // 
+            // btnCancelCardCode
+            // 
+            this.btnCancelCardCode.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnCancelCardCode.Image = global::ACME.Properties.Resources.bnCancelEdit_Image;
+            this.btnCancelCardCode.Location = new System.Drawing.Point(391, 64);
+            this.btnCancelCardCode.Name = "btnCancelCardCode";
+            this.btnCancelCardCode.Size = new System.Drawing.Size(32, 23);
+            this.btnCancelCardCode.TabIndex = 57;
+            this.btnCancelCardCode.Text = "y";
+            this.btnCancelCardCode.UseVisualStyleBackColor = true;
+            this.btnCancelCardCode.Click += new System.EventHandler(this.btnCancelCardCode_Click);
             // 
             // btnCustNumber
             // 
@@ -262,7 +280,7 @@ namespace ACME
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 113);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1171, 503);
+            this.panel2.Size = new System.Drawing.Size(1435, 503);
             this.panel2.TabIndex = 1;
             // 
             // dgvAccApInvoice
@@ -287,12 +305,14 @@ namespace ACME
             this.OriCurrencyAmount,
             this.U_ACME_RATE1,
             this.u_acme_lc,
-            this.TaxIdNumber});
+            this.TaxIdNumber,
+            this.InvoiceType,
+            this.InvoiceDate});
             this.dgvAccApInvoice.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvAccApInvoice.Location = new System.Drawing.Point(0, 0);
             this.dgvAccApInvoice.Name = "dgvAccApInvoice";
             this.dgvAccApInvoice.RowTemplate.Height = 24;
-            this.dgvAccApInvoice.Size = new System.Drawing.Size(1171, 503);
+            this.dgvAccApInvoice.Size = new System.Drawing.Size(1435, 503);
             this.dgvAccApInvoice.TabIndex = 0;
             // 
             // DocDate
@@ -340,18 +360,27 @@ namespace ACME
             // UnTax
             // 
             this.UnTax.DataPropertyName = "UnTax";
+            dataGridViewCellStyle5.Format = "N2";
+            dataGridViewCellStyle5.NullValue = null;
+            this.UnTax.DefaultCellStyle = dataGridViewCellStyle5;
             this.UnTax.HeaderText = "未稅總計";
             this.UnTax.Name = "UnTax";
             // 
             // VatSumSy
             // 
             this.VatSumSy.DataPropertyName = "VatSumSy";
+            dataGridViewCellStyle6.Format = "N2";
+            dataGridViewCellStyle6.NullValue = null;
+            this.VatSumSy.DefaultCellStyle = dataGridViewCellStyle6;
             this.VatSumSy.HeaderText = "稅額";
             this.VatSumSy.Name = "VatSumSy";
             // 
             // DocTotalSy
             // 
             this.DocTotalSy.DataPropertyName = "DocTotalSy";
+            dataGridViewCellStyle7.Format = "N2";
+            dataGridViewCellStyle7.NullValue = null;
+            this.DocTotalSy.DefaultCellStyle = dataGridViewCellStyle7;
             this.DocTotalSy.HeaderText = "總計";
             this.DocTotalSy.Name = "DocTotalSy";
             // 
@@ -388,6 +417,9 @@ namespace ACME
             // OriCurrencyAmount
             // 
             this.OriCurrencyAmount.DataPropertyName = "OriCurrencyAmount";
+            dataGridViewCellStyle8.Format = "N2";
+            dataGridViewCellStyle8.NullValue = null;
+            this.OriCurrencyAmount.DefaultCellStyle = dataGridViewCellStyle8;
             this.OriCurrencyAmount.HeaderText = "原幣金額";
             this.OriCurrencyAmount.Name = "OriCurrencyAmount";
             // 
@@ -409,23 +441,25 @@ namespace ACME
             this.TaxIdNumber.HeaderText = "統一編號";
             this.TaxIdNumber.Name = "TaxIdNumber";
             // 
-            // btnCancelCardCode
+            // InvoiceType
             // 
-            this.btnCancelCardCode.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.btnCancelCardCode.Image = global::ACME.Properties.Resources.bnCancelEdit_Image;
-            this.btnCancelCardCode.Location = new System.Drawing.Point(391, 64);
-            this.btnCancelCardCode.Name = "btnCancelCardCode";
-            this.btnCancelCardCode.Size = new System.Drawing.Size(32, 23);
-            this.btnCancelCardCode.TabIndex = 57;
-            this.btnCancelCardCode.Text = "y";
-            this.btnCancelCardCode.UseVisualStyleBackColor = true;
-            this.btnCancelCardCode.Click += new System.EventHandler(this.btnCancelCardCode_Click);
+            this.InvoiceType.DataPropertyName = "InvoiceType";
+            this.InvoiceType.HeaderText = "憑證類別";
+            this.InvoiceType.Name = "InvoiceType";
+            this.InvoiceType.Visible = false;
+            // 
+            // InvoiceDate
+            // 
+            this.InvoiceDate.DataPropertyName = "U_ACME_Invoice";
+            this.InvoiceDate.HeaderText = "發票日期";
+            this.InvoiceDate.Name = "InvoiceDate";
+            this.InvoiceDate.Visible = false;
             // 
             // ACCAPINVOICE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1171, 616);
+            this.ClientSize = new System.Drawing.Size(1435, 616);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "ACCAPINVOICE";
@@ -461,6 +495,7 @@ namespace ACME
         private System.Windows.Forms.Button btnCustNumber;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txbCardCode;
+        private System.Windows.Forms.Button btnCancelCardCode;
         private System.Windows.Forms.DataGridViewTextBoxColumn DocDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn OPDNDocEntry;
         private System.Windows.Forms.DataGridViewTextBoxColumn por1BaseEntry;
@@ -480,6 +515,7 @@ namespace ACME
         private System.Windows.Forms.DataGridViewTextBoxColumn U_ACME_RATE1;
         private System.Windows.Forms.DataGridViewTextBoxColumn u_acme_lc;
         private System.Windows.Forms.DataGridViewTextBoxColumn TaxIdNumber;
-        private System.Windows.Forms.Button btnCancelCardCode;
+        private System.Windows.Forms.DataGridViewTextBoxColumn InvoiceType;
+        private System.Windows.Forms.DataGridViewTextBoxColumn InvoiceDate;
     }
 }

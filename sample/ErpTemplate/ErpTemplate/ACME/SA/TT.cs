@@ -1310,7 +1310,7 @@ namespace ACME
         {
             SqlConnection connection = globals.Connection;
             StringBuilder sb = new StringBuilder();
-            sb.Append("  SELECT B.CARDCODE2 CARDCODE  FROM SATT1 A  LEFT JOIN SATT2 B  ON A.ID = B.ID1  WHERE A.ID = @ID and B.CARDCODE2 <>''");
+            sb.Append("  SELECT B.CARDCODE2 CARDCODE  FROM SATT1 A  LEFT JOIN SATT2 B  ON (A.TTCode =B.TTCode AND A.Seqno =B.ID)  WHERE A.ID = @ID and B.CARDCODE2 <>''");
 
             SqlCommand command = new SqlCommand(sb.ToString(), connection);
             command.CommandType = CommandType.Text;

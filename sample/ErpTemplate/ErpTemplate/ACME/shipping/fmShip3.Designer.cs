@@ -2737,7 +2737,7 @@ namespace ACME
             this.bindingNavigator3.MovePreviousItem = this.bindingNavigatorMovePreviousItem2;
             this.bindingNavigator3.Name = "bindingNavigator3";
             this.bindingNavigator3.PositionItem = this.bindingNavigatorPositionItem2;
-            this.bindingNavigator3.Size = new System.Drawing.Size(1323, 25);
+            this.bindingNavigator3.Size = new System.Drawing.Size(1345, 25);
             this.bindingNavigator3.TabIndex = 21;
             this.bindingNavigator3.Text = "bindingNavigator3";
             this.bindingNavigator3.Visible = false;
@@ -3136,10 +3136,10 @@ namespace ACME
             dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.packingListDDataGridView.DefaultCellStyle = dataGridViewCellStyle18;
             this.packingListDDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.packingListDDataGridView.Location = new System.Drawing.Point(0, 151);
+            this.packingListDDataGridView.Location = new System.Drawing.Point(0, 176);
             this.packingListDDataGridView.Name = "packingListDDataGridView";
             this.packingListDDataGridView.RowTemplate.Height = 24;
-            this.packingListDDataGridView.Size = new System.Drawing.Size(1362, 173);
+            this.packingListDDataGridView.Size = new System.Drawing.Size(1362, 148);
             this.packingListDDataGridView.TabIndex = 23;
             this.packingListDDataGridView.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.packingListDDataGridView_CellEnter);
             this.packingListDDataGridView.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.packingListDDataGridView_DataError);
@@ -3259,7 +3259,7 @@ namespace ACME
             this.panel12.Controls.Add(this.shippedByTextBox);
             this.panel12.Controls.Add(this.forAccountTextBox);
             this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel12.Location = new System.Drawing.Point(0, 0);
+            this.panel12.Location = new System.Drawing.Point(0, 25);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(1362, 151);
             this.panel12.TabIndex = 88;
@@ -3785,7 +3785,7 @@ namespace ACME
             this.bindingNavigator4.MovePreviousItem = this.bindingNavigatorMovePreviousItem3;
             this.bindingNavigator4.Name = "bindingNavigator4";
             this.bindingNavigator4.PositionItem = this.bindingNavigatorPositionItem3;
-            this.bindingNavigator4.Size = new System.Drawing.Size(809, 25);
+            this.bindingNavigator4.Size = new System.Drawing.Size(1362, 25);
             this.bindingNavigator4.TabIndex = 0;
             this.bindingNavigator4.Text = "bindingNavigator4";
             this.bindingNavigator4.Visible = false;

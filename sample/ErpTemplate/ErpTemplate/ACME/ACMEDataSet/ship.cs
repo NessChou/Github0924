@@ -15,3 +15,12 @@ namespace ACME.ACMEDataSet.shipTableAdapters
     public partial class CFSTableAdapter {
     }
 }
+
+namespace ACME.ACMEDataSet.shipTableAdapters
+{
+
+
+    public partial class SHIP_FEETableAdapter
+    {
+    }
+}
