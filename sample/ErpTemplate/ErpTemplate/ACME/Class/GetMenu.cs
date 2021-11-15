@@ -379,7 +379,51 @@ namespace ACME
                 dialog.Dispose();
             }
         }
+        public static string GetWhMainDelivery(string ShippingCode)
+        {
+            //分批放貨時從備貨單選擇分批放貨轉放貨單,放貨單匯出文件在這邊選擇匯出哪一批文件
+            string[] FieldNames = new string[] { "SeqDelivery", "ItemQty" };
 
+            string[] Captions = new string[] { "排序", "料號數量 " };
+
+            string SqlScript = @"SELECT SeqDelivery , (SELECT ItemCode + '-' + Quantity+'pcs ' 
+FROM WH_ITEM T2
+ WHERE T2.SeqDelivery = T1.SeqDelivery  for xml path('')
+) ItemQty FROM WH_ITEM T1 WHERE shippingcode = '{0}'
+GROUP BY SEQDELIVERY
+ORDER by SeqDelivery";
+
+            SqlScript = string.Format(SqlScript, ShippingCode);
+            SOLARLookup dialog = new SOLARLookup();
+
+            dialog.Captions = Captions;
+            dialog.FieldNames = FieldNames;
+
+            dialog.SqlScript = SqlScript;
+            dialog.LookUpConnection = new SqlConnection(globals.ConnectionString); 
+            try
+            {
+
+
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+
+
+
+                    object[] LookupValues = dialog.LookupValues;
+                    return LookupValues[0].ToString();
+
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            finally
+            {
+                dialog.Dispose();
+            }
+        }
         public static object[] GetCHIPCARD()
         {
             string[] FieldNames = new string[] { "ID", "FullName" };

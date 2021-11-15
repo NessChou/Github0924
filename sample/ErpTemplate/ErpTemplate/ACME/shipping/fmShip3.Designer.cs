@@ -326,6 +326,7 @@ namespace ACME
             this.txtMonth = new System.Windows.Forms.TextBox();
             this.txtYear = new System.Windows.Forms.TextBox();
             this.btnCyberNetExcel = new System.Windows.Forms.Button();
+            this.btnGamesMan = new System.Windows.Forms.Button();
             this.btnfaytachExcel = new System.Windows.Forms.Button();
             this.button53 = new System.Windows.Forms.Button();
             this.button52 = new System.Windows.Forms.Button();
@@ -912,7 +913,7 @@ namespace ACME
             // 
             this.panel1.Controls.Add(this.panel8);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.panel1.Size = new System.Drawing.Size(1370, 711);
+            this.panel1.Size = new System.Drawing.Size(1628, 711);
             this.panel1.Controls.SetChildIndex(this.panel8, 0);
             // 
             // add2Label
@@ -2126,7 +2127,7 @@ namespace ACME
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1370, 425);
+            this.tabControl1.Size = new System.Drawing.Size(1628, 425);
             this.tabControl1.TabIndex = 3;
             // 
             // 項目料號
@@ -2135,7 +2136,7 @@ namespace ACME
             this.項目料號.Location = new System.Drawing.Point(4, 22);
             this.項目料號.Name = "項目料號";
             this.項目料號.Padding = new System.Windows.Forms.Padding(3);
-            this.項目料號.Size = new System.Drawing.Size(1362, 399);
+            this.項目料號.Size = new System.Drawing.Size(1620, 399);
             this.項目料號.TabIndex = 0;
             this.項目料號.Text = "項目/料號";
             this.項目料號.UseVisualStyleBackColor = true;
@@ -2147,7 +2148,7 @@ namespace ACME
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(3, 3);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1356, 393);
+            this.panel7.Size = new System.Drawing.Size(1614, 393);
             this.panel7.TabIndex = 123;
             // 
             // panel2
@@ -2158,7 +2159,7 @@ namespace ACME
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1356, 303);
+            this.panel2.Size = new System.Drawing.Size(1614, 303);
             this.panel2.TabIndex = 5;
             // 
             // panel28
@@ -2167,7 +2168,7 @@ namespace ACME
             this.panel28.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel28.Location = new System.Drawing.Point(0, 28);
             this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(1356, 275);
+            this.panel28.Size = new System.Drawing.Size(1614, 275);
             this.panel28.TabIndex = 6;
             // 
             // shipping_ItemDataGridView
@@ -2227,7 +2228,7 @@ namespace ACME
             dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.shipping_ItemDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.shipping_ItemDataGridView.RowTemplate.Height = 24;
-            this.shipping_ItemDataGridView.Size = new System.Drawing.Size(1356, 275);
+            this.shipping_ItemDataGridView.Size = new System.Drawing.Size(1614, 275);
             this.shipping_ItemDataGridView.TabIndex = 4;
             this.shipping_ItemDataGridView.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.shipping_ItemDataGridView_CellFormatting);
             this.shipping_ItemDataGridView.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.shipping_ItemDataGridView_CellValueChanged);
@@ -2437,7 +2438,7 @@ namespace ACME
             this.panel27.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel27.Location = new System.Drawing.Point(0, 0);
             this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(1356, 28);
+            this.panel27.Size = new System.Drawing.Size(1614, 28);
             this.panel27.TabIndex = 5;
             // 
             // button48
@@ -2457,7 +2458,7 @@ namespace ACME
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel6.Location = new System.Drawing.Point(0, 303);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1356, 90);
+            this.panel6.Size = new System.Drawing.Size(1614, 90);
             this.panel6.TabIndex = 6;
             // 
             // sAMEMOTextBox
@@ -2468,7 +2469,7 @@ namespace ACME
             this.sAMEMOTextBox.Multiline = true;
             this.sAMEMOTextBox.Name = "sAMEMOTextBox";
             this.sAMEMOTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.sAMEMOTextBox.Size = new System.Drawing.Size(1356, 90);
+            this.sAMEMOTextBox.Size = new System.Drawing.Size(1614, 90);
             this.sAMEMOTextBox.TabIndex = 4;
             this.sAMEMOTextBox.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.sAMEMOTextBox_MouseDoubleClick);
             // 
@@ -2737,7 +2738,7 @@ namespace ACME
             this.bindingNavigator3.MovePreviousItem = this.bindingNavigatorMovePreviousItem2;
             this.bindingNavigator3.Name = "bindingNavigator3";
             this.bindingNavigator3.PositionItem = this.bindingNavigatorPositionItem2;
-            this.bindingNavigator3.Size = new System.Drawing.Size(1345, 25);
+            this.bindingNavigator3.Size = new System.Drawing.Size(1603, 25);
             this.bindingNavigator3.TabIndex = 21;
             this.bindingNavigator3.Text = "bindingNavigator3";
             this.bindingNavigator3.Visible = false;
@@ -3097,7 +3098,7 @@ namespace ACME
             this.PackingList.Controls.Add(this.bindingNavigator4);
             this.PackingList.Location = new System.Drawing.Point(4, 22);
             this.PackingList.Name = "PackingList";
-            this.PackingList.Size = new System.Drawing.Size(1362, 399);
+            this.PackingList.Size = new System.Drawing.Size(1620, 399);
             this.PackingList.TabIndex = 7;
             this.PackingList.Text = "PackingList";
             this.PackingList.UseVisualStyleBackColor = true;
@@ -3136,10 +3137,10 @@ namespace ACME
             dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.packingListDDataGridView.DefaultCellStyle = dataGridViewCellStyle18;
             this.packingListDDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.packingListDDataGridView.Location = new System.Drawing.Point(0, 176);
+            this.packingListDDataGridView.Location = new System.Drawing.Point(0, 151);
             this.packingListDDataGridView.Name = "packingListDDataGridView";
             this.packingListDDataGridView.RowTemplate.Height = 24;
-            this.packingListDDataGridView.Size = new System.Drawing.Size(1362, 148);
+            this.packingListDDataGridView.Size = new System.Drawing.Size(1620, 173);
             this.packingListDDataGridView.TabIndex = 23;
             this.packingListDDataGridView.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.packingListDDataGridView_CellEnter);
             this.packingListDDataGridView.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.packingListDDataGridView_DataError);
@@ -3216,6 +3217,7 @@ namespace ACME
             this.panel12.Controls.Add(this.txtMonth);
             this.panel12.Controls.Add(this.txtYear);
             this.panel12.Controls.Add(this.btnCyberNetExcel);
+            this.panel12.Controls.Add(this.btnGamesMan);
             this.panel12.Controls.Add(this.btnfaytachExcel);
             this.panel12.Controls.Add(this.button53);
             this.panel12.Controls.Add(this.button52);
@@ -3259,14 +3261,14 @@ namespace ACME
             this.panel12.Controls.Add(this.shippedByTextBox);
             this.panel12.Controls.Add(this.forAccountTextBox);
             this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel12.Location = new System.Drawing.Point(0, 25);
+            this.panel12.Location = new System.Drawing.Point(0, 0);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(1362, 151);
+            this.panel12.Size = new System.Drawing.Size(1620, 151);
             this.panel12.TabIndex = 88;
             // 
             // btnYearMonth
             // 
-            this.btnYearMonth.Location = new System.Drawing.Point(1264, 107);
+            this.btnYearMonth.Location = new System.Drawing.Point(1375, 107);
             this.btnYearMonth.Margin = new System.Windows.Forms.Padding(2);
             this.btnYearMonth.Name = "btnYearMonth";
             this.btnYearMonth.Size = new System.Drawing.Size(56, 20);
@@ -3278,7 +3280,7 @@ namespace ACME
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(1242, 112);
+            this.label28.Location = new System.Drawing.Point(1353, 112);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(17, 12);
@@ -3288,7 +3290,7 @@ namespace ACME
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(1200, 112);
+            this.label27.Location = new System.Drawing.Point(1312, 112);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(17, 12);
@@ -3297,7 +3299,7 @@ namespace ACME
             // 
             // txtMonth
             // 
-            this.txtMonth.Location = new System.Drawing.Point(1220, 108);
+            this.txtMonth.Location = new System.Drawing.Point(1331, 108);
             this.txtMonth.Margin = new System.Windows.Forms.Padding(2);
             this.txtMonth.Name = "txtMonth";
             this.txtMonth.Size = new System.Drawing.Size(20, 22);
@@ -3306,7 +3308,7 @@ namespace ACME
             // 
             // txtYear
             // 
-            this.txtYear.Location = new System.Drawing.Point(1180, 108);
+            this.txtYear.Location = new System.Drawing.Point(1292, 108);
             this.txtYear.Margin = new System.Windows.Forms.Padding(2);
             this.txtYear.Name = "txtYear";
             this.txtYear.Size = new System.Drawing.Size(20, 22);
@@ -3326,6 +3328,19 @@ namespace ACME
             this.btnCyberNetExcel.UseVisualStyleBackColor = true;
             this.btnCyberNetExcel.Click += new System.EventHandler(this.btnCyberNetExcel_Click);
             // 
+            // btnGamesMan
+            // 
+            this.btnGamesMan.Image = global::ACME.Properties.Resources.addfile2;
+            this.btnGamesMan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGamesMan.Location = new System.Drawing.Point(1185, 106);
+            this.btnGamesMan.Name = "btnGamesMan";
+            this.btnGamesMan.Size = new System.Drawing.Size(102, 22);
+            this.btnGamesMan.TabIndex = 110;
+            this.btnGamesMan.Text = "匯出GamesMan";
+            this.btnGamesMan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGamesMan.UseVisualStyleBackColor = true;
+            this.btnGamesMan.Click += new System.EventHandler(this.btnGamesMan_Click);
+            // 
             // btnfaytachExcel
             // 
             this.btnfaytachExcel.Image = global::ACME.Properties.Resources.addfile2;
@@ -3341,7 +3356,7 @@ namespace ACME
             // 
             // button53
             // 
-            this.button53.Location = new System.Drawing.Point(1326, 39);
+            this.button53.Location = new System.Drawing.Point(1373, 39);
             this.button53.Name = "button53";
             this.button53.Size = new System.Drawing.Size(75, 23);
             this.button53.TabIndex = 109;
@@ -3351,7 +3366,7 @@ namespace ACME
             // 
             // button52
             // 
-            this.button52.Location = new System.Drawing.Point(1245, 68);
+            this.button52.Location = new System.Drawing.Point(1292, 68);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(75, 23);
             this.button52.TabIndex = 108;
@@ -3392,7 +3407,7 @@ namespace ACME
             // 
             // button49
             // 
-            this.button49.Location = new System.Drawing.Point(1245, 39);
+            this.button49.Location = new System.Drawing.Point(1292, 39);
             this.button49.Name = "button49";
             this.button49.Size = new System.Drawing.Size(75, 23);
             this.button49.TabIndex = 104;
@@ -3430,7 +3445,7 @@ namespace ACME
             // 
             // button35
             // 
-            this.button35.Location = new System.Drawing.Point(1326, 101);
+            this.button35.Location = new System.Drawing.Point(1436, 106);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(75, 23);
             this.button35.TabIndex = 96;
@@ -3639,7 +3654,7 @@ namespace ACME
             this.panel14.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel14.Location = new System.Drawing.Point(0, 324);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(1362, 75);
+            this.panel14.Size = new System.Drawing.Size(1620, 75);
             this.panel14.TabIndex = 90;
             // 
             // sayCTN2TextBox
@@ -3785,7 +3800,7 @@ namespace ACME
             this.bindingNavigator4.MovePreviousItem = this.bindingNavigatorMovePreviousItem3;
             this.bindingNavigator4.Name = "bindingNavigator4";
             this.bindingNavigator4.PositionItem = this.bindingNavigatorPositionItem3;
-            this.bindingNavigator4.Size = new System.Drawing.Size(1362, 25);
+            this.bindingNavigator4.Size = new System.Drawing.Size(1620, 25);
             this.bindingNavigator4.TabIndex = 0;
             this.bindingNavigator4.Text = "bindingNavigator4";
             this.bindingNavigator4.Visible = false;
@@ -6241,7 +6256,7 @@ namespace ACME
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1370, 689);
+            this.panel8.Size = new System.Drawing.Size(1628, 689);
             this.panel8.TabIndex = 125;
             // 
             // panel22
@@ -6250,7 +6265,7 @@ namespace ACME
             this.panel22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel22.Location = new System.Drawing.Point(0, 264);
             this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(1370, 425);
+            this.panel22.Size = new System.Drawing.Size(1628, 425);
             this.panel22.TabIndex = 125;
             // 
             // panel3
@@ -6376,7 +6391,7 @@ namespace ACME
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1370, 264);
+            this.panel3.Size = new System.Drawing.Size(1628, 264);
             this.panel3.TabIndex = 124;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -7266,7 +7281,7 @@ namespace ACME
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1628, 749);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fmShip3";
             this.Text = "船務系統-三角";
@@ -7978,5 +7993,6 @@ namespace ACME
         private System.Windows.Forms.DataGridViewTextBoxColumn RED2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Docentry1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ITEMCODE2;
+        private System.Windows.Forms.Button btnGamesMan;
     }
 }

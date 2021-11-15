@@ -117,7 +117,7 @@ namespace ACME
             sb.Append(" UNION ALL");
             sb.Append(" SELECT CARDCODE5,CARDNAME5,'ZA0SF0005' ITEMCODE,'倉租費' 費用名稱,CAST(ISNULL(cAZ,0) AS INT) 倉租費,'Z0009' 倉庫  FROM SHIP_FEE WHERE SHIPPINGCODE=@SHIPPINGCODE AND CAST(ISNULL(cAZ,0) AS INT) <> 0 AND CARDNAME5 LIKE '%" + textBox3.Text + "%'");
             sb.Append(" UNION ALL");
-            sb.Append(" SELECT CARDCODE5,CARDNAME5,'ZA0SF0005' ITEMCODE,'X光過檢費' 費用名稱,CAST(ISNULL(cAX,0) AS INT) 倉租費,'Z0009' 倉庫  FROM SHIP_FEE WHERE SHIPPINGCODE=@SHIPPINGCODE AND CAST(ISNULL(cAX,0) AS INT) <> 0 AND CARDNAME5 LIKE '%" + textBox3.Text + "%'");
+            sb.Append(" SELECT CARDCODE5,CARDNAME5,'ZA0SZ0601' ITEMCODE,'X光過檢費' 費用名稱,CAST(ISNULL(cAX,0) AS INT) X光過檢費,'Z0002' 倉庫  FROM SHIP_FEE WHERE SHIPPINGCODE=@SHIPPINGCODE AND CAST(ISNULL(cAX,0) AS INT) <> 0 AND CARDNAME5 LIKE '%" + textBox3.Text + "%'");
             sb.Append(" UNION ALL");
             sb.Append(" SELECT CARDCODE,CARDNAME,'ZA0SZ1500' ITEMCODE,'艙單申報' 費用名稱,CAST(ISNULL(cAS,0) AS INT)+CAST(ISNULL(cSS,0) AS INT) 艙單申報,'Z0002' 倉庫  FROM SHIP_FEE WHERE SHIPPINGCODE=@SHIPPINGCODE AND CAST(ISNULL(cAS,0) AS INT)+CAST(ISNULL(cSS,0) AS INT)   <> 0 AND (CARDNAME5 LIKE '%" + textBox3.Text + "%' OR CARDNAME6 LIKE '%" + textBox3.Text + "%')");
             sb.Append(" UNION ALL");
@@ -212,7 +212,10 @@ namespace ACME
 
 
             }
-            catch { }
+            catch (Exception ex)
+            {
+
+            }
         }
         public System.Data.DataTable GetDI4()
         {

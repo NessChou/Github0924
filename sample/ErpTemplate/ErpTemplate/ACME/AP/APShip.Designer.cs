@@ -4782,7 +4782,7 @@ namespace ACME
             this.船務紀錄.Controls.Add(this.panel19);
             this.船務紀錄.Location = new System.Drawing.Point(4, 22);
             this.船務紀錄.Name = "船務紀錄";
-            this.船務紀錄.Size = new System.Drawing.Size(826, 173);
+            this.船務紀錄.Size = new System.Drawing.Size(1362, 419);
             this.船務紀錄.TabIndex = 2;
             this.船務紀錄.Text = "船務紀錄";
             this.船務紀錄.UseVisualStyleBackColor = true;
@@ -4796,7 +4796,7 @@ namespace ACME
             this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel19.Location = new System.Drawing.Point(0, 0);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(826, 173);
+            this.panel19.Size = new System.Drawing.Size(1362, 419);
             this.panel19.TabIndex = 46;
             // 
             // groupBox3
@@ -4806,7 +4806,7 @@ namespace ACME
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox3.Location = new System.Drawing.Point(385, 0);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(56, 173);
+            this.groupBox3.Size = new System.Drawing.Size(592, 419);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "進度紀錄";
@@ -4817,7 +4817,7 @@ namespace ACME
             this.panel40.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel40.Location = new System.Drawing.Point(3, 45);
             this.panel40.Name = "panel40";
-            this.panel40.Size = new System.Drawing.Size(50, 125);
+            this.panel40.Size = new System.Drawing.Size(586, 371);
             this.panel40.TabIndex = 150;
             // 
             // notifyMemoTextBox
@@ -4828,7 +4828,7 @@ namespace ACME
             this.notifyMemoTextBox.Multiline = true;
             this.notifyMemoTextBox.Name = "notifyMemoTextBox";
             this.notifyMemoTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.notifyMemoTextBox.Size = new System.Drawing.Size(50, 125);
+            this.notifyMemoTextBox.Size = new System.Drawing.Size(586, 371);
             this.notifyMemoTextBox.TabIndex = 148;
             // 
             // panel39
@@ -4837,7 +4837,7 @@ namespace ACME
             this.panel39.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel39.Location = new System.Drawing.Point(3, 18);
             this.panel39.Name = "panel39";
-            this.panel39.Size = new System.Drawing.Size(50, 27);
+            this.panel39.Size = new System.Drawing.Size(586, 27);
             this.panel39.TabIndex = 149;
             // 
             // iNSUPRICECheckBox
@@ -4854,9 +4854,9 @@ namespace ACME
             // 
             this.groupBox2.Controls.Add(this.mEMO2TextBox);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.groupBox2.Location = new System.Drawing.Point(441, 0);
+            this.groupBox2.Location = new System.Drawing.Point(977, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(385, 173);
+            this.groupBox2.Size = new System.Drawing.Size(385, 419);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "異常記錄";
@@ -4869,7 +4869,7 @@ namespace ACME
             this.mEMO2TextBox.Multiline = true;
             this.mEMO2TextBox.Name = "mEMO2TextBox";
             this.mEMO2TextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.mEMO2TextBox.Size = new System.Drawing.Size(379, 152);
+            this.mEMO2TextBox.Size = new System.Drawing.Size(379, 398);
             this.mEMO2TextBox.TabIndex = 3;
             // 
             // groupBox1
@@ -4879,7 +4879,7 @@ namespace ACME
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(385, 173);
+            this.groupBox1.Size = new System.Drawing.Size(385, 419);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "費用紀錄";
@@ -4890,7 +4890,7 @@ namespace ACME
             this.panel38.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel38.Location = new System.Drawing.Point(3, 18);
             this.panel38.Name = "panel38";
-            this.panel38.Size = new System.Drawing.Size(379, 0);
+            this.panel38.Size = new System.Drawing.Size(379, 239);
             this.panel38.TabIndex = 3;
             // 
             // mEMO1TextBox
@@ -4901,7 +4901,7 @@ namespace ACME
             this.mEMO1TextBox.Multiline = true;
             this.mEMO1TextBox.Name = "mEMO1TextBox";
             this.mEMO1TextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.mEMO1TextBox.Size = new System.Drawing.Size(379, 0);
+            this.mEMO1TextBox.Size = new System.Drawing.Size(379, 239);
             this.mEMO1TextBox.TabIndex = 1;
             this.mEMO1TextBox.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.mEMO1TextBox_MouseDoubleClick);
             // 
@@ -4909,7 +4909,7 @@ namespace ACME
             // 
             this.panel37.Controls.Add(this.dataGridView5);
             this.panel37.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel37.Location = new System.Drawing.Point(3, 11);
+            this.panel37.Location = new System.Drawing.Point(3, 257);
             this.panel37.Name = "panel37";
             this.panel37.Size = new System.Drawing.Size(379, 159);
             this.panel37.TabIndex = 2;
@@ -4952,7 +4952,7 @@ namespace ACME
             this.費用.Controls.Add(this.panel20);
             this.費用.Location = new System.Drawing.Point(4, 22);
             this.費用.Name = "費用";
-            this.費用.Size = new System.Drawing.Size(826, 173);
+            this.費用.Size = new System.Drawing.Size(1362, 419);
             this.費用.TabIndex = 13;
             this.費用.Text = "費用";
             this.費用.UseVisualStyleBackColor = true;
@@ -4963,7 +4963,7 @@ namespace ACME
             this.panel21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel21.Location = new System.Drawing.Point(0, 39);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(826, 134);
+            this.panel21.Size = new System.Drawing.Size(1362, 380);
             this.panel21.TabIndex = 3;
             // 
             // dataTable2DataGridView
@@ -4981,7 +4981,7 @@ namespace ACME
             this.dataTable2DataGridView.Location = new System.Drawing.Point(0, 0);
             this.dataTable2DataGridView.Name = "dataTable2DataGridView";
             this.dataTable2DataGridView.RowTemplate.Height = 24;
-            this.dataTable2DataGridView.Size = new System.Drawing.Size(826, 134);
+            this.dataTable2DataGridView.Size = new System.Drawing.Size(1362, 380);
             this.dataTable2DataGridView.TabIndex = 0;
             // 
             // dataGridViewTextBoxColumn8
@@ -5045,7 +5045,7 @@ namespace ACME
             this.panel20.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel20.Location = new System.Drawing.Point(0, 0);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(826, 39);
+            this.panel20.Size = new System.Drawing.Size(1362, 39);
             this.panel20.TabIndex = 2;
             // 
             // button24
@@ -5273,7 +5273,7 @@ namespace ACME
             this.可下載檔案.Location = new System.Drawing.Point(4, 22);
             this.可下載檔案.Name = "可下載檔案";
             this.可下載檔案.Padding = new System.Windows.Forms.Padding(3);
-            this.可下載檔案.Size = new System.Drawing.Size(1362, 419);
+            this.可下載檔案.Size = new System.Drawing.Size(826, 173);
             this.可下載檔案.TabIndex = 11;
             this.可下載檔案.Text = "可下載檔案";
             this.可下載檔案.UseVisualStyleBackColor = true;
@@ -5283,9 +5283,9 @@ namespace ACME
             this.panel15.Controls.Add(this.button15);
             this.panel15.Controls.Add(this.button9);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel15.Location = new System.Drawing.Point(3, 363);
+            this.panel15.Location = new System.Drawing.Point(3, 117);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(1356, 53);
+            this.panel15.Size = new System.Drawing.Size(820, 53);
             this.panel15.TabIndex = 3;
             // 
             // button15
@@ -5320,7 +5320,7 @@ namespace ACME
             this.panel13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel13.Location = new System.Drawing.Point(3, 3);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(1356, 413);
+            this.panel13.Size = new System.Drawing.Size(820, 167);
             this.panel13.TabIndex = 2;
             // 
             // downloadDataGridView
@@ -5342,7 +5342,7 @@ namespace ACME
             this.downloadDataGridView.Location = new System.Drawing.Point(0, 0);
             this.downloadDataGridView.Name = "downloadDataGridView";
             this.downloadDataGridView.RowTemplate.Height = 24;
-            this.downloadDataGridView.Size = new System.Drawing.Size(1356, 413);
+            this.downloadDataGridView.Size = new System.Drawing.Size(820, 167);
             this.downloadDataGridView.TabIndex = 0;
             this.downloadDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.downloadDataGridView_CellContentClick);
             this.downloadDataGridView.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.downloadDataGridView_CellValueChanged);

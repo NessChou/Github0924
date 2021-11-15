@@ -80,6 +80,8 @@ namespace ACME
                         dr["毛利率"] = k2.Rows[i]["毛利率"].ToString().Trim();
                         dr["美金單價"] = k2.Rows[i]["美金單價"].ToString().Trim();
                         dr["業務"] = k2.Rows[i]["業務"].ToString().Trim();
+                        dr["尺寸"] = k2.Rows[i]["尺寸"].ToString().Trim();
+                        dr["最終客戶"] = k2.Rows[i]["最終客戶"].ToString().Trim();
                         string CARDNAME = k2.Rows[i]["供應商"].ToString().Trim();
 
                         if (String.IsNullOrEmpty(CARDNAME))
@@ -169,8 +171,9 @@ namespace ACME
                         string 業務 = dd1["業務"].ToString();
                         string 供應商 = dd1["供應商"].ToString();
 
-
-                        AddATC1(供應商, 產品編號, 過帳日期, 年, 月, BU, 群組, 群組次分類, MODEL, VER, 品名敘述, 數量, 金額, 成本, 毛利, 毛利率, 美金單價, 業務, 客戶名稱);
+                        string 最終客戶 = dd1["最終客戶"].ToString();
+                        string 尺寸 = dd1["尺寸"].ToString();
+                        AddATC1(供應商, 產品編號, 過帳日期, 年, 月, BU, 群組, 群組次分類, MODEL, VER, 品名敘述, 數量, 金額, 成本, 毛利, 毛利率, 美金單價, 業務, 客戶名稱, 最終客戶, 尺寸);
                     }
 
                     System.Data.DataTable K3 = GetODLNN4F();
@@ -459,7 +462,7 @@ namespace ACME
 
             SqlConnection connection = globals.Connection;
             StringBuilder sb = new StringBuilder();
-            sb.Append("  SELECT ITEMCODE 產品編號,DYEAR 年,DMONTH 月,DOCDATE 過帳日期,CARDNAME2 客戶名稱,BU,DG 群組,DG2 群組次分類,MODEL,VER");
+            sb.Append("  SELECT ITEMCODE 產品編號,DYEAR 年,DMONTH 月,DOCDATE 過帳日期,CARDNAME2 客戶名稱,CARDNAME3 最終客戶,BU,DG 群組,DG2 群組次分類,SIZE 尺寸,MODEL,VER");
             sb.Append("  ,ITEMNAME  品名敘述,GQTY 數量,GTOTAL 金額,GVALUE 成本,GM 毛利,GM2  毛利率,USD 美金單價,SALES 業務,CARDNAME 供應商 FROM AP_JO WHERE  USERS=@USERS  ");
             if (comboBox2.Text != "")
             {
@@ -489,9 +492,12 @@ namespace ACME
 
             SqlConnection connection = globals.Connection;
             StringBuilder sb = new StringBuilder();
-            sb.Append(" SELECT TOP 20 CARDNAME2 客戶名稱,SUM(GQTY) 數量 FROM AP_JO WHERE  USERS=@USERS  GROUP BY CARDNAME2 ORDER BY SUM(GQTY) DESC");
-
-
+            sb.Append(" SELECT TOP 20 CARDNAME2 客戶名稱,SUM(GQTY) 數量 FROM AP_JO WHERE  USERS=@USERS  ");
+            if (comboBox2.Text != "")
+            {
+                sb.Append("  AND CARDNAME=@CARDNAME ");
+            }
+            sb.Append("   GROUP BY CARDNAME2 ORDER BY SUM(GQTY) DESC");
             SqlCommand command = new SqlCommand(sb.ToString(), connection);
             command.CommandType = CommandType.Text;
             command.Parameters.Add(new SqlParameter("@CARDNAME", comboBox2.Text));
@@ -524,7 +530,7 @@ namespace ACME
             sb.Append("               LEFT JOIN ACMESQL02.DBO.OPCH B ON (A.DOCENTRY=B.DOCENTRY)      ");
             sb.Append("               WHERE ITEMCODE=T0.ITEMCODE COLLATE  Chinese_Taiwan_Stroke_CI_AS      ");
             sb.Append("               ORDER BY 	 B.DOCDATE DESC) 供應商 ");
-            sb.Append("               ,CASE WHEN T0.GTOTAL=0 THEN T6.U_ACME_USER END 'FOC 的出貨單',T0.DOCENTRY  FROM Account_Temp61 T0 ");
+            sb.Append("               ,CASE WHEN T0.GTOTAL=0 THEN T6.U_ACME_USER END 'FOC 的出貨單',T0.DOCENTRY,T1.U_SIZE 尺寸,T6.U_BENEFICIARY 最終客戶  FROM Account_Temp61 T0 ");
             sb.Append("               LEFT JOIN ACMESQL02.DBO.OITM T1 ON (T0.ITEMCODE=T1.ITEMCODE COLLATE  Chinese_Taiwan_Stroke_CI_AS) ");
             sb.Append("               LEFT JOIN ACMESQL02.DBO.OITB T2 ON (T1.itmsgrpcod = T2.itmsgrpcod) ");
             sb.Append("               LEFT JOIN ACMESQLSP.DBO.WH_ITM1 T3 ON (T1.U_GROUP=T3.VALUE1)     ");
@@ -584,7 +590,13 @@ namespace ACME
 
             SqlConnection connection = globals.Connection;
             StringBuilder sb = new StringBuilder();
-            sb.Append(" SELECT DISTINCT CARDNAME  FROM AP_JO   WHERE USERS=@USERS AND ISNULL(CARDNAME,'') <> '' ORDER BY CARDNAME");
+           // sb.Append(" SELECT DISTINCT CARDNAME  FROM AP_JO   WHERE USERS=@USERS AND ISNULL(CARDNAME,'') <> '' ORDER BY CARDNAME");
+            sb.Append(" SELECT DISTINCT CARDNAME FROM AP_JO WHERE CARDNAME LIKE '%友達%'");
+            sb.Append(" UNION ALL");
+            sb.Append(" SELECT DISTINCT CARDNAME FROM AP_JO WHERE CARDNAME LIKE '%達擎%'");
+            sb.Append("  UNION ALL");
+            sb.Append(" SELECT DISTINCT CARDNAME FROM AP_JO WHERE CARDNAME  NOT LIKE '%友達%' AND CARDNAME  NOT LIKE '%達擎%'");
+            sb.Append(" AND DG <> '170-Others' AND CARDNAME <> ''");
 
             SqlCommand command = new SqlCommand(sb.ToString(), connection);
             command.CommandType = CommandType.Text;
@@ -2086,9 +2098,11 @@ namespace ACME
             dt.Columns.Add("月", typeof(int));
             dt.Columns.Add("過帳日期", typeof(string));
             dt.Columns.Add("客戶名稱", typeof(string));
+            dt.Columns.Add("最終客戶", typeof(string));
             dt.Columns.Add("BU", typeof(string));
             dt.Columns.Add("群組", typeof(string));
             dt.Columns.Add("群組次分類", typeof(string));
+            dt.Columns.Add("尺寸", typeof(string));
             dt.Columns.Add("MODEL", typeof(string));
             dt.Columns.Add("VER", typeof(string));
             dt.Columns.Add("品名敘述", typeof(string));
@@ -2170,10 +2184,10 @@ namespace ACME
             }
             return ds.Tables["wh_main"];
         }
-        public void AddATC1(string CARDNAME, string ITEMCODE, string DOCDATE, int DYEAR, int DMONTH, string BU, string DG, string DG2, string MODEL, string VER, string ITEMNAME, int GQty, int GTotal, int GValue, int GM, string GM2, string USD, string SALES, string CARDNAME2)
+        public void AddATC1(string CARDNAME, string ITEMCODE, string DOCDATE, int DYEAR, int DMONTH, string BU, string DG, string DG2, string MODEL, string VER, string ITEMNAME, int GQty, int GTotal, int GValue, int GM, string GM2, string USD, string SALES, string CARDNAME2, string CARDNAME3, string SIZE)
         {
             SqlConnection connection = globals.Connection;
-            SqlCommand command = new SqlCommand("Insert into AP_JO(CARDNAME,ITEMCODE,DOCDATE,DYEAR,DMONTH,BU,DG,DG2,MODEL,VER,ITEMNAME,GQty,GTotal,GValue,GM,GM2,USD,SALES,CARDNAME2,USERS) values(@CARDNAME,@ITEMCODE,@DOCDATE,@DYEAR,@DMONTH,@BU,@DG,@DG2,@MODEL,@VER,@ITEMNAME,@GQty,@GTotal,@GValue,@GM,@GM2,@USD,@SALES,@CARDNAME2,@USERS)", connection);
+            SqlCommand command = new SqlCommand("Insert into AP_JO(CARDNAME,ITEMCODE,DOCDATE,DYEAR,DMONTH,BU,DG,DG2,MODEL,VER,ITEMNAME,GQty,GTotal,GValue,GM,GM2,USD,SALES,CARDNAME2,USERS,CARDNAME3,SIZE) values(@CARDNAME,@ITEMCODE,@DOCDATE,@DYEAR,@DMONTH,@BU,@DG,@DG2,@MODEL,@VER,@ITEMNAME,@GQty,@GTotal,@GValue,@GM,@GM2,@USD,@SALES,@CARDNAME2,@USERS,@CARDNAME3,@SIZE)", connection);
             command.CommandType = CommandType.Text;
             command.Parameters.Add(new SqlParameter("@CARDNAME", CARDNAME));
             command.Parameters.Add(new SqlParameter("@ITEMCODE", ITEMCODE));
@@ -2194,7 +2208,8 @@ namespace ACME
             command.Parameters.Add(new SqlParameter("@USD", USD));
             command.Parameters.Add(new SqlParameter("@SALES", SALES));
             command.Parameters.Add(new SqlParameter("@CARDNAME2", CARDNAME2));
-
+            command.Parameters.Add(new SqlParameter("@CARDNAME3", CARDNAME3));
+            command.Parameters.Add(new SqlParameter("@SIZE", SIZE));
             //GQty,GTotal,GValue,GM,GM2,USD,SALES,CARDNAME2,USERS
 
             command.Parameters.Add(new SqlParameter("@USERS", fmLogin.LoginID.ToString()));

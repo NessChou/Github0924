@@ -7,6 +7,9 @@ using System.Text;
 using System.Windows.Forms;
 using Microsoft.Office.Interop.Excel;
 using System.Data.SqlClient;
+using System.IO;
+using System.Collections;
+
 namespace ACME
 {
     
@@ -489,6 +492,8 @@ namespace ACME
             textBox9.Text = GetMenu.DFirst();
             textBox14.Text = GetMenu.DLast();
 
+            txbYear.Text = DateTime.Now.ToString("yyyy");
+
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -892,10 +897,319 @@ namespace ACME
             }
         }
 
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            string strCn = "";
+            string COMPANY = "";
 
 
-   
+            if (textBox5.Text == "" && textBox6.Text == "" && textBox17.Text == "" && textBox18.Text == "" && textBox7.Text == "" && !checkBox2.Checked)
+            {
+                MessageBox.Show("請輸入條件");
+                return;
+            }
 
-    
+
+            if (radioButton1.Checked)
+            {
+                strCn = "Data Source=10.10.1.40;Initial Catalog=CHICOMP21;Persist Security Info=True;User ID=webstock;Password=@cmewebstock";
+            }
+
+            if (radioButton2.Checked)
+            {
+                strCn = "Data Source=10.10.1.40;Initial Catalog=CHICOMP22;Persist Security Info=True;User ID=webstock;Password=@cmewebstock";
+            }
+            if (radioButton3.Checked)
+            {
+                strCn = "Data Source=10.10.1.40;Initial Catalog=CHICOMP20;Persist Security Info=True;User ID=webstock;Password=@cmewebstock";
+            }
+            if (radioButton4.Checked)
+            {
+                strCn = "Data Source=10.10.1.40;Initial Catalog=CHICOMP16;Persist Security Info=True;User ID=webstock;Password=@cmewebstock";
+                COMPANY = "AD";
+            }
+            if (radioButton5.Checked)
+            {
+                strCn = "Data Source=10.10.1.40;Initial Catalog=CHICOMP23;Persist Security Info=True;User ID=webstock;Password=@cmewebstock";
+            }
+
+            string lsAppDir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetModules()[0].FullyQualifiedName);
+            string DOCYEAR = txbYear.Text;
+            string FileName = lsAppDir + "\\Excel\\wh\\單據筆數.xlsx";
+            string OutPutFile = "";
+            System.Data.DataTable dt = new System.Data.DataTable();
+
+            if (cmbType.Text == "單據數量")
+            {
+                OutPutFile = lsAppDir + "\\Excel\\temp\\" + DateTime.Now.ToString("yyyyMMddHHmmss") + cmbType.Text + ".xlsx";
+                dt = GGY1(strCn, DOCYEAR, OutPutFile);
+            }
+            else
+            {
+                OutPutFile = lsAppDir + "\\Excel\\temp\\" + DateTime.Now.ToString("yyyyMMddHHmmss") + cmbType.Text + ".xlsx";
+                dt = GGY2(strCn, DOCYEAR, OutPutFile);
+            }
+            
+
+
+            MakeExcel(FileName, OutPutFile, dt);
+
+
+            System.Diagnostics.Process.Start(OutPutFile);
+        }
+        private System.Data.DataTable GGY1(string strCn ,string DOCYEAR,string OutPutFile)
+        {
+            System.Data.DataTable dt;
+            SqlConnection MyConnection = new SqlConnection(strCn); 
+            StringBuilder sb = new StringBuilder();
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'01%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'01%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'02%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'02%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'03%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'03%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'04%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'04%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'05%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'05%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'06%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'06%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'07%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'07%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'08%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'08%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'09%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'09%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'10%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'10%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'11%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'11%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=500 ) and   A.BillDate LIKE  @DOCYEAR" + "+'12%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select distinct(count(a.BillNO))  From ComProdRec A  Where ( A.Flag=100 ) and   A.BillDate LIKE  @DOCYEAR" + "+'12%'");
+
+            SqlCommand command = new SqlCommand(sb.ToString(), MyConnection);
+            command.CommandType = CommandType.Text;
+            command.Parameters.Add(new SqlParameter("@DOCYEAR", DOCYEAR));
+
+
+            SqlDataAdapter da = new SqlDataAdapter(command);
+            DataSet ds = new DataSet();
+            try
+            {
+                MyConnection.Open();
+                da.Fill(ds, "wh_main");
+            }
+            finally
+            {
+                MyConnection.Close();
+            }
+            return ds.Tables["wh_main"];
+        }
+        private System.Data.DataTable GGY2(string strCn, string DOCYEAR, string OutPutFile)
+        {
+            System.Data.DataTable dt;
+            SqlConnection MyConnection = new SqlConnection(strCn);
+            StringBuilder sb = new StringBuilder();
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'01%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'01%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'02%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'02%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'03%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'03%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'04%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'04%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'05%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'05%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'06%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'06%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'07%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'07%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'08%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'08%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'09%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'09%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'10%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'10%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'11%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'11%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=500 ) and  A.BillDate LIKE  @DOCYEAR" + "+'12%'");
+            sb.Append(" UNION ALL ");
+            sb.Append("  Select SUM(MLAmount) From ComProdRec A  Where ( A.Flag=100 ) and  A.BillDate LIKE  @DOCYEAR" + "+'12%'");
+
+            SqlCommand command = new SqlCommand(sb.ToString(), MyConnection);
+            command.CommandType = CommandType.Text;
+            command.Parameters.Add(new SqlParameter("@DOCYEAR", DOCYEAR));
+
+
+            SqlDataAdapter da = new SqlDataAdapter(command);
+            DataSet ds = new DataSet();
+            try
+            {
+                MyConnection.Open();
+                da.Fill(ds, "wh_main");
+            }
+            finally
+            {
+                MyConnection.Close();
+            }
+            return ds.Tables["wh_main"];
+        }
+        private void MakeExcel(string ExcelFile,string OutPutFile,System.Data.DataTable dt) 
+        {
+            //Create an Excel App
+            Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
+            excelApp.Visible = true;
+
+            //Interop params
+            object oMissing = System.Reflection.Missing.Value;
+
+            //The Excel doc paths
+            //string excelFile = Server.MapPath("~/") + @"Excel\2006.xls";
+            string excelFile = ExcelFile;
+
+            Microsoft.Office.Interop.Excel.Workbook excelBook = excelApp.Workbooks.Open(excelFile, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing);
+            Microsoft.Office.Interop.Excel.Worksheet excelSheet = (Microsoft.Office.Interop.Excel.Worksheet)excelBook.Sheets.get_Item(1);
+            Microsoft.Office.Interop.Excel.Worksheet SheetTemplate = null;
+
+            excelSheet.Activate();
+            int iRowCnt = excelSheet.UsedRange.Cells.Rows.Count;
+
+            int iColCnt = excelSheet.UsedRange.Cells.Columns.Count;
+
+            Hashtable ht = new Hashtable(iRowCnt);
+            Microsoft.Office.Interop.Excel.Range range = null;
+            Microsoft.Office.Interop.Excel.Range range2 = null;
+
+
+
+            //Open the worksheet file
+
+
+            try
+            {
+                object SelectCell = "A1";
+                range = excelSheet.get_Range("A1", "M10");
+                
+                range = ((Microsoft.Office.Interop.Excel.Range)excelSheet.UsedRange.Cells[1, 5]);
+                range.Select();
+                range.Value2 = txbYear.Text + "年單據筆數";
+
+                iRowCnt = excelSheet.UsedRange.Cells.Rows.Count;
+
+                iColCnt = excelSheet.UsedRange.Cells.Columns.Count;
+
+                ht = new Hashtable(iRowCnt);
+
+                range2 = null;
+
+                SelectCell = "A1";
+                range2 = excelSheet.get_Range(SelectCell, SelectCell);
+               
+                
+                for (int i = 0; i < 12; i++)
+                {
+                    string monthcode = "";
+                    //聯倉CardCode U0193
+                    if (i.ToString().Length == 1)
+                    {
+                        monthcode = "0" + (i + 1).ToString();
+                    }
+                    else
+                    {
+                        monthcode = (i + 1).ToString();
+                    }
+
+                    //聯倉i月理貨
+                    range = ((Microsoft.Office.Interop.Excel.Range)excelSheet.UsedRange.Cells[3, i + 2]);
+                    range.Select();
+                    range.Value2 = dt.Rows[i * 2][0].ToString() == "" ? "0" : dt.Rows[i * 2][0].ToString();
+
+                    range = ((Microsoft.Office.Interop.Excel.Range)excelSheet.UsedRange.Cells[4, i + 2]);
+                    range.Select();
+                    range.Value2 = dt.Rows[i * 2 + 1][0].ToString() == "" ? "0" : dt.Rows[i * 2 + 1][0].ToString();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+            finally
+            {
+
+                try
+                {
+                    excelSheet.SaveAs(OutPutFile, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing);
+                }
+                catch
+                {
+                }
+                //Quit
+                excelApp.Quit();
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(range);
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(excelSheet);
+
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(excelBook);
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+
+
+                range = null;
+                excelApp = null;
+                excelBook = null;
+                excelSheet = null;
+
+                System.GC.Collect();
+                System.GC.WaitForPendingFinalizers();
+
+                System.Diagnostics.Process.Start(OutPutFile);
+            }
+
+        }
     }
 }

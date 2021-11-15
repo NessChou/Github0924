@@ -3470,7 +3470,6 @@ namespace ACME
             // 
             this.bindingNavigatorPositionItem2.AccessibleName = "Position";
             this.bindingNavigatorPositionItem2.AutoSize = false;
-            this.bindingNavigatorPositionItem2.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F);
             this.bindingNavigatorPositionItem2.Name = "bindingNavigatorPositionItem2";
             this.bindingNavigatorPositionItem2.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem2.Text = "0";
@@ -3787,7 +3786,7 @@ namespace ACME
             this.PackingList.Controls.Add(this.bindingNavigator4);
             this.PackingList.Location = new System.Drawing.Point(4, 22);
             this.PackingList.Name = "PackingList";
-            this.PackingList.Size = new System.Drawing.Size(826, 170);
+            this.PackingList.Size = new System.Drawing.Size(1362, 416);
             this.PackingList.TabIndex = 7;
             this.PackingList.Text = "PackingList";
             this.PackingList.UseVisualStyleBackColor = true;
@@ -3799,7 +3798,7 @@ namespace ACME
             this.panel48.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel48.Location = new System.Drawing.Point(0, 152);
             this.panel48.Name = "panel48";
-            this.panel48.Size = new System.Drawing.Size(809, 0);
+            this.panel48.Size = new System.Drawing.Size(1362, 189);
             this.panel48.TabIndex = 91;
             // 
             // packingListDDataGridView
@@ -3846,7 +3845,7 @@ namespace ACME
             dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.packingListDDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle19;
             this.packingListDDataGridView.RowTemplate.Height = 24;
-            this.packingListDDataGridView.Size = new System.Drawing.Size(809, 0);
+            this.packingListDDataGridView.Size = new System.Drawing.Size(1362, 189);
             this.packingListDDataGridView.TabIndex = 23;
             this.packingListDDataGridView.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.packingListDDataGridView_CellEnter);
             this.packingListDDataGridView.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.packingListDDataGridView_DataError);
@@ -3964,7 +3963,7 @@ namespace ACME
             this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel12.Location = new System.Drawing.Point(0, 0);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(809, 152);
+            this.panel12.Size = new System.Drawing.Size(1362, 152);
             this.panel12.TabIndex = 88;
             // 
             // btnYearMonth
@@ -4292,9 +4291,9 @@ namespace ACME
             this.panel14.Controls.Add(quantityLabel1);
             this.panel14.Controls.Add(this.quantityTextBox1);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel14.Location = new System.Drawing.Point(0, 152);
+            this.panel14.Location = new System.Drawing.Point(0, 341);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(809, 75);
+            this.panel14.Size = new System.Drawing.Size(1362, 75);
             this.panel14.TabIndex = 90;
             // 
             // sayCTNTextBox
@@ -4473,7 +4472,6 @@ namespace ACME
             // 
             this.bindingNavigatorPositionItem3.AccessibleName = "Position";
             this.bindingNavigatorPositionItem3.AutoSize = false;
-            this.bindingNavigatorPositionItem3.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F);
             this.bindingNavigatorPositionItem3.Name = "bindingNavigatorPositionItem3";
             this.bindingNavigatorPositionItem3.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem3.Text = "0";
@@ -4882,7 +4880,6 @@ namespace ACME
             // 
             this.bindingNavigatorPositionItem5.AccessibleName = "位置";
             this.bindingNavigatorPositionItem5.AutoSize = false;
-            this.bindingNavigatorPositionItem5.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F);
             this.bindingNavigatorPositionItem5.Name = "bindingNavigatorPositionItem5";
             this.bindingNavigatorPositionItem5.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem5.Text = "0";
@@ -5462,7 +5459,6 @@ namespace ACME
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "位置";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -5801,7 +5797,7 @@ namespace ACME
             this.費用紀錄.Location = new System.Drawing.Point(4, 22);
             this.費用紀錄.Name = "費用紀錄";
             this.費用紀錄.Padding = new System.Windows.Forms.Padding(3);
-            this.費用紀錄.Size = new System.Drawing.Size(1362, 416);
+            this.費用紀錄.Size = new System.Drawing.Size(826, 170);
             this.費用紀錄.TabIndex = 20;
             this.費用紀錄.Text = "費用紀錄";
             this.費用紀錄.UseVisualStyleBackColor = true;
@@ -5813,7 +5809,7 @@ namespace ACME
             this.panel47.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel47.Location = new System.Drawing.Point(3, 134);
             this.panel47.Name = "panel47";
-            this.panel47.Size = new System.Drawing.Size(1356, 0);
+            this.panel47.Size = new System.Drawing.Size(803, 0);
             this.panel47.TabIndex = 21;
             // 
             // panel42
@@ -5822,7 +5818,7 @@ namespace ACME
             this.panel42.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel42.Location = new System.Drawing.Point(586, 0);
             this.panel42.Name = "panel42";
-            this.panel42.Size = new System.Drawing.Size(770, 0);
+            this.panel42.Size = new System.Drawing.Size(217, 0);
             this.panel42.TabIndex = 16;
             // 
             // groupBox8
@@ -5848,7 +5844,7 @@ namespace ACME
             this.groupBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox8.Location = new System.Drawing.Point(0, 0);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(770, 0);
+            this.groupBox8.Size = new System.Drawing.Size(217, 0);
             this.groupBox8.TabIndex = 15;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "B. TW出口報關費用 (SEA) ";
@@ -6082,7 +6078,7 @@ namespace ACME
             this.panel46.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel46.Location = new System.Drawing.Point(3, 131);
             this.panel46.Name = "panel46";
-            this.panel46.Size = new System.Drawing.Size(1356, 282);
+            this.panel46.Size = new System.Drawing.Size(803, 282);
             this.panel46.TabIndex = 20;
             // 
             // panel54
@@ -6091,7 +6087,7 @@ namespace ACME
             this.panel54.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel54.Location = new System.Drawing.Point(583, 0);
             this.panel54.Name = "panel54";
-            this.panel54.Size = new System.Drawing.Size(773, 160);
+            this.panel54.Size = new System.Drawing.Size(220, 160);
             this.panel54.TabIndex = 20;
             // 
             // groupBox11
@@ -6126,7 +6122,7 @@ namespace ACME
             this.groupBox11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox11.Location = new System.Drawing.Point(0, 0);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(773, 160);
+            this.groupBox11.Size = new System.Drawing.Size(220, 160);
             this.groupBox11.TabIndex = 20;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "C. TW出口 local 費用 (SEA)";
@@ -6265,7 +6261,7 @@ namespace ACME
             this.panel45.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel45.Location = new System.Drawing.Point(583, 160);
             this.panel45.Name = "panel45";
-            this.panel45.Size = new System.Drawing.Size(773, 122);
+            this.panel45.Size = new System.Drawing.Size(220, 122);
             this.panel45.TabIndex = 19;
             // 
             // groupBox14
@@ -6278,7 +6274,7 @@ namespace ACME
             this.groupBox14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox14.Location = new System.Drawing.Point(0, 0);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(773, 122);
+            this.groupBox14.Size = new System.Drawing.Size(220, 122);
             this.groupBox14.TabIndex = 20;
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "E. 推貿費 (SEA)";
@@ -6356,6 +6352,7 @@ namespace ACME
             // 
             // cAXTextBox
             // 
+            this.cAXTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sHIP_FEEBindingSource, "CAX", true));
             this.cAXTextBox.Location = new System.Drawing.Point(331, 103);
             this.cAXTextBox.Name = "cAXTextBox";
             this.cAXTextBox.Size = new System.Drawing.Size(100, 22);
@@ -6479,7 +6476,7 @@ namespace ACME
             this.panel29.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel29.Location = new System.Drawing.Point(3, 3);
             this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(1356, 131);
+            this.panel29.Size = new System.Drawing.Size(803, 131);
             this.panel29.TabIndex = 14;
             // 
             // panel50
@@ -6488,7 +6485,7 @@ namespace ACME
             this.panel50.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel50.Location = new System.Drawing.Point(586, 0);
             this.panel50.Name = "panel50";
-            this.panel50.Size = new System.Drawing.Size(770, 131);
+            this.panel50.Size = new System.Drawing.Size(217, 131);
             this.panel50.TabIndex = 17;
             // 
             // groupBox12
@@ -6515,7 +6512,7 @@ namespace ACME
             this.groupBox12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox12.Location = new System.Drawing.Point(0, 0);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(770, 131);
+            this.groupBox12.Size = new System.Drawing.Size(217, 131);
             this.groupBox12.TabIndex = 0;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "D. DHL出口運費";
@@ -8206,7 +8203,6 @@ namespace ACME
             this.add6TextBox.Name = "add6TextBox";
             this.add6TextBox.Size = new System.Drawing.Size(216, 22);
             this.add6TextBox.TabIndex = 104;
-            this.add6TextBox.TextChanged += new System.EventHandler(this.add6TextBox_TextChanged);
             // 
             // forwarderTextBox
             // 
@@ -8461,6 +8457,7 @@ namespace ACME
             this.boatNameTextBox.Name = "boatNameTextBox";
             this.boatNameTextBox.Size = new System.Drawing.Size(140, 22);
             this.boatNameTextBox.TabIndex = 15;
+            this.boatNameTextBox.TextChanged += new System.EventHandler(this.boatNameTextBox_TextChanged);
             // 
             // shipmentTextBox
             // 

@@ -60,8 +60,8 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.dataGridView8);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.comboBox1);
@@ -89,12 +89,6 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "進金生",
-            "達睿生",
-            "CHOICE",
-            "宇豐",
-            "IPGI"});
             this.comboBox2.Location = new System.Drawing.Point(413, 6);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(182, 20);

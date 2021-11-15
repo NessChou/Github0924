@@ -182,6 +182,7 @@ namespace ACME
             this.U_MARK = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_MEMO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.INVOICE2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.LOCATION4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -197,6 +198,8 @@ namespace ACME
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
             this.wH_ItemDataGridView = new System.Windows.Forms.DataGridView();
+            this.ColWhItemCheckBox = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.SeqDelivery = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SeqNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DocentryH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn55 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -261,6 +264,7 @@ namespace ACME
             this.pACKMEMOTextBox = new System.Windows.Forms.TextBox();
             this.iNVOICENOTextBox = new System.Windows.Forms.TextBox();
             this.button10 = new System.Windows.Forms.Button();
+            this.btnSeqDelivery = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.add1TextBox = new System.Windows.Forms.TextBox();
             this.button17 = new System.Windows.Forms.Button();
@@ -1041,7 +1045,7 @@ namespace ACME
             // boardDeliverLabel1
             // 
             boardDeliverLabel1.AutoSize = true;
-            boardDeliverLabel1.Location = new System.Drawing.Point(59, 67);
+            boardDeliverLabel1.Location = new System.Drawing.Point(59, 64);
             boardDeliverLabel1.Name = "boardDeliverLabel1";
             boardDeliverLabel1.Size = new System.Drawing.Size(53, 12);
             boardDeliverLabel1.TabIndex = 136;
@@ -1230,7 +1234,7 @@ namespace ACME
             // c1Label
             // 
             c1Label.AutoSize = true;
-            c1Label.Location = new System.Drawing.Point(6, 19);
+            c1Label.Location = new System.Drawing.Point(6, 23);
             c1Label.Name = "c1Label";
             c1Label.Size = new System.Drawing.Size(29, 12);
             c1Label.TabIndex = 0;
@@ -1329,7 +1333,7 @@ namespace ACME
             // lOUDLabel
             // 
             lOUDLabel.AutoSize = true;
-            lOUDLabel.Location = new System.Drawing.Point(116, 65);
+            lOUDLabel.Location = new System.Drawing.Point(116, 67);
             lOUDLabel.Name = "lOUDLabel";
             lOUDLabel.Size = new System.Drawing.Size(41, 12);
             lOUDLabel.TabIndex = 6;
@@ -1554,7 +1558,7 @@ namespace ACME
             // lOUGALabel
             // 
             lOUGALabel.AutoSize = true;
-            lOUGALabel.Location = new System.Drawing.Point(290, 26);
+            lOUGALabel.Location = new System.Drawing.Point(290, 28);
             lOUGALabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             lOUGALabel.Name = "lOUGALabel";
             lOUGALabel.Size = new System.Drawing.Size(29, 12);
@@ -1623,7 +1627,7 @@ namespace ACME
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1370, 459);
+            this.tabControl1.Size = new System.Drawing.Size(1370, 463);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPage5
@@ -1635,7 +1639,7 @@ namespace ACME
             this.tabPage5.Location = new System.Drawing.Point(4, 23);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1362, 432);
+            this.tabPage5.Size = new System.Drawing.Size(1362, 436);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "項目";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1646,7 +1650,7 @@ namespace ACME
             this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel12.Location = new System.Drawing.Point(3, 31);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(1356, 398);
+            this.panel12.Size = new System.Drawing.Size(1356, 402);
             this.panel12.TabIndex = 3;
             // 
             // wH_Item4DataGridView
@@ -1685,6 +1689,7 @@ namespace ACME
             this.U_MARK,
             this.U_MEMO,
             this.PO,
+            this.INVOICE2,
             this.LOCATION4,
             this.dataGridViewTextBoxColumn40,
             this.dataGridViewTextBoxColumn41,
@@ -1714,7 +1719,7 @@ namespace ACME
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.wH_Item4DataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.wH_Item4DataGridView.RowTemplate.Height = 24;
-            this.wH_Item4DataGridView.Size = new System.Drawing.Size(1356, 398);
+            this.wH_Item4DataGridView.Size = new System.Drawing.Size(1356, 402);
             this.wH_Item4DataGridView.TabIndex = 1;
             this.wH_Item4DataGridView.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.wH_Item4DataGridView_DataError);
             this.wH_Item4DataGridView.DefaultValuesNeeded += new System.Windows.Forms.DataGridViewRowEventHandler(this.wH_Item4DataGridView_DefaultValuesNeeded);
@@ -1895,6 +1900,14 @@ namespace ACME
             this.PO.Name = "PO";
             this.PO.Width = 44;
             // 
+            // INVOICE2
+            // 
+            this.INVOICE2.DataPropertyName = "INVOICE2";
+            this.INVOICE2.HeaderText = "整批INV出貨";
+            this.INVOICE2.Name = "INVOICE2";
+            this.INVOICE2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.INVOICE2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
             // LOCATION4
             // 
             this.LOCATION4.DataPropertyName = "LOCATION";
@@ -1995,7 +2008,7 @@ namespace ACME
             this.tabPage1.Location = new System.Drawing.Point(4, 23);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(826, 186);
+            this.tabPage1.Size = new System.Drawing.Size(826, 190);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "備貨通知單";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -2006,7 +2019,7 @@ namespace ACME
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(3, 126);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(820, 57);
+            this.panel6.Size = new System.Drawing.Size(820, 61);
             this.panel6.TabIndex = 138;
             // 
             // wH_ItemDataGridView
@@ -2021,6 +2034,8 @@ namespace ACME
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.wH_ItemDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.wH_ItemDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColWhItemCheckBox,
+            this.SeqDelivery,
             this.SeqNo,
             this.DocentryH,
             this.dataGridViewTextBoxColumn55,
@@ -2085,7 +2100,7 @@ namespace ACME
             dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.wH_ItemDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.wH_ItemDataGridView.RowTemplate.Height = 24;
-            this.wH_ItemDataGridView.Size = new System.Drawing.Size(820, 57);
+            this.wH_ItemDataGridView.Size = new System.Drawing.Size(820, 61);
             this.wH_ItemDataGridView.TabIndex = 0;
             this.wH_ItemDataGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.wH_ItemDataGridView_CellDoubleClick);
             this.wH_ItemDataGridView.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.wH_ItemDataGridView_CellValueChanged);
@@ -2094,6 +2109,20 @@ namespace ACME
             this.wH_ItemDataGridView.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.wH_ItemDataGridView_RowPrePaint);
             this.wH_ItemDataGridView.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.wH_ItemDataGridView_UserDeletingRow);
             this.wH_ItemDataGridView.MouseCaptureChanged += new System.EventHandler(this.wH_ItemDataGridView_MouseCaptureChanged);
+            // 
+            // ColWhItemCheckBox
+            // 
+            this.ColWhItemCheckBox.HeaderText = "";
+            this.ColWhItemCheckBox.Name = "ColWhItemCheckBox";
+            this.ColWhItemCheckBox.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ColWhItemCheckBox.Width = 30;
+            // 
+            // SeqDelivery
+            // 
+            this.SeqDelivery.DataPropertyName = "SeqDelivery";
+            this.SeqDelivery.HeaderText = "放貨順序";
+            this.SeqDelivery.Name = "SeqDelivery";
+            this.SeqDelivery.Width = 60;
             // 
             // SeqNo
             // 
@@ -2441,6 +2470,7 @@ namespace ACME
             this.panel5.Controls.Add(this.iNVOICENOTextBox);
             this.panel5.Controls.Add(boardDeliverLabel1);
             this.panel5.Controls.Add(this.button10);
+            this.panel5.Controls.Add(this.btnSeqDelivery);
             this.panel5.Controls.Add(this.button18);
             this.panel5.Controls.Add(add1Label);
             this.panel5.Controls.Add(this.add1TextBox);
@@ -2624,6 +2654,16 @@ namespace ACME
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
+            // btnSeqDelivery
+            // 
+            this.btnSeqDelivery.Location = new System.Drawing.Point(5, 80);
+            this.btnSeqDelivery.Name = "btnSeqDelivery";
+            this.btnSeqDelivery.Size = new System.Drawing.Size(107, 23);
+            this.btnSeqDelivery.TabIndex = 136;
+            this.btnSeqDelivery.Text = "加入放貨順序";
+            this.btnSeqDelivery.UseVisualStyleBackColor = true;
+            this.btnSeqDelivery.Click += new System.EventHandler(this.btnSeqDelivery_Click);
+            // 
             // button18
             // 
             this.button18.Location = new System.Drawing.Point(5, 36);
@@ -2670,7 +2710,7 @@ namespace ACME
             this.tabPage10.Location = new System.Drawing.Point(4, 23);
             this.tabPage10.Name = "tabPage10";
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(1362, 432);
+            this.tabPage10.Size = new System.Drawing.Size(1362, 436);
             this.tabPage10.TabIndex = 11;
             this.tabPage10.Text = "包裝明細";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -2682,7 +2722,7 @@ namespace ACME
             this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel16.Location = new System.Drawing.Point(3, 3);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(1356, 426);
+            this.panel16.Size = new System.Drawing.Size(1356, 430);
             this.panel16.TabIndex = 2;
             // 
             // panel15
@@ -2691,7 +2731,7 @@ namespace ACME
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(0, 45);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(1356, 381);
+            this.panel15.Size = new System.Drawing.Size(1356, 385);
             this.panel15.TabIndex = 1;
             // 
             // dataGridView2
@@ -2740,7 +2780,7 @@ namespace ACME
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(1356, 381);
+            this.dataGridView2.Size = new System.Drawing.Size(1356, 385);
             this.dataGridView2.TabIndex = 0;
             // 
             // SHIPPINGCODE
@@ -2958,7 +2998,7 @@ namespace ACME
             this.tabPage4.ImageIndex = 12;
             this.tabPage4.Location = new System.Drawing.Point(4, 23);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(826, 186);
+            this.tabPage4.Size = new System.Drawing.Size(1362, 436);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "放貨單";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -2969,7 +3009,7 @@ namespace ACME
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(0, 112);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(826, 74);
+            this.panel8.Size = new System.Drawing.Size(1362, 324);
             this.panel8.TabIndex = 141;
             // 
             // wH_Item2DataGridView
@@ -3004,7 +3044,7 @@ namespace ACME
             this.wH_Item2DataGridView.Location = new System.Drawing.Point(0, 0);
             this.wH_Item2DataGridView.Name = "wH_Item2DataGridView";
             this.wH_Item2DataGridView.RowTemplate.Height = 24;
-            this.wH_Item2DataGridView.Size = new System.Drawing.Size(826, 74);
+            this.wH_Item2DataGridView.Size = new System.Drawing.Size(1362, 324);
             this.wH_Item2DataGridView.TabIndex = 1;
             this.wH_Item2DataGridView.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.wH_Item2DataGridView_DataError);
             this.wH_Item2DataGridView.DefaultValuesNeeded += new System.Windows.Forms.DataGridViewRowEventHandler(this.wH_Item2DataGridView_DefaultValuesNeeded);
@@ -3203,7 +3243,7 @@ namespace ACME
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(826, 112);
+            this.panel7.Size = new System.Drawing.Size(1362, 112);
             this.panel7.TabIndex = 140;
             // 
             // groupBox4
@@ -3437,7 +3477,7 @@ namespace ACME
             this.tabPage3.ImageIndex = 16;
             this.tabPage3.Location = new System.Drawing.Point(4, 23);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(826, 186);
+            this.tabPage3.Size = new System.Drawing.Size(826, 190);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "收貨單";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -3448,7 +3488,7 @@ namespace ACME
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(0, 75);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(826, 111);
+            this.panel10.Size = new System.Drawing.Size(826, 115);
             this.panel10.TabIndex = 15;
             // 
             // wH_Item3DataGridView
@@ -3506,7 +3546,7 @@ namespace ACME
             dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.wH_Item3DataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle19;
             this.wH_Item3DataGridView.RowTemplate.Height = 24;
-            this.wH_Item3DataGridView.Size = new System.Drawing.Size(826, 111);
+            this.wH_Item3DataGridView.Size = new System.Drawing.Size(826, 115);
             this.wH_Item3DataGridView.TabIndex = 9;
             this.wH_Item3DataGridView.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.wH_Item3DataGridView_DataError);
             this.wH_Item3DataGridView.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.wH_Item3DataGridView_RowPrePaint);
@@ -3850,7 +3890,7 @@ namespace ACME
             this.tabPage7.Location = new System.Drawing.Point(4, 23);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(826, 186);
+            this.tabPage7.Size = new System.Drawing.Size(826, 190);
             this.tabPage7.TabIndex = 8;
             this.tabPage7.Text = "箱數";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -3998,7 +4038,7 @@ namespace ACME
             this.tabPage8.Location = new System.Drawing.Point(4, 23);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(826, 186);
+            this.tabPage8.Size = new System.Drawing.Size(826, 190);
             this.tabPage8.TabIndex = 9;
             this.tabPage8.Text = "列印標簽";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -4009,7 +4049,7 @@ namespace ACME
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel14.Location = new System.Drawing.Point(3, 33);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(820, 150);
+            this.panel14.Size = new System.Drawing.Size(820, 154);
             this.panel14.TabIndex = 2;
             // 
             // wH_LABDataGridView
@@ -4052,7 +4092,7 @@ namespace ACME
             dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.wH_LABDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
             this.wH_LABDataGridView.RowTemplate.Height = 24;
-            this.wH_LABDataGridView.Size = new System.Drawing.Size(820, 150);
+            this.wH_LABDataGridView.Size = new System.Drawing.Size(820, 154);
             this.wH_LABDataGridView.TabIndex = 0;
             // 
             // dataGridViewTextBoxColumn32
@@ -4131,7 +4171,7 @@ namespace ACME
             this.tabPage9.Location = new System.Drawing.Point(4, 23);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(826, 186);
+            this.tabPage9.Size = new System.Drawing.Size(826, 190);
             this.tabPage9.TabIndex = 10;
             this.tabPage9.Text = "修改次數";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -4178,7 +4218,7 @@ namespace ACME
             dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.wH_Item5DataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle27;
             this.wH_Item5DataGridView.RowTemplate.Height = 24;
-            this.wH_Item5DataGridView.Size = new System.Drawing.Size(820, 180);
+            this.wH_Item5DataGridView.Size = new System.Drawing.Size(820, 184);
             this.wH_Item5DataGridView.TabIndex = 0;
             this.wH_Item5DataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.wH_Item5DataGridView_CellClick);
             this.wH_Item5DataGridView.DefaultValuesNeeded += new System.Windows.Forms.DataGridViewRowEventHandler(this.wH_Item5DataGridView_DefaultValuesNeeded);
@@ -4266,7 +4306,7 @@ namespace ACME
             this.tabPage2.Location = new System.Drawing.Point(4, 23);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(826, 186);
+            this.tabPage2.Size = new System.Drawing.Size(826, 190);
             this.tabPage2.TabIndex = 12;
             this.tabPage2.Text = "費用";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -4277,7 +4317,7 @@ namespace ACME
             this.panel21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel21.Location = new System.Drawing.Point(3, 3);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(109, 180);
+            this.panel21.Size = new System.Drawing.Size(109, 184);
             this.panel21.TabIndex = 15;
             // 
             // groupBox5
@@ -4287,7 +4327,7 @@ namespace ACME
             this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox5.Location = new System.Drawing.Point(0, 0);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(109, 180);
+            this.groupBox5.Size = new System.Drawing.Size(109, 184);
             this.groupBox5.TabIndex = 13;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "運輸費用";
@@ -4299,7 +4339,7 @@ namespace ACME
             this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel19.Location = new System.Drawing.Point(3, 92);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(103, 85);
+            this.panel19.Size = new System.Drawing.Size(103, 89);
             this.panel19.TabIndex = 15;
             // 
             // panel22
@@ -4557,7 +4597,7 @@ namespace ACME
             this.cBINTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.wH_FEEBindingSource, "CBIN", true));
             this.cBINTextBox.Location = new System.Drawing.Point(65, 134);
             this.cBINTextBox.Name = "cBINTextBox";
-            this.cBINTextBox.Size = new System.Drawing.Size(767, 22);
+            this.cBINTextBox.Size = new System.Drawing.Size(558, 22);
             this.cBINTextBox.TabIndex = 14;
             // 
             // cGADCheckBox
@@ -4574,7 +4614,7 @@ namespace ACME
             // cBCheckBox
             // 
             this.cBCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.wH_FEEBindingSource, "CB", true));
-            this.cBCheckBox.Location = new System.Drawing.Point(201, 13);
+            this.cBCheckBox.Location = new System.Drawing.Point(198, 13);
             this.cBCheckBox.Name = "cBCheckBox";
             this.cBCheckBox.Size = new System.Drawing.Size(68, 24);
             this.cBCheckBox.TabIndex = 5;
@@ -4762,7 +4802,7 @@ namespace ACME
             this.panel20.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel20.Location = new System.Drawing.Point(112, 3);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(711, 180);
+            this.panel20.Size = new System.Drawing.Size(711, 184);
             this.panel20.TabIndex = 14;
             // 
             // groupBox7
@@ -4772,7 +4812,7 @@ namespace ACME
             this.groupBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox7.Location = new System.Drawing.Point(0, 0);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(711, 180);
+            this.groupBox7.Size = new System.Drawing.Size(711, 184);
             this.groupBox7.TabIndex = 0;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "理貨費用";
@@ -4824,7 +4864,7 @@ namespace ACME
             // lOUGATextBox
             // 
             this.lOUGATextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.wH_FEEBindingSource, "LOUGA", true));
-            this.lOUGATextBox.Location = new System.Drawing.Point(322, 24);
+            this.lOUGATextBox.Location = new System.Drawing.Point(322, 25);
             this.lOUGATextBox.Margin = new System.Windows.Forms.Padding(2);
             this.lOUGATextBox.Name = "lOUGATextBox";
             this.lOUGATextBox.Size = new System.Drawing.Size(167, 22);
@@ -5042,7 +5082,9 @@ namespace ACME
             "沛華",
             "中菲行",
             "萬泰",
-            "華泓"});
+            "華泓",
+            "聯倉",
+            "宏陞"});
             this.comboBox12.Location = new System.Drawing.Point(254, 20);
             this.comboBox12.Name = "comboBox12";
             this.comboBox12.Size = new System.Drawing.Size(121, 20);
@@ -5165,7 +5207,7 @@ namespace ACME
             this.tabPage6.Location = new System.Drawing.Point(4, 23);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(826, 186);
+            this.tabPage6.Size = new System.Drawing.Size(826, 190);
             this.tabPage6.TabIndex = 13;
             this.tabPage6.Text = "寄信通知";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -5744,7 +5786,7 @@ namespace ACME
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1370, 230);
+            this.panel2.Size = new System.Drawing.Size(1370, 226);
             this.panel2.TabIndex = 152;
             // 
             // button31
@@ -5819,9 +5861,9 @@ namespace ACME
             // 
             this.panel4.Controls.Add(this.tabControl1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(0, 230);
+            this.panel4.Location = new System.Drawing.Point(0, 226);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1370, 459);
+            this.panel4.Size = new System.Drawing.Size(1370, 463);
             this.panel4.TabIndex = 153;
             // 
             // openFileDialog1
@@ -6239,29 +6281,6 @@ namespace ACME
         private System.Windows.Forms.ComboBox comboBox10;
         private System.Windows.Forms.TextBox kQTY3TextBox;
         private System.Windows.Forms.TextBox lOUFEETextBox;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn linenum;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ShipDate;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn20;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn17;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn21;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn22;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn19;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn24;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Remark;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FrgnNam1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FrgnName1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn34;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn71;
-        private System.Windows.Forms.DataGridViewTextBoxColumn U_CUSTITEMCODE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn U_CUSTDOCENTRY;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TREETYPE2;
         private System.Windows.Forms.TextBox lINHTextBox;
         private System.Windows.Forms.ComboBox comboBox12;
         public System.Windows.Forms.ContextMenuStrip contextMenuStrip5;
@@ -6303,6 +6322,10 @@ namespace ACME
         private System.Windows.Forms.CheckBox s3CheckBox;
         private System.Windows.Forms.CheckBox s2CheckBox;
         private System.Windows.Forms.CheckBox s1CheckBox;
+        private System.Windows.Forms.CheckBox s6CheckBox;
+        private System.Windows.Forms.CheckBox s7CheckBox;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn ColWhItemCheckBox;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SeqDelivery;
         private System.Windows.Forms.DataGridViewTextBoxColumn SeqNo;
         private System.Windows.Forms.DataGridViewTextBoxColumn DocentryH;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn55;
@@ -6345,6 +6368,7 @@ namespace ACME
         private System.Windows.Forms.DataGridViewTextBoxColumn PQTY5;
         private System.Windows.Forms.DataGridViewTextBoxColumn PQTY6;
         private System.Windows.Forms.DataGridViewTextBoxColumn DocentryS;
+        private System.Windows.Forms.Button btnSeqDelivery;
         private System.Windows.Forms.DataGridViewTextBoxColumn SeqNo4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Docentry;
         private System.Windows.Forms.DataGridViewTextBoxColumn linenum4;
@@ -6369,6 +6393,7 @@ namespace ACME
         private System.Windows.Forms.DataGridViewTextBoxColumn U_MARK;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_MEMO;
         private System.Windows.Forms.DataGridViewTextBoxColumn PO;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn INVOICE2;
         private System.Windows.Forms.DataGridViewTextBoxColumn LOCATION4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
@@ -6376,7 +6401,28 @@ namespace ACME
         private System.Windows.Forms.DataGridViewTextBoxColumn CardCode2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Docentry1;
         private System.Windows.Forms.DataGridViewTextBoxColumn WHSCODE;
-        private System.Windows.Forms.CheckBox s6CheckBox;
-        private System.Windows.Forms.CheckBox s7CheckBox;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn linenum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ShipDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn20;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn17;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn21;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn22;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn19;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn24;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Remark;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FrgnNam1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FrgnName1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn34;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn71;
+        private System.Windows.Forms.DataGridViewTextBoxColumn U_CUSTITEMCODE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn U_CUSTDOCENTRY;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TREETYPE2;
     }
 }

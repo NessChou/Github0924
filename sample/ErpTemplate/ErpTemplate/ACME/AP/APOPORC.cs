@@ -3,7 +3,10 @@ using System.Collections;
 using System.Data;
 using System.Data.SqlClient;
 using System.Text;
+using System.IO;
 using System.Windows.Forms;
+using System.Xml;
+using Microsoft.VisualBasic.Devices;
 namespace ACME
 {
     public partial class APOPORC : Form
@@ -487,24 +490,24 @@ namespace ACME
             dt.Columns.Add("廠商編號", typeof(string));
             dt.Columns.Add("項目料號", typeof(string));
             dt.Columns.Add("項目說明", typeof(string));
-            dt.Columns.Add("PARTNO", typeof(string));
+            dt.Columns.Add("PART NO", typeof(string));
+            dt.Columns.Add("原廠發票項次", typeof(string));
             dt.Columns.Add("數量", typeof(decimal));
-            dt.Columns.Add("單價", typeof(decimal));
+            dt.Columns.Add("美金單價", typeof(decimal));
+            dt.Columns.Add("原廠進貨匯率", typeof(string));
             dt.Columns.Add("台幣單價", typeof(decimal));
+            dt.Columns.Add("台幣未稅金額", typeof(decimal));
+            dt.Columns.Add("台幣稅額", typeof(decimal));
+            dt.Columns.Add("台幣含稅金額", typeof(decimal));
             dt.Columns.Add("稅碼", typeof(string));
             dt.Columns.Add("倉庫", typeof(string));
-            dt.Columns.Add("工單號碼", typeof(string));
+            dt.Columns.Add("SHIPPING工單號碼", typeof(string));
             dt.Columns.Add("原廠INVOICE", typeof(string));
-            dt.Columns.Add("原廠進貨匯率", typeof(string));
             dt.Columns.Add("INVOICE日期", typeof(string));
-            dt.Columns.Add("LCNO", typeof(string));
             dt.Columns.Add("產地", typeof(string));
-
-            dt.Columns.Add("未稅金額", typeof(decimal));
-            dt.Columns.Add("稅額", typeof(decimal));
-            dt.Columns.Add("含稅金額", typeof(decimal));
             dt.Columns.Add("付款方式", typeof(string));
-            //ShipCity
+            dt.Columns.Add("LCNO", typeof(string));
+
 
             return dt;
         }
@@ -2212,7 +2215,7 @@ namespace ACME
             sb.Append("              ,(SELECT  BASEENTRY,BASELINE,SUM(Quantity) QTY FROM POR1 T0");
             sb.Append("			   LEFT JOIN OPOR T1 ON (T0.DOCENTRY=T1.DOCENTRY) WHERE BASEENTRY=@DOCENTRY AND T1.CANCELED<>'Y'");
             sb.Append("              GROUP BY  BASEENTRY,BASELINE) T1 WHERE T0.DOCENTRY=T1.BASEENTRY AND T0.LINENUM=T1.BASELINE ");
-            sb.Append("              AND T0.DOCENTRY=@DOCENTRY ");
+            sb.Append("              AND T0.DOCENTRY=@DOCENTRY  AND  ISNULL(T0.LineStatus,'')<> 'C' ");
 
             SqlCommand command = new SqlCommand(sb.ToString(), connection);
             command.CommandType = CommandType.Text;
@@ -2608,8 +2611,8 @@ namespace ACME
             SqlConnection MyConnection = globals.shipConnection;
             StringBuilder sb = new StringBuilder();
 
-            sb.Append("  SELECT T0.EmpID ,T1.SlpCode  FROM OHEM T0");
-            sb.Append("  JOIN OSLP T1 ON (T0.lastName +T0.firstName =T1.SlpName)");
+            sb.Append("  SELECT T0.EmpID ,T1.SlpCode,LASTNAME+firstName  FNAME   FROM OHEM T0");
+            sb.Append("  LEFT JOIN OSLP T1 ON (T0.lastName +T0.firstName =T1.SlpName)");
             sb.Append("  WHERE T0.homeTel=@homeTel");
             SqlCommand command = new SqlCommand(sb.ToString(), MyConnection);
             command.CommandType = CommandType.Text;
@@ -2635,6 +2638,27 @@ namespace ACME
             SqlCommand command = new SqlCommand(sb.ToString(), MyConnection);
             command.CommandType = CommandType.Text;
             command.Parameters.Add(new SqlParameter("@u_shipping_no", u_shipping_no));
+            SqlDataAdapter da = new SqlDataAdapter(command);
+            DataSet ds = new DataSet();
+            try
+            {
+                MyConnection.Open();
+                da.Fill(ds, "wh_main");
+            }
+            finally
+            {
+                MyConnection.Close();
+            }
+            return ds.Tables["wh_main"];
+        }
+        public System.Data.DataTable GetODRF()
+        {
+            SqlConnection MyConnection = globals.shipConnection;
+            StringBuilder sb = new StringBuilder();
+            sb.Append("  SELECT MAX(DOCNUM)  DOC FROM ODRF WHERE ObjType =20");
+            SqlCommand command = new SqlCommand(sb.ToString(), MyConnection);
+            command.CommandType = CommandType.Text;
+
             SqlDataAdapter da = new SqlDataAdapter(command);
             DataSet ds = new DataSet();
             try
@@ -3241,15 +3265,17 @@ namespace ACME
             }
 
         }
-        public void ADDINV(string INV, string INVPRICE)
+
+
+        public void ADDINV(string INV, string INVPRICE, string INVITEM)
         {
             SqlConnection Connection = new SqlConnection(strCnSP);
-            SqlCommand command = new SqlCommand("Insert into AP_OPORQINV(INV,INVPRICE,USERS) values(@INV,@INVPRICE,@USERS)", Connection);
+            SqlCommand command = new SqlCommand("Insert into AP_OPORQINV(INV,INVPRICE,USERS,INVITEM) values(@INV,@INVPRICE,@USERS,@INVITEM)", Connection);
             command.CommandType = CommandType.Text;
             command.Parameters.Add(new SqlParameter("@INV", INV));
             command.Parameters.Add(new SqlParameter("@INVPRICE", INVPRICE));
             command.Parameters.Add(new SqlParameter("@USERS", fmLogin.LoginID.ToString()));
-
+            command.Parameters.Add(new SqlParameter("@INVITEM", INVITEM));
             try
             {
 
@@ -3420,8 +3446,9 @@ namespace ACME
             sb.Append("			   ,T1.U_ACME_KIND 產地,T1.U_SHIPPING_NO 工單號碼,T1.VatGroup 稅碼,T1.U_ACME_DSCRIPTION 付款方式,T0.CARDCODE 廠商編號");
             sb.Append("              FROM OPOR T0 LEFT JOIN POR1 T1 ON (T0.DOCENTRY=T1.DOCENTRY) ");
             sb.Append("               LEFT JOIN OITM T2 ON (T1.ITEMCODE=T2.ITEMCODE) ");
-            sb.Append("               WHERE  ISNULL(T1.LineStatus,'') <> 'C'  AND T1.U_ACME_SHIPDAY<>'' ");
-
+            sb.Append("               WHERE       ISNULL(T1.LineStatus,'') <> 'C' ");
+       //     sb.Append("        WHERE T0.DOCENTRY=44451 ");
+            
             if (textBox2.Text != "")
             {
                 sb.Append("   AND T0.DOCENTRY =@DOCENTRY");
@@ -3434,6 +3461,10 @@ namespace ACME
             {
                 sb.Append(" AND T0.CARDNAME =@CARDNAME");
             }
+            if (comboBox2.Text != "")
+            {
+                sb.Append(" AND T1.U_ACME_INV  =@U_ACME_INV");
+            }
 
 
             SqlCommand command = new SqlCommand(sb.ToString(), MyConnection);
@@ -3441,6 +3472,7 @@ namespace ACME
             command.Parameters.Add(new SqlParameter("@DOCDATE", textBox4.Text));
             command.Parameters.Add(new SqlParameter("@DOCENTRY", textBox2.Text));
             command.Parameters.Add(new SqlParameter("@CARDNAME", textBox3.Text));
+            command.Parameters.Add(new SqlParameter("@U_ACME_INV", comboBox2.Text));
             SqlDataAdapter da = new SqlDataAdapter(command);
             DataSet ds = new DataSet();
             try
@@ -3454,7 +3486,51 @@ namespace ACME
             }
             return ds.Tables["wh_main"];
         }
+        public System.Data.DataTable GetAPPLECOMB()
+        {
+            SqlConnection MyConnection = new SqlConnection(strCn98);
+            StringBuilder sb = new StringBuilder();
+            sb.Append("              SELECT DISTINCT T1.U_ACME_INV 原廠INVOICE ");
+            sb.Append("              FROM OPOR T0 LEFT JOIN POR1 T1 ON (T0.DOCENTRY=T1.DOCENTRY) ");
+            sb.Append("               LEFT JOIN OITM T2 ON (T1.ITEMCODE=T2.ITEMCODE) ");
+            sb.Append("               WHERE      ISNULL(T1.LineStatus,'') <> 'C'  ");
+          //  sb.Append("        WHERE T0.DOCENTRY=44451 ");
+            if (textBox2.Text != "")
+            {
+                sb.Append("   AND T0.DOCENTRY =@DOCENTRY");
+            }
+            if (textBox4.Text != "")
+            {
+                sb.Append(" AND Convert(varchar(8), T0.DOCDATE, 112) =@DOCDATE");
+            }
+            if (textBox3.Text != "")
+            {
+                sb.Append(" AND T0.CARDNAME =@CARDNAME");
+            }
+            if (comboBox2.Text != "")
+            {
+                sb.Append(" AND T1.U_ACME_INV  =@U_ACME_INV");
+            }
 
+            SqlCommand command = new SqlCommand(sb.ToString(), MyConnection);
+            command.CommandType = CommandType.Text;
+            command.Parameters.Add(new SqlParameter("@DOCDATE", textBox4.Text));
+            command.Parameters.Add(new SqlParameter("@DOCENTRY", textBox2.Text));
+            command.Parameters.Add(new SqlParameter("@CARDNAME", textBox3.Text));
+            command.Parameters.Add(new SqlParameter("@U_ACME_INV", comboBox2.Text));
+            SqlDataAdapter da = new SqlDataAdapter(command);
+            DataSet ds = new DataSet();
+            try
+            {
+                MyConnection.Open();
+                da.Fill(ds, "wh_main");
+            }
+            finally
+            {
+                MyConnection.Close();
+            }
+            return ds.Tables["wh_main"];
+        }
         public System.Data.DataTable GETA2()
         {
             SqlConnection MyConnection = new SqlConnection(strCnSP);
@@ -3480,6 +3556,32 @@ namespace ACME
             }
             return ds.Tables["wh_main"];
         }
+        public System.Data.DataTable GETA2INV(string INV)
+        {
+            SqlConnection MyConnection = new SqlConnection(strCnSP);
+            StringBuilder sb = new StringBuilder();
+
+
+            sb.Append("          SELECT  INVITEM FROM AP_OPORQINV WHERE USERS=@USERS AND ISNULL(INVITEM,'') <> '' AND  INV=@INV ORDER BY CAST(INVITEM AS INT)  ");
+
+
+            SqlCommand command = new SqlCommand(sb.ToString(), MyConnection);
+            command.CommandType = CommandType.Text;
+            command.Parameters.Add(new SqlParameter("@USERS", fmLogin.LoginID.ToString()));
+            command.Parameters.Add(new SqlParameter("@INV", INV));
+            SqlDataAdapter da = new SqlDataAdapter(command);
+            DataSet ds = new DataSet();
+            try
+            {
+                MyConnection.Open();
+                da.Fill(ds, "wh_main");
+            }
+            finally
+            {
+                MyConnection.Close();
+            }
+            return ds.Tables["wh_main"];
+        }
         public System.Data.DataTable GETA3()
         {
             SqlConnection MyConnection = new SqlConnection(strCnSP);
@@ -3488,7 +3590,7 @@ namespace ACME
 
             sb.Append(" Declare @N1 varchar(200) ");
             sb.Append(" select @N1 =SUBSTRING(COALESCE(@N1 + '/',''),0,190) + INVPRICE ");
-            sb.Append(" from   (SELECT   DISTINCT INVPRICE    FROM AP_OPORQINV WHERE USERS=@USERS ) pc");
+            sb.Append(" from   (SELECT    INVPRICE    FROM AP_OPORQINV WHERE USERS=@USERS ) pc");
             sb.Append(" SELECT @N1 S");
 
 
@@ -3613,6 +3715,7 @@ namespace ACME
         private void APOPOR_Load(object sender, EventArgs e)
         {
             comboBox1.Text = "AUOTV";
+            textBox6.Text = GetMenu.Day();
             //if (globals.GroupID.ToString().Trim() != "EEP")
             //{
             if (globals.DBNAME == "進金生")
@@ -3689,10 +3792,10 @@ namespace ACME
                         N2 = G3.Rows.Count;
                     }
                     string PARTNOF = dd["PARTNO"].ToString();
-                    if (PARTNOF == "91.27M06.3UA")
-                    {
-                        MessageBox.Show("s");
-                    }
+                    //if (PARTNOF == "91.27M06.3UA")
+                    //{
+                    //    MessageBox.Show("s");
+                    //}
                     string docnum = "";
                     System.Data.DataTable SI1 = GETF6(SINO);
 
@@ -3959,7 +4062,7 @@ namespace ACME
             oCompany.DbPassword = "@rmas";
             oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2012;
 
-            int i = 0; //  to be used as an index
+            int i = 0; 
 
             oCompany.CompanyDB = FA;
             oCompany.UserName = "A02";
@@ -3970,9 +4073,7 @@ namespace ACME
 
                 string SI = "";
                 string DDATE = "";
-                if (listBox2.Items.Count == 0)
-                {
-                    //            D2("");
+  
 
                     SAPbobsCOM.Documents oPURCH = null;
                     oPURCH = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oPurchaseOrders);
@@ -4043,7 +4144,7 @@ namespace ACME
                         oPURCH.Lines.UserFields.Fields.Item("U_Shipping_no").Value = row.Cells["SINO"].Value;
                         oPURCH.Lines.UserFields.Fields.Item("U_PAY").Value = row.Cells["採購報價單號"].Value;
                         oPURCH.Lines.UserFields.Fields.Item("U_ACME_INV").Value = row.Cells["INVOICE"].Value;
-                        oPURCH.Lines.UserFields.Fields.Item("U_ACME_SHIPDAY").Value = Convert.ToDateTime(DDATE);
+                        oPURCH.Lines.UserFields.Fields.Item("U_ACME_SHIPDAY").Value = Convert.ToDateTime(row.Cells["出貨日期"].Value);
                         oPURCH.Lines.UserFields.Fields.Item("U_BASE_DOC").Value = row.Cells["LCNO"].Value;
                         oPURCH.Lines.UserFields.Fields.Item("U_ACME_Kind").Value = row.Cells["產地"].Value;
                         oPURCH.Lines.UserFields.Fields.Item("U_MEMO").Value = row.Cells["採購報價備註"].Value;
@@ -4113,77 +4214,6 @@ namespace ACME
 
                     }
 
-                    //     }
-
-                    //}
-                }
-                else
-                {
-
-
-                    //     D2("");
-
-                    //SAPbobsCOM.Documents oPURCH = null;
-                    //oPURCH = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oPurchaseOrders);
-
-                    //oPURCH.CardCode = dataGridView2.Rows[0].Cells["廠商編號"].Value.ToString();
-                    //oPURCH.DocCurrency = "USD";
-                    //oPURCH.VatPercent = 0;
-                    //oPURCH.RequriedDate = DateTime.Now;
-                    //System.Data.DataTable G1 = GetOPOR7();
-                    //if (G1.Rows.Count > 0)
-                    //{
-                    //    oPURCH.DocRate = Convert.ToDouble(G1.Rows[0][0]);
-                    //}
-
-
-                    //for (int i2 = 0; i2 <= dataGridView2.SelectedRows.Count - 1; i2++)
-                    //{
-                    //    DataGridViewRow row;
-
-                    //    row = dataGridView2.Rows[i2];
-                    //    //OT001
-                    //    string ITEMCODE = row.Cells["採購料號"].Value.ToString();
-                    //    double QTY = Convert.ToDouble(row.Cells["QTY"].Value);
-                    //    double PRICE = Convert.ToDouble(row.Cells["採購單價"].Value);
-
-                    //    oPURCH.Lines.WarehouseCode = "OT001";
-                    //    oPURCH.Lines.ItemCode = ITEMCODE;
-                    //    oPURCH.Lines.Quantity = QTY;
-                    //    oPURCH.Lines.UnitPrice = PRICE;
-                    //    oPURCH.Lines.Price = PRICE;
-                    //    oPURCH.Lines.VatGroup = "AP0%";
-                    //    oPURCH.Lines.Currency = "USD";
-                    //    oPURCH.Lines.UserFields.Fields.Item("U_ACME_Dscription").Value = row.Cells["付款方式"].Value;
-                    //    oPURCH.UserFields.Fields.Item("U_ACME_INV").Value = dataGridView2.Rows[0].Cells["INVOICE"].Value.ToString();
-                    //    DateTime D1 = Convert.ToDateTime(dataGridView2.Rows[0].Cells["INVOICE日期"].Value);
-                    //    oPURCH.UserFields.Fields.Item("U_ACME_Invoice").Value = D1;
-                    //    System.Data.DataTable GG1 = GetOPCH1(D1);
-                    //    string RATE = GG1.Rows[0][0].ToString();
-                    //    oPURCH.UserFields.Fields.Item("U_ACME_rate1").Value = RATE;
-                    //    oPURCH.Lines.Add();
-
-                    //}
-
-
-                    //int res = oPURCH.Add();
-                    //if (res != 0)
-                    //{
-                    //    MessageBox.Show("上傳錯誤 " + oCompany.GetLastErrorDescription());
-                    //}
-                    //else
-                    //{
-                    //    System.Data.DataTable G4 = GetDI4Q();
-                    //    string OWTR = G4.Rows[0][0].ToString();
-                    //    MessageBox.Show("上傳成功 採購單號 : " + OWTR);
-
-
-                    //}
-
-                }
-
-
-
 
             }
             else
@@ -4195,7 +4225,6 @@ namespace ACME
 
 
         }
-
         private void D2F()
         {
             if (dataGridView3.Rows.Count == 0)
@@ -4216,41 +4245,17 @@ namespace ACME
             oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2012;
 
             int i = 0; //  to be used as an index
-
             oCompany.CompanyDB = FA;
-            oCompany.UserName = "manager";
-            oCompany.Password = "0918";
+            oCompany.UserName = "A01";
+            oCompany.Password = "89206602";
             int result = oCompany.Connect();
             if (result == 0)
             {
 
-                string SI = "";
-
-
-                //dt.Columns.Add("採購單號", typeof(string));
-                //dt.Columns.Add("採購單過帳日期", typeof(string));
-                //dt.Columns.Add("項目料號", typeof(string));
-                //dt.Columns.Add("項目說明", typeof(string));
-                //dt.Columns.Add("數量", typeof(string));
-                //dt.Columns.Add("單價", typeof(string));
-                //dt.Columns.Add("台幣單價", typeof(string));
-                //dt.Columns.Add("稅碼", typeof(string));
-                //dt.Columns.Add("倉庫", typeof(string));
-                //dt.Columns.Add("工單號碼", typeof(string));
-                //dt.Columns.Add("原廠INVOICE", typeof(string));
-                //dt.Columns.Add("原廠進貨匯率", typeof(string));
-                //dt.Columns.Add("INVOICE日期", typeof(string));
-                //dt.Columns.Add("LCNO", typeof(string));
-                //dt.Columns.Add("產地", typeof(string));
-
-                //dt.Columns.Add("未稅金額", typeof(string));
-                //dt.Columns.Add("稅額", typeof(string));
-                //dt.Columns.Add("含稅金額", typeof(string));
-                //dt.Columns.Add("廠商國內發票號碼", typeof(string));
-
 
                 DELINV();
-
+                string 原廠發票項次 = "";
+                StringBuilder sb3 = new StringBuilder();
 
                 for (int i2 = 0; i2 <= dataGridView3.Rows.Count - 1; i2++)
                 {
@@ -4260,21 +4265,42 @@ namespace ACME
 
 
                     string INVOICE = row.Cells["原廠INVOICE"].Value.ToString();
-                    string 單價 = row.Cells["單價"].Value.ToString();
+                    string 單價 = row.Cells["美金單價"].Value.ToString();
+                    string UAN = row.Cells["原廠發票項次"].Value.ToString();
 
-                    ADDINV(INVOICE, 單價);
+       
+
+                    ADDINV(INVOICE, 單價, UAN);
 
                 }
+
+     
                 System.Data.DataTable F1 = GETA2();
                 if (F1.Rows.Count > 0)
                 {
                     for (int s = 0; s <= F1.Rows.Count - 1; s++)
                     {
                         string INV = F1.Rows[s][0].ToString();
-                        SAPbobsCOM.Documents oPURCH = null;
-                        oPURCH = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oPurchaseDeliveryNotes);
+                        //SAPbobsCOM.Documents oPURCH = null;
+                        //oPURCH = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oPurchaseDeliveryNotes );
+                        System.Data.DataTable FINV = GETA2INV(INV);
+                        if (FINV.Rows.Count > 0)
+                        {
+                            for (int s2 = 0; s2 <= FINV.Rows.Count - 1; s2++)
+                            {
+                                string UAN = FINV.Rows[s2][0].ToString();
 
+                                sb3.Append(UAN + "/");
+                            }
 
+                        }
+                        if (sb3.Length > 1)
+                        {
+                            sb3.Remove(sb3.Length - 1, 1);
+                            原廠發票項次 = sb3.ToString();
+                        }
+                        SAPbobsCOM.Documents oPURCH = (SAPbobsCOM.Documents)oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oDrafts);
+                        oPURCH.DocObjectCode = SAPbobsCOM.BoObjectTypes.oPurchaseDeliveryNotes;
 
 
                         for (int i2 = 0; i2 <= dataGridView3.Rows.Count - 1; i2++)
@@ -4288,23 +4314,29 @@ namespace ACME
                                 oPURCH.CardCode = dataGridView3.Rows[i2].Cells["廠商編號"].Value.ToString();
                                 oPURCH.DocCurrency = "NTD";
                                 oPURCH.VatPercent = 0;
+
+                                oPURCH.DocDate = Convert.ToDateTime(textBox6.Text);
+                                System.Data.DataTable G7 = GetOPORH();
+                                if (G7.Rows.Count > 0)
+                                {
+                                    oPURCH.UserFields.Fields.Item("U_ACME_USER").Value = G7.Rows[0][2].ToString();
+
+                                }
                                 oPURCH.UserFields.Fields.Item("U_ACME_INV").Value = row.Cells["原廠INVOICE"].Value;
                                 oPURCH.UserFields.Fields.Item("U_ACME_Invoice").Value = row.Cells["INVOICE日期"].Value;
                                 oPURCH.UserFields.Fields.Item("U_ACME_rate1").Value = row.Cells["原廠進貨匯率"].Value;
                                 oPURCH.UserFields.Fields.Item("U_LOCATION").Value = row.Cells["產地"].Value;
                                 oPURCH.UserFields.Fields.Item("U_ACME_LC").Value = row.Cells["LCNO"].Value;
-                                oPURCH.UserFields.Fields.Item("U_Shipping_no").Value = row.Cells["工單號碼"].Value;
+                                oPURCH.UserFields.Fields.Item("U_Shipping_no").Value = row.Cells["SHIPPING工單號碼"].Value;
+                                oPURCH.UserFields.Fields.Item("U_INVITEM").Value = 原廠發票項次;
                                 System.Data.DataTable gg1 = GETA3();
                                 if (gg1.Rows.Count > 0)
                                 {
-                                    string D1 = gg1.Rows[0][0].ToString();
-                                    oPURCH.UserFields.Fields.Item("U_ACME_Price1").Value = gg1.Rows[0][0].ToString();
-                                }
-                                //U_ACME_Price1
 
-                                //oPURCH.DocDueDate = DDATE;
-                                //oPURCH.DocDate = DDATE;
-                                //oPURCH.TaxDate = DDATE;
+                                    oPURCH.UserFields.Fields.Item("U_ACME_Price1").Value = gg1.Rows[0][0].ToString();
+
+                                }
+
                                 oPURCH.DocRate = 1;
                                 string ITEMCODE = row.Cells["項目料號"].Value.ToString();
                                 double 數量 = Convert.ToDouble(row.Cells["數量"].Value);
@@ -4321,13 +4353,12 @@ namespace ACME
                                 oPURCH.Lines.Currency = "NTD";
                                 oPURCH.Lines.Rate = 1;
                                 oPURCH.Lines.UserFields.Fields.Item("U_ACME_Dscription").Value = row.Cells["付款方式"].Value;
-                                oPURCH.Lines.UserFields.Fields.Item("U_Shipping_no").Value = row.Cells["工單號碼"].Value;
-                                //U_ACME_Price1
-                                oPURCH.Lines.UserFields.Fields.Item("U_CUSTITEMCODE").Value = row.Cells["工單號碼"].Value;
+                                oPURCH.Lines.UserFields.Fields.Item("U_Shipping_no").Value = row.Cells["SHIPPING工單號碼"].Value;
                                 oPURCH.Lines.UserFields.Fields.Item("U_ACME_INV").Value = row.Cells["原廠INVOICE"].Value;
                                 oPURCH.Lines.UserFields.Fields.Item("U_ACME_SHIPDAY").Value = row.Cells["INVOICE日期"].Value;
                                 oPURCH.Lines.UserFields.Fields.Item("U_BASE_DOC").Value = row.Cells["LCNO"].Value;
                                 oPURCH.Lines.UserFields.Fields.Item("U_ACME_Kind").Value = row.Cells["產地"].Value;
+                                oPURCH.Lines.UserFields.Fields.Item("U_ACME_WhsName").Value = "在途倉";
 
                                 oPURCH.Lines.Add();
 
@@ -4341,9 +4372,9 @@ namespace ACME
                         }
                         else
                         {
-                            System.Data.DataTable G4 = GetDI4Q(SI);
+                            System.Data.DataTable G4 = GetODRF();
                             string OWTR = G4.Rows[0][0].ToString();
-                            MessageBox.Show("上傳成功 收貨採購單號 : " + OWTR);
+                            MessageBox.Show("上傳成功 收貨採購草稿單號 : " + OWTR);
 
 
 
@@ -4353,15 +4384,171 @@ namespace ACME
 
                 }
 
+            }
+            else
+            {
+                MessageBox.Show(oCompany.GetLastErrorDescription());
 
-                //     }
-
-                //}
+            }
 
 
 
+        }
+        private void D2FSELECT()
+        {
+            if (dataGridView3.Rows.Count == 0)
+            {
+                MessageBox.Show("沒有資料");
+                return;
+
+            }
+            SAPbobsCOM.Company oCompany = new SAPbobsCOM.Company();
+
+            oCompany = new SAPbobsCOM.Company();
+
+            oCompany.Server = "acmesap";
+            oCompany.language = SAPbobsCOM.BoSuppLangs.ln_English;
+            oCompany.UseTrusted = false;
+            oCompany.DbUserName = "sapdbo";
+            oCompany.DbPassword = "@rmas";
+            oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2012;
+
+            int i = 0; //  to be used as an index
+            oCompany.CompanyDB = FA;
+            oCompany.UserName = "A01";
+            oCompany.Password = "89206602";
+            int result = oCompany.Connect();
+            if (result == 0)
+            {
 
 
+                DELINV();
+                string 原廠發票項次 = "";
+                StringBuilder sb3 = new StringBuilder();
+                for (int i2 = 0; i2 <= dataGridView3.SelectedRows.Count - 1; i2++)
+                {
+                    DataGridViewRow row;
+
+                    row = dataGridView3.SelectedRows[i2];
+
+
+                    string INVOICE = row.Cells["原廠INVOICE"].Value.ToString();
+                    string 單價 = row.Cells["美金單價"].Value.ToString();
+                    string UAN = row.Cells["原廠發票項次"].Value.ToString();
+
+                
+
+                    ADDINV(INVOICE, 單價, UAN);
+
+                }
+      
+                System.Data.DataTable F1 = GETA2();
+                if (F1.Rows.Count > 0)
+                {
+                    for (int s = 0; s <= F1.Rows.Count - 1; s++)
+                    {
+                        string INV = F1.Rows[s][0].ToString();
+                        //SAPbobsCOM.Documents oPURCH = null;
+                        //oPURCH = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oPurchaseDeliveryNotes );
+                        System.Data.DataTable FINV = GETA2INV(INV);
+                        if (FINV.Rows.Count > 0)
+                        {
+                            for (int s2 = 0; s2 <= FINV.Rows.Count - 1; s2++)
+                            {
+                                string UAN = FINV.Rows[s2][0].ToString();
+
+                                sb3.Append(UAN + "/");
+                            }
+
+                        }
+                        if (sb3.Length > 1)
+                        {
+                            sb3.Remove(sb3.Length - 1, 1);
+                            原廠發票項次 = sb3.ToString();
+                        }
+                        SAPbobsCOM.Documents oPURCH = (SAPbobsCOM.Documents)oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oDrafts);
+                        oPURCH.DocObjectCode = SAPbobsCOM.BoObjectTypes.oPurchaseDeliveryNotes;
+
+
+                        for (int i2 = 0; i2 <= dataGridView3.SelectedRows.Count - 1; i2++)
+                        {
+                            DataGridViewRow row;
+
+                            row = dataGridView3.SelectedRows[i2];
+                            string INV2 = row.Cells["原廠INVOICE"].Value.ToString();
+                            if (INV == INV2)
+                            {
+                                oPURCH.CardCode = dataGridView3.SelectedRows[i2].Cells["廠商編號"].Value.ToString();
+                                oPURCH.DocCurrency = "NTD";
+                                oPURCH.VatPercent = 0;
+                                System.Data.DataTable G7 = GetOPORH();
+                                if (G7.Rows.Count > 0)
+                                {
+                                    oPURCH.UserFields.Fields.Item("U_ACME_USER").Value = G7.Rows[0][2].ToString();
+
+                                }
+                                oPURCH.UserFields.Fields.Item("U_ACME_INV").Value = row.Cells["原廠INVOICE"].Value;
+                                oPURCH.UserFields.Fields.Item("U_ACME_Invoice").Value = row.Cells["INVOICE日期"].Value;
+                                oPURCH.UserFields.Fields.Item("U_ACME_rate1").Value = row.Cells["原廠進貨匯率"].Value;
+                                oPURCH.UserFields.Fields.Item("U_LOCATION").Value = row.Cells["產地"].Value;
+                                oPURCH.UserFields.Fields.Item("U_ACME_LC").Value = row.Cells["LCNO"].Value;
+                                oPURCH.UserFields.Fields.Item("U_Shipping_no").Value = row.Cells["SHIPPING工單號碼"].Value;
+                                System.Data.DataTable gg1 = GETA3();
+                                if (gg1.Rows.Count > 0)
+                                {
+                                    
+                                        oPURCH.UserFields.Fields.Item("U_ACME_Price1").Value = gg1.Rows[0][0].ToString();
+                                    
+                                }
+                                oPURCH.UserFields.Fields.Item("U_INVITEM").Value = 原廠發票項次;
+                                oPURCH.DocRate = 1;
+                 
+                                string ITEMCODE = row.Cells["項目料號"].Value.ToString();
+                                double 數量 = Convert.ToDouble(row.Cells["數量"].Value);
+                                double 單價 = Convert.ToDouble(row.Cells["台幣單價"].Value);
+                                oPURCH.Lines.BaseEntry = Convert.ToInt32(row.Cells["採購單號"].Value);
+                                oPURCH.Lines.BaseLine = Convert.ToInt16(row.Cells["LINENUM"].Value);
+                                oPURCH.Lines.BaseType = 22;
+                                oPURCH.Lines.WarehouseCode = "OT001";
+                                oPURCH.Lines.ItemCode = ITEMCODE;
+                                oPURCH.Lines.Quantity = 數量;
+                                oPURCH.Lines.UnitPrice = 單價;
+                                oPURCH.Lines.Price = 單價;
+                                oPURCH.Lines.VatGroup = row.Cells["稅碼"].Value.ToString();
+                                oPURCH.Lines.Currency = "NTD";
+                                oPURCH.Lines.Rate = 1;
+                                oPURCH.Lines.UserFields.Fields.Item("U_ACME_Dscription").Value = row.Cells["付款方式"].Value;
+                                oPURCH.Lines.UserFields.Fields.Item("U_Shipping_no").Value = row.Cells["SHIPPING工單號碼"].Value;
+                                oPURCH.Lines.UserFields.Fields.Item("U_ACME_INV").Value = row.Cells["原廠INVOICE"].Value;
+                                oPURCH.Lines.UserFields.Fields.Item("U_ACME_SHIPDAY").Value = row.Cells["INVOICE日期"].Value;
+                                oPURCH.Lines.UserFields.Fields.Item("U_BASE_DOC").Value = row.Cells["LCNO"].Value;
+                                oPURCH.Lines.UserFields.Fields.Item("U_ACME_Kind").Value = row.Cells["產地"].Value;
+                                oPURCH.Lines.UserFields.Fields.Item("U_ACME_WhsName").Value = "在途倉";
+                             
+                                //U_INVITEM
+                                oPURCH.Lines.Add();
+
+                            }
+
+                        }
+                        int res = oPURCH.Add();
+                        if (res != 0)
+                        {
+                            MessageBox.Show("上傳錯誤 " + oCompany.GetLastErrorDescription());
+                        }
+                        else
+                        {
+                            System.Data.DataTable G4 = GetODRF();
+                            string OWTR = G4.Rows[0][0].ToString();
+                            MessageBox.Show("上傳成功 收貨採購草稿單號 : " + OWTR);
+
+
+
+                        }
+
+                    }
+
+                }
 
             }
             else
@@ -4894,50 +5081,88 @@ namespace ACME
 
 
 
-                DateTime D1 = Convert.ToDateTime(dd["INVOICE日期"]);
+
                 dr["採購單號"] = dd["採購單號"].ToString();
                 dr["LINENUM"] = dd["LINENUM"].ToString();
                 dr["採購單過帳日期"] = dd["採購單過帳日期"].ToString();
                 dr["廠商編號"] = dd["廠商編號"].ToString();
                 dr["項目料號"] = dd["項目料號"].ToString();
                 dr["項目說明"] = dd["項目說明"].ToString();
-                dr["PARTNO"] = dd["PARTNO"].ToString();
+                dr["PART NO"] = dd["PARTNO"].ToString();
                 dr["數量"] = Convert.ToDecimal(dd["數量"]);
                 double P1 = Convert.ToDouble(dd["單價"]);
                 double QTY = Convert.ToDouble(dd["數量"]);
-                dr["單價"] = P1;
+                dr["美金單價"] = P1;
                 string PRATE = dd["稅碼"].ToString();
                 double A2 = 0;
                 double A1 = 0;
-                System.Data.DataTable GA2 = GetAPPLE2(D1);
-                if (GA2.Rows.Count > 0)
+                if (!String.IsNullOrEmpty(dd["INVOICE日期"].ToString()))
                 {
-                    double R1 = Convert.ToDouble(GA2.Rows[0][0]);
-                    double R3 = R1 * P1;
-                    A1 = Math.Round(R3 * QTY, 0, MidpointRounding.AwayFromZero);
-                    if (PRATE == "AP5%")
+                    DateTime D1 = Convert.ToDateTime(dd["INVOICE日期"]);
+                    System.Data.DataTable GA2 = GetAPPLE2(D1);
+                    if (GA2.Rows.Count > 0)
                     {
-                        A2 = Math.Round(R3 * QTY * 0.050, 0, MidpointRounding.AwayFromZero);
-                    }
+                        double R1 = Convert.ToDouble(GA2.Rows[0][0]);
+                        double R3 = R1 * P1;
+                        A1 = Math.Round(R3 * QTY, 0, MidpointRounding.AwayFromZero);
+                        if (PRATE == "AP5%")
+                        {
+                            A2 = Math.Round(R3 * QTY * 0.050, 0, MidpointRounding.AwayFromZero);
+                        }
 
-                    dr["台幣單價"] = R3;
-                    dr["原廠進貨匯率"] = R1.ToString();
+                        dr["台幣單價"] = R3;
+                        dr["原廠進貨匯率"] = R1.ToString();
+                    }
                 }
                 dr["付款方式"] = dd["付款方式"].ToString();
                 dr["稅碼"] = dd["稅碼"].ToString();
                 dr["倉庫"] = "OT001";
-                dr["工單號碼"] = dd["工單號碼"].ToString();
+                dr["SHIPPING工單號碼"] = dd["工單號碼"].ToString();
                 dr["原廠INVOICE"] = dd["原廠INVOICE"].ToString();
                 dr["INVOICE日期"] = dd["INVOICE日期"].ToString();
                 dr["LCNO"] = dd["LCNO"].ToString();
-                dr["產地"] = dd["產地"].ToString();
+                string LOC = dd["產地"].ToString();
+                System.Data.DataTable GLOC = GetLOC(LOC);
+                if (GLOC.Rows.Count > 0)
+                {
+                    dr["產地"] = GLOC.Rows[0][0].ToString();
+                }
                 dr["採購單號"] = dd["採購單號"].ToString();
-                dr["未稅金額"] = A1.ToString();
-                dr["稅額"] = A2.ToString();
-                dr["含稅金額"] = (A1 + A2).ToString();
+                dr["台幣未稅金額"] = A1.ToString();
+                dr["台幣稅額"] = A2.ToString();
+                dr["台幣含稅金額"] = (A1 + A2).ToString();
+                dr["原廠發票項次"] = "";
+                
                 dtCost.Rows.Add(dr);
             }
             dataGridView3.DataSource = dtCost;
+
+            if (dtCost.Rows.Count > 0)
+            {
+
+                string gk1 = dtCost.Compute("Sum(台幣未稅金額)", null).ToString();
+                string gk2 = dtCost.Compute("Sum(台幣稅額)", null).ToString();
+                string gk3 = dtCost.Compute("Sum(台幣含稅金額)", null).ToString();
+
+                decimal shk1 = Convert.ToDecimal(gk1);
+                decimal shk2 = Convert.ToDecimal(gk2);
+                decimal shk3 = Convert.ToDecimal(gk3);
+
+                label9.Text = "台幣未稅金額:" + shk1.ToString("#,##0");
+                label10.Text = "台幣稅額:" + shk2.ToString("#,##0");
+                label11.Text = "台幣含稅金額:" + shk3.ToString("#,##0");
+            }
+            System.Data.DataTable dt4 = GetAPPLECOMB();
+
+
+            comboBox2.Items.Clear();
+
+            comboBox2.Items.Add("");
+            for (int i = 0; i <= dt4.Rows.Count - 1; i++)
+            {
+             
+                comboBox2.Items.Add(Convert.ToString(dt4.Rows[i][0]));
+            }
         }
 
         private void dataGridView2_CellValueChanged(object sender, DataGridViewCellEventArgs e)
@@ -5025,6 +5250,31 @@ namespace ACME
             command.CommandType = CommandType.Text;
             command.Parameters.Add(new SqlParameter("@docentry", docentry));
             command.Parameters.Add(new SqlParameter("@itemcode", itemcode));
+
+            SqlDataAdapter da = new SqlDataAdapter(command);
+            DataSet ds = new DataSet();
+            try
+            {
+                MyConnection.Open();
+                da.Fill(ds, "wh_main");
+            }
+            finally
+            {
+                MyConnection.Close();
+            }
+            return ds.Tables["wh_main"];
+        }
+        public static System.Data.DataTable GetLOC(string PARAM_NO)
+        {
+            SqlConnection MyConnection = globals.Connection;
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append(" SELECT PARAM_DESC  FROM RMA_PARAMS WHERE PARAM_KIND='APLOC' AND PARAM_NO =@PARAM_NO");
+
+            SqlCommand command = new SqlCommand(sb.ToString(), MyConnection);
+            command.CommandType = CommandType.Text;
+            command.Parameters.Add(new SqlParameter("@PARAM_NO", PARAM_NO));
+
 
             SqlDataAdapter da = new SqlDataAdapter(command);
             DataSet ds = new DataSet();
@@ -5879,7 +6129,14 @@ namespace ACME
 
         private void button8_Click(object sender, EventArgs e)
         {
-            D2F();
+            if (dataGridView3.SelectedRows.Count > 0)
+            {
+                D2FSELECT();
+            }
+            else
+            {
+                D2F();
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -5896,30 +6153,91 @@ namespace ACME
         private void button9_Click(object sender, EventArgs e)
         {
             System.Data.DataTable G5 = GetDI4Q2(textBox5.Text);
-            if (G5.Rows.Count > 0)
+
+            for (int s = 0; s <= G5.Rows.Count - 1; s++)
             {
-                for (int s = 0; s <= G5.Rows.Count - 1; s++)
-                {
-                    int DOCENTRY = Convert.ToInt32(G5.Rows[s]["DOCENTRY"]);
-                    int LINENUM = Convert.ToInt32(G5.Rows[s]["LINENUM"]);
-                    int U_PAY = Convert.ToInt32(G5.Rows[s]["U_PAY"]);
-                    int U_CUSTITEMCODE = Convert.ToInt32(G5.Rows[s]["U_CUSTITEMCODE"]);
 
-                    UPOPQT(DOCENTRY, U_PAY, U_CUSTITEMCODE);
-                    UPOPORF(U_PAY, U_CUSTITEMCODE, DOCENTRY, LINENUM);
-                }
+                int U_PAY = Convert.ToInt32(G5.Rows[s]["U_PAY"]);
 
-
-                for (int s = 0; s <= G5.Rows.Count - 1; s++)
-                {
-
-                    int U_PAY = Convert.ToInt32(G5.Rows[s]["U_PAY"]);
-
-                    UPOPORF2(U_PAY);
-                }
+                UPOPORF2(U_PAY);
             }
+           
+            //if (G5.Rows.Count > 0)
+            //{
+            //    for (int s = 0; s <= G5.Rows.Count - 1; s++)
+            //    {
+            //        int DOCENTRY = Convert.ToInt32(G5.Rows[s]["DOCENTRY"]);
+            //        int LINENUM = Convert.ToInt32(G5.Rows[s]["LINENUM"]);
+            //        int U_PAY = Convert.ToInt32(G5.Rows[s]["U_PAY"]);
+            //        int U_CUSTITEMCODE = Convert.ToInt32(G5.Rows[s]["U_CUSTITEMCODE"]);
+
+            //        UPOPQT(DOCENTRY, U_PAY, U_CUSTITEMCODE);
+            //        UPOPORF(U_PAY, U_CUSTITEMCODE, DOCENTRY, LINENUM);
+            //    }
+
+
+            //    for (int s = 0; s <= G5.Rows.Count - 1; s++)
+            //    {
+
+            //        int U_PAY = Convert.ToInt32(G5.Rows[s]["U_PAY"]);
+
+            //        UPOPORF2(U_PAY);
+            //    }
+        
 
         }
+
+        private void dataGridView3_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dataGridView3.SelectedRows.Count > 0)
+            {
+                CalcTotals2();
+            }
+        }
+        private void CalcTotals2()
+        {
+
+
+            decimal shk1 = 0;
+            decimal shk2 = 0;
+            decimal shk3 = 0;
+
+            int i = this.dataGridView3.SelectedRows.Count - 1;
+            for (int iRecs = 0; iRecs <= i; iRecs++)
+            {
+                shk1 += Convert.ToInt32(dataGridView3.SelectedRows[iRecs].Cells["台幣未稅金額"].Value);
+                shk2 += Convert.ToDecimal(dataGridView3.SelectedRows[iRecs].Cells["台幣稅額"].Value);
+                shk3 += Convert.ToDecimal(dataGridView3.SelectedRows[iRecs].Cells["台幣含稅金額"].Value);
+            }
+
+
+            label9.Text = "台幣未稅金額:" + shk1.ToString("#,##0");
+            label10.Text = "台幣稅額:" + shk2.ToString("#,##0");
+            label11.Text = "台幣含稅金額:" + shk3.ToString("#,##0");
+
+ 
+
+        }
+
+
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+            string lsAppDir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetModules()[0].FullyQualifiedName);
+            string OutPutFile = lsAppDir + "\\Excel\\1.SummaryResult";
+
+            //System.Data.DataTable GG = XmlStringToDataTable(OutPutFile);
+
+            //int g = GG.Rows.Count;
+            //dataGridView4.DataSource = XmlStringToDataTable(OutPutFile);
+            //H1(OutPutFile);
+
+
+
+        }
+
+
+ 
     }
 
 }

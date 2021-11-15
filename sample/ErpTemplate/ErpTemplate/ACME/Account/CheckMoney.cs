@@ -428,6 +428,10 @@ namespace ACME
 
             for (int l = 0; l <= dtCost.Rows.Count - 1; l++)
             {
+                if (l == 67)
+                {
+
+                }
                 DataRow dz = dtCost.Rows[l];
                 string BU3 = dz["BU"].ToString();
                 DataRow drFind;
@@ -500,16 +504,20 @@ namespace ACME
                 {
                     DBU = dtCost.Rows[l + 1]["BU"].ToString();
                 }
+
                 if (dtCost.Rows.Count - 1 == l)
                 {
+                    //最後一筆項目小計跟總數量
                     if (drFind == null)
                     {
                         dr32 = dtCost3.NewRow();
                         string das = dtCost.Compute("Sum(美金應收帳款2)", "BU='" + BU3 + "'").ToString();
                         string das2 = dtCost.Compute("Sum(應收帳款2)", "BU='" + BU3 + "'").ToString();
+                        string das3 = dtCost.Compute("Sum(總數量)", "BU='" + BU3 + "'").ToString();
                         decimal Hdas = Convert.ToDecimal(das);
                         decimal Hdas2 = Convert.ToDecimal(das2);
                         dr32["BU"] = BU3 + "合計";
+                        dr32["總數量"] = das3;
                         dr32["美金應收帳款2"] = Hdas.ToString("#,##0.00");
                         dr32["應收帳款2"] = Hdas2.ToString("#,##0");
                         dr32["INVOICENO"] = (Hdas2 / Hdas).ToString("0.0000");
@@ -519,11 +527,13 @@ namespace ACME
                         dr32 = dtCost3.NewRow();
                         string Tdas = dtCost.Compute("Sum(美金應收帳款2)", null).ToString();
                         string Tdas2 = dtCost.Compute("Sum(應收帳款2)", null).ToString();
+                        string Tdas3 = dtCost.Compute("Sum(總數量)", null).ToString();
                         decimal TTdas = Convert.ToDecimal(Tdas);
                         decimal TTdas2 = Convert.ToDecimal(Tdas2);
                         dr32["BU"] = "總計";
-                        dr32["美金應收帳款2"] = TTdas.ToString("#,##0.00"); 
-                        dr32["應收帳款2"] = TTdas2.ToString("#,##0"); 
+                        dr32["總數量"] = Tdas3;
+                        dr32["美金應收帳款2"] = TTdas.ToString("#,##0.00");
+                        dr32["應收帳款2"] = TTdas2.ToString("#,##0");
                         dr32["INVOICENO"] = (TTdas2 / TTdas).ToString("0.0000");
 
                         dtCost3.Rows.Add(dr32);
@@ -532,6 +542,7 @@ namespace ACME
 
                 if (BU3 != DBU)
                 {
+                    //項目小計
                     if (drFind == null)
                     {
                         dr32 = dtCost3.NewRow();
@@ -542,10 +553,10 @@ namespace ACME
                         decimal Hdas2 = Convert.ToDecimal(das2);
                         decimal Hdas3 = Convert.ToDecimal(das3);
 
-                        dr32["總數量"] =  Hdas3;
+                        dr32["總數量"] = Hdas3;
                         dr32["BU"] = BU3 + "合計";
-                        dr32["美金應收帳款2"] = Hdas.ToString("#,##0.00"); 
-                        dr32["應收帳款2"] = Hdas2.ToString("#,##0"); 
+                        dr32["美金應收帳款2"] = Hdas.ToString("#,##0.00");
+                        dr32["應收帳款2"] = Hdas2.ToString("#,##0");
                         if (Hdas != 0)
                         {
                             dr32["INVOICENO"] = (Hdas2 / Hdas).ToString("0.0000");
@@ -1300,7 +1311,11 @@ namespace ACME
                 {
                     string 收貨採購單 = dataGridView1.CurrentRow.Cells["收貨採購單"].Value.ToString();
 
-                    System.Data.DataTable gg1 = GetOPTW(收貨採購單);
+                    System.Data.DataTable gg1 = GetOPTW2(收貨採購單);
+                    if (gg1.Rows.Count == 0)
+                    {
+                        gg1 = GetOPTW(收貨採購單);
+                    }
                     if (gg1.Rows.Count > 0)
                     {
                         string path = gg1.Rows[0]["path"].ToString();
@@ -1374,6 +1389,31 @@ namespace ACME
             }
             return ds.Tables["wh_main"];
         }
+        public System.Data.DataTable GetOPTW2(string docentry)
+        {
+
+            SqlConnection MyConnection = globals.shipConnection;
+            StringBuilder sb = new StringBuilder();
+            sb.Append(" select distinct cast(t3.TRGTPATH as nvarchar(80))  [path],'\'+CAST(T3.[FILENAME]  AS nVARCHAR(80) )+'.'+Fileext 路徑,T3.FILENAME+'.'+Fileext 檔案名稱 from OPDN t2     ");
+            sb.Append(" LEFT JOIN ATC1 T3 ON (T2.ATCENTRY=T3.ABSENTRY)     ");
+            sb.Append(" where   t2.docentry=@docentry and  T3.[FILENAME] LIKE '%INV%' ");
+            SqlCommand command = new SqlCommand(sb.ToString(), MyConnection);
+            command.CommandType = CommandType.Text;
+            command.Parameters.Add(new SqlParameter("@docentry", docentry));
+            SqlDataAdapter da = new SqlDataAdapter(command);
+            DataSet ds = new DataSet();
+            try
+            {
+                MyConnection.Open();
+                da.Fill(ds, "wh_main");
+            }
+            catch { }
+            finally
+            {
+                MyConnection.Close();
+            }
+            return ds.Tables["wh_main"];
+        }
 
         private void button6_Click(object sender, EventArgs e)
         {
@@ -1394,7 +1434,11 @@ namespace ACME
                     row = dataGridView1.SelectedRows[i];
                     string 收貨採購單 = row.Cells["收貨採購單"].Value.ToString();
 
-                    System.Data.DataTable gg1 = GetOPTW(收貨採購單);
+                    System.Data.DataTable gg1 = GetOPTW2(收貨採購單);
+                    if (gg1.Rows.Count == 0)
+                    {
+                        gg1 = GetOPTW(收貨採購單);
+                    }
                     if (gg1.Rows.Count > 0)
                     {
                         string path = gg1.Rows[0]["path"].ToString();
@@ -1424,7 +1468,11 @@ namespace ACME
                     row = dataGridView3.SelectedRows[i];
                     string 收貨採購單 = row.Cells["收貨採購單3"].Value.ToString();
 
-                    System.Data.DataTable gg1 = GetOPTW(收貨採購單);
+                    System.Data.DataTable gg1 = GetOPTW2(收貨採購單);
+                    if (gg1.Rows.Count == 0)
+                    {
+                        gg1 = GetOPTW(收貨採購單);
+                    }
                     if (gg1.Rows.Count > 0)
                     {
                         string path = gg1.Rows[0]["path"].ToString();
@@ -1479,7 +1527,11 @@ namespace ACME
                 {
                     string 收貨採購單 = dataGridView3.CurrentRow.Cells["收貨採購單3"].Value.ToString();
 
-                    System.Data.DataTable gg1 = GetOPTW(收貨採購單);
+                    System.Data.DataTable gg1 = GetOPTW2(收貨採購單);
+                    if (gg1.Rows.Count == 0)
+                    {
+                        gg1 = GetOPTW(收貨採購單);
+                    }
                     if (gg1.Rows.Count > 0)
                     {
                         string path = gg1.Rows[0]["path"].ToString();
@@ -1527,16 +1579,34 @@ namespace ACME
             sb.AppendLine("<tr>");
             for (int i = 0; i < 19; i++)
             {
+                if (i == 0 || i == 1 || i == 2 || i == 3 || i == 4 || i == 5 || i == 7 || i == 8 || i == 10 || i == 18)
+                {
+                    continue;
+                }
                 //總計
-                sb.AppendLine("<td bgcolor=\"#FFFF00\">" + dataGridView3.Rows[0].Cells[i].Value + "</td>");
+                if (i == 11 || i == 12 || i == 13)
+                {
+                    sb.AppendLine("<td bgcolor=\"#FFFF00\" align=\"right\">" + dataGridView3.Rows[0].Cells[i].FormattedValue + "</td>");
+                }
+                else
+                {
+                    //數字欄位靠右
+                    sb.AppendLine("<td bgcolor=\"#FFFF00\">" + dataGridView3.Rows[0].Cells[i].FormattedValue + "</td>");
+                }
+
+
             }
             sb.AppendLine("</tr>");
 
             sb.AppendLine("<tr>");
             for (int i = 0; i < 19; i++)
             {
+                if (i == 0 || i == 1 || i == 2 || i == 3 || i == 4 || i == 5 || i == 7 || i == 8 || i == 10 || i == 18)
+                {
+                    continue;
+                }
                 //欄位名稱
-                sb.AppendLine("<td bgcolor=\"#726E6D\"><span style=\"color: white;\">" + dataGridView3.Columns[i].HeaderText + "</span></td>");
+                sb.AppendLine("<td bgcolor=\"#726E6D\" ><span style=\"color: white;\">" + dataGridView3.Columns[i].HeaderText + "</span></td>");
             }
             sb.AppendLine("</tr>");
 
@@ -1553,8 +1623,21 @@ namespace ACME
                     sb.AppendLine("<tr bgcolor=\"#98AFC7\">");
                     for (int j = 0; j < 19; j++)
                     {
+                        if (j == 0 || j == 1 || j == 2 || j == 3 || j == 4 || j == 5 || j == 7 || j == 8 || j == 10 || j == 18 ) 
+                        {
+                            continue;
+                        }
                         //只到成本差異原因,所以19
-                        sb.AppendLine("<td>" + dataGridView3.Rows[i].Cells[j].Value + "</td>");
+                        //後來又改了欄位 以上不用輸出
+                        if (j == 11 || j == 12 || j == 13)
+                        {
+                            sb.AppendLine("<td align=\"right\"><b>" + dataGridView3.Rows[i].Cells[j].FormattedValue + "</b></td>");
+                        }
+                        else
+                        {
+                            //數字欄位靠右
+                            sb.AppendLine("<td><b>" + dataGridView3.Rows[i].Cells[j].FormattedValue + "</b></td>");
+                        }
                     }
                     sb.AppendLine("</tr>");
 
@@ -1565,8 +1648,20 @@ namespace ACME
                     sb.AppendLine("<tr bgcolor=\"#C0C0C0\">");
                     for (int j = 0; j < 19; j++)
                     {
+                        if (j == 0 || j == 1 || j == 2 || j == 3 || j == 4 || j == 5 || j == 7 || j == 8 || j == 10 || j == 18 )
+                        {
+                            continue;
+                        }
                         //只到成本差異原因,所以19
-                        sb.AppendLine("<td>" + dataGridView3.Rows[i].Cells[j].Value + "</td>");
+                        if (j == 11 || j == 12 || j == 13)
+                        {
+                            sb.AppendLine("<td align=\"right\">" + dataGridView3.Rows[i].Cells[j].FormattedValue + "</td>");
+                        }
+                        else
+                        {
+                            //數字欄位靠右
+                            sb.AppendLine("<td>" + dataGridView3.Rows[i].Cells[j].FormattedValue + "</td>");
+                        }
                     }
                     sb.AppendLine("</tr>");
                 }
@@ -1575,8 +1670,20 @@ namespace ACME
                     sb.AppendLine("<tr bgcolor=\"#E5E4E2\">");
                     for (int j = 0; j < 19; j++)
                     {
+                        if (j == 0 || j == 1 || j == 2 || j == 3 || j == 4 || j == 5 || j == 7 || j == 8 || j == 10 || j == 18)
+                        {
+                            continue;
+                        }
                         //只到成本差異原因,所以19
-                        sb.AppendLine("<td>" + dataGridView3.Rows[i].Cells[j].Value + "</td>");
+                        if (j == 11 || j == 12 || j == 13)
+                        {
+                            sb.AppendLine("<td align=\"right\">" + dataGridView3.Rows[i].Cells[j].FormattedValue + "</td>");
+                        }
+                        else
+                        {
+                            //數字欄位靠右
+                            sb.AppendLine("<td>" + dataGridView3.Rows[i].Cells[j].FormattedValue + "</td>");
+                        }
                     }
                     sb.AppendLine("</tr>");
                 }
@@ -1617,12 +1724,13 @@ namespace ACME
 
             message.From = new MailAddress(MailFromAddress, "系統發送");
             string[] MailToAdd = MailToAddress.Split(';');
+            
             foreach (string add in MailToAdd) 
             {
                 message.To.Add(new MailAddress(add));
             }
-
             
+            //message.To.Add(new MailAddress("nesschou@acmepoint.com"));
 
 
             string myMailEncoding = "utf-8";
