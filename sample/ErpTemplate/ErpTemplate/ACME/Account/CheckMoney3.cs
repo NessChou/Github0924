@@ -183,12 +183,27 @@ namespace ACME
 
                    if ((!String.IsNullOrEmpty(dd["數量"].ToString())) && (!String.IsNullOrEmpty(dd["美金單價"].ToString())) && (!String.IsNullOrEmpty(dd["稅率"].ToString())))
                    {
-                    
-                           sd += Convert.ToDecimal(dd["數量"]) * Convert.ToDecimal(dd["美金單價"]) * Convert.ToDecimal(dd["稅率"]);
+                        try
+                        {
+                            sd += Convert.ToDecimal(dd["數量"]) * Convert.ToDecimal(dd["美金單價"]) * Convert.ToDecimal(dd["稅率"]);
+                        }
+                        catch 
+                        {
+                            sd += Convert.ToDecimal(dd["數量"]) * 53 * Convert.ToDecimal(dd["稅率"]);
+                        }
+                          
                            sh += Convert.ToDecimal(dd["數量"]);
-                           sv = Convert.ToDecimal(dd["美金單價"]);
+                           
+                        try
+                        {
+                            sv = Convert.ToDecimal(dd["美金單價"]);
+                        }
+                        catch
+                        {
+                            sv = Convert.ToDecimal(53);
+                        }
 
-                           Double x = Convert.ToDouble(sd);
+                        Double x = Convert.ToDouble(sd);
                            sd = Convert.ToDecimal(C1Round(x, 2).ToString());
                            if (sd != 0)
                            {

@@ -3191,7 +3191,7 @@ namespace ACME
         private void MailToPD(string strSubject, string MailFromAddress, string MailToAddress, string MailContent, string SignatureFileName)
         {
             MailMessage message = new MailMessage();
-
+            var htmlBody = "";
             message.From = new MailAddress(MailFromAddress, "系統發送");
             if (MailToAddress.Contains(";"))
             {
@@ -3232,36 +3232,37 @@ namespace ACME
             {
                 //加簽名檔
                 /*
+                string myMailEncoding = "utf-8";
                 Attachment attachment1 = new Attachment(SignatureFileName);
                 attachment1.Name = System.IO.Path.GetFileName(SignatureFileName);
                 attachment1.NameEncoding = Encoding.GetEncoding(myMailEncoding);
                 attachment1.ContentDisposition.Inline = true;
                 attachment1.ContentDisposition.DispositionType = System.Net.Mime.DispositionTypeNames.Inline;
 
-                message.Attachments.Add(attachment1);*/
+                message.Attachments.Add(attachment1);
                 var res = new LinkedResource(SignatureFileName);
-                res.ContentId = Guid.NewGuid().ToString();
+                res.ContentId = Guid.NewGuid().ToString();*/
                 //使用<img src="/img/loading.svg" data-src="cid:..."方式引用內嵌圖片
-                var htmlBody = MailContent +
-                    @"
-<div><img src='cid:{res.ContentId}'/></div>";
+                htmlBody = MailContent +
+                    @"<div><img src='"+ SignatureFileName + "'/></div>";
+                /*
                 //建立AlternativeView
                 var altView = AlternateView.CreateAlternateViewFromString(
                     htmlBody, null, MediaTypeNames.Text.Html);
                 //將圖檔資源加入AlternativeView
                 altView.LinkedResources.Add(res);
                 //將AlternativeView加入MailMessage
-                message.AlternateViews.Add(altView);
+                message.AlternateViews.Add(altView);*/
             }
             catch (FileNotFoundException ex)
             {
                 MessageBox.Show("未增加簽名檔");
             }
 
-            string myMailEncoding = "utf-8";
+            
             message.Subject = strSubject;
             //message.Body = string.Format("<html><body><P>Dear {0},</P><P>請參考!</P> {1} </body></html>", SlpName, MailContent);
-            message.Body = MailContent;
+            message.Body = htmlBody;
             //格式為 Html
             message.IsBodyHtml = true;
 
@@ -3272,7 +3273,7 @@ namespace ACME
             //string pwd = "Y4/45Jh6O4ldH1CvcyXKig==";
             //pwd = Decrypt(pwd, "1234");
 
-            string pwd = "@cmeworkflow";
+            string pwd =  "@Cmepoint1502";
 
             //client.Credentials = new System.Net.NetworkCredential("TerryLee@acmepoint.com", pwd);
             client.Credentials = new System.Net.NetworkCredential("workflow@acmepoint.com", pwd);

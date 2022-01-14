@@ -41,6 +41,8 @@ namespace ACME
 
             SetdgvInvoiceTrack();
 
+            cmbBU.SelectedValue = "ALL";
+
 
         }
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -55,6 +57,14 @@ namespace ACME
             //System.Data.DataTable dtData = CombineDataTable(dt);//合併por1
 
             dgvAccApInvoice.DataSource = dt;
+
+            System.Data.DataTable dtAPInvoice = GetAPInvoice();//又突然要加新功能顯示ap發票
+            
+            dgvApinvoice.DataSource = dtAPInvoice;
+
+            //dgvAccApInvoice.Rows[dgvAccApInvoice.Rows.Count - 1].DefaultCellStyle.BackColor = Color.Yellow;
+            dgvApinvoice.AllowUserToAddRows = false;
+           
         }
         private System.Data.DataTable GetAccAPInvoice()
         {
@@ -66,7 +76,7 @@ namespace ACME
             sb.Append("             STUFF((SELECT '/'+ CAST (T22.DOCENTRY AS NVARCHAR) FROM POR1 T22 LEFT JOIN pdn1 t11 on t11.baseentry = T22.docentry and  t11.baseline = T22.linenum  AND t11.BASETYPE = 22 WHERE (t11.docentry = T1.DOCENTRY) GROUP BY T22.DocEntry FOR XML PATH('')),1,1,'') AS por1Docentry, ");
             sb.Append("             t3.cardcode ,t3.cardname ,  ");
             sb.Append("             (select sum(t1.quantity) from pdn1 t1 where t0.docentry = t1.DocEntry) Quantity,  ");
-            sb.Append("             (cast(t0.doctotalsy as int) -cast(t0.VatSumSy as int)) UnTax, t0.VatSumSy ,t0.DocTotalSy ,t0.U_ACME_INV,t0.U_ACME_Invoice shipdate,t2.currency,'' OriCurrencyAmount,t0.U_ACME_RATE1,t0.u_acme_lc,t1.u_acme_shipday,t0.U_PC_BSINV ,t4.LicTradNum TaxIdNumber  ,T4.U_PC_BSTY1 InvoiceType  ");
+            sb.Append("             (cast(t0.doctotalsy as int) -cast(t0.VatSumSy as int)) UnTax, t0.VatSumSy ,t0.DocTotalSy ,t0.U_ACME_INV,t0.U_ACME_Invoice shipdate,t3.doccur Currency,'' OriCurrencyAmount,t0.U_ACME_RATE1,t0.u_acme_lc,t0.U_PC_BSDAT u_acme_shipday,t0.U_PC_BSINV ,t4.LicTradNum TaxIdNumber  ,T4.U_PC_BSTY1 InvoiceType,'' Signoff ");
             sb.Append("             FROM opdn t0  ");
             sb.Append("             LEFT JOIN pdn1 t1 on t0.DocEntry =t1.docentry ");
             sb.Append("             LEFT JOIN por1 t2  on (t1.baseentry=T2.docentry and  t1.baseline=t2.linenum  AND t1.BASETYPE=22)  ");
@@ -74,46 +84,231 @@ namespace ACME
             sb.Append("             LEFT JOIN OCRD t4  on t3.CARDCODE = t4.cardcode");
             sb.Append("             LEFT JOIN OITM T11 ON t2.ITEMCODE = T11.ITEMCODE  ");
 
-            sb.Append("             WHERE  ISNULL(T11.U_GROUP,'') <> 'Z&R-費用類群組' and t0.DocStatus <> 'C' ");
+            sb.Append("             WHERE substring(t0.cardcode,1,1) in ('S','U')  And t1.itemcode not in (select itemcode from oitm where invntitem='N' AND substring(itemcode,1,1) IN ('R','Z'))  And  ");
+            sb.Append("              substring(t1.itemcode,1,2) <> 'ZR'  AND T0.DOCSTATUS='O'  ");
             if (txbShipDateStart.Text != "" || txbShipDateEnd.Text != "")
             {
                 sb.Append("            and Convert(varchar(10),t0.DocDate,112) between '" +txbShipDateStart.Text + "' and '" + txbShipDateEnd.Text + "'");
             }
-            
-           
+
+
             if (txbCardCode.Text != "")
             {
                 string[] cardcode = txbCardCode.Text.Split('、');
-                for (int i = 0; i < cardcode.Length; i++) 
+                for (int i = 0; i < cardcode.Length; i++)
                 {
                     if (i == 0)
                     {
-                        sb.Append("           and  t3.cardname like '%" + txbShipDateStart.Text + "%'");
+                        sb.Append("           and  t3.cardname like '%" + cardcode[i] + "%'");
                     }
-                    else 
+                    else
                     {
-                        sb.Append("             or t3.cardname like '%" + txbShipDateStart.Text + "%'");
+                        sb.Append("             or t3.cardname like '%" + cardcode[i] + "%'");
                     }
-                   
-                }
-                
-            }
-            if (cmbBU.Text != "")
-            {
-                if (cmbBU.SelectedValue.ToString() == "ADP+AUO全部")
-                {
-                    sb.Append("  AND SUBSTRING(T0.CARDCODE,1,5)  IN ('S0001','S0623')  ");
 
                 }
-                else
-                {
-                    sb.Append(" and T0.CARDCODE like '%" + cmbBU.SelectedValue.ToString() + "%'  ");
-                }
+
             }
-            if (txbOriCurrencyAmount.Text != "") 
+            
+
+
+            if (cmbBU.Text != "")
             {
-                sb.Append("            and t0.DocTotalSy = '" + txbDocDate.Text + "'");
+                switch (cmbBU.SelectedValue.ToString()) 
+                {
+                    case "ALL":
+                        break;
+
+                    case "ADP+AUO全部":
+                        sb.Append("  AND SUBSTRING(T0.CARDCODE,1,5)  IN ('S0001','S0623')  ");
+                        break;
+
+                    case "AUO全部":
+                    case "ADP全部":
+                        sb.Append(" and T0.CARDCODE like '%" + cmbBU.SelectedValue.ToString() + "%'  ");
+                        break;
+
+                    case "Non AUO/ADP":
+                    case "NON AUO/ADP":
+                        sb.Append("  AND SUBSTRING(T0.CARDCODE,1,5) NOT IN ('S0001','S0623') ");
+                        break;
+
+                }
+             
             }
+            sb.Append("  ORDER BY  t0.docentry ASC");
+            //T0.CARDCODE
+            SqlCommand command = new SqlCommand(sb.ToString(), connection);
+            command.CommandType = CommandType.Text;
+
+            //command.Parameters.Add(new SqlParameter("@DocDate2", textBox2.Text));
+            //command.Parameters.Add(new SqlParameter("@DocDate4", FD));
+            SqlDataAdapter da = new SqlDataAdapter(command);
+
+            DataSet ds = new DataSet();
+            try
+            {
+                connection.Open();
+                da.Fill(ds, "AccApInvoice");
+            }
+            finally
+            {
+                connection.Close();
+            }
+
+            return ds.Tables[0];
+
+        }
+        private System.Data.DataTable GetAPInvoice()
+        {
+            string FD = "";
+            SqlConnection connection = globals.shipConnection;
+            StringBuilder sb = new StringBuilder();
+            sb.Append("             SELECT  distinct(T1.DocEntry) APInvoiceDocentry,(Convert(varchar(10),T1.DocDate,112)) AP過帳日期,Convert(varchar(10),T1.DocDate,112) AP發票日期,CAST(T1.DocEntry as nvarchar) AP發票號碼,Convert(varchar(10),T2.DocDate,112) 收踩過帳日期,");
+            sb.Append("             STUFF((SELECT '/' + CAST (T22.BaseRef AS NVARCHAR) FROM PCH1 T22 WHERE (T22.DOCENTRY = T2.DOCENTRY and t22.linenum = t2.linenum) GROUP BY T22.BaseRef  FOR XML PATH('')),1,1,'') AS 收貨採購單單號, ");
+            sb.Append("             T1.CardCode 廠商編號,T1.CardName 廠商名稱, ");
+            sb.Append("             (select CONVERT(NVARCHAR(20), CAST(sum(t2.quantity) AS Money),1) from PCH1 t2 where t1.docentry = t2.DocEntry) as 數量,  ");
+            sb.Append("             CONVERT(NVARCHAR(20),CAST((cast(T1.DocTotal as int)  - cast(T1.VatSum as int)) AS Money),1)  未稅總計, ");
+            sb.Append("             CONVERT(NVARCHAR(20),CAST(T1.VatSum AS Money),1) 稅額,CONVERT(NVARCHAR(20),CAST(T1.DocTotal AS Money),1) 總計,T1.U_ACME_INV InvoiceNo,Convert(varchar(10),T1.U_ACME_Invoice,112) Invoice日期,  ");
+            sb.Append("             T3.U_ACME_GradePrice 原始幣別,CONVERT(NVARCHAR(20),CAST((cast(T1.DocTotal as float) /cast(T1.U_ACME_rate1 as float)) AS Money),1) 原幣金額,T1.U_ACME_rate1 匯率,T1.u_acme_lc LC,T1.U_PC_BSINV AP發票發票號碼,T1.U_PC_BSNOT 統一編號  ");
+            sb.Append("             FROM OPCH T1  ");
+            sb.Append("             LEFT JOIN PCH1 T2 ON  T1.DocEntry = T2.DocEntry ");
+            sb.Append("             LEFT JOIN OPDN T3 ON T2.BaseRef = T3.DocEntry ");
+
+            sb.Append("             WHERE T2.BaseType = '20' ");
+            if (txbAPDate.Text != "" )
+            {
+                sb.Append("            and Convert(varchar(10),T1.DocDate,112) = '" + txbAPDate.Text + "'");
+            }
+
+
+            if (txbCardCode.Text != "")
+            {
+                string[] cardcode = txbCardCode.Text.Split('、');
+                for (int i = 0; i < cardcode.Length; i++)
+                {
+                    if (i == 0)
+                    {
+                        sb.Append("           and  T1.cardname like '%" + cardcode[i] + "%'");
+                    }
+                    else
+                    {
+                        sb.Append("             or T1.cardname like '%" + cardcode[i] + "%'");
+                    }
+
+                }
+
+            }
+            else
+            {
+                //只抓S開頭的公司
+                sb.Append("           and  t3.CardCode like 'S%'");
+            }
+
+            if (cmbBU.Text != "")
+            {
+                switch (cmbBU.SelectedValue.ToString())
+                {
+                    case "ALL":
+                        break;
+
+                    case "ADP+AUO全部":
+                        sb.Append("  AND SUBSTRING(T0.CARDCODE,1,5)  IN ('S0001','S0623')  ");
+                        break;
+
+                    case "AUO全部":
+                    case "ADP全部":
+                        sb.Append(" and T0.CARDCODE like '%" + cmbBU.SelectedValue.ToString() + "%'  ");
+                        break;
+
+                    case "Non AUO/ADP":
+                    case "NON AUO/ADP":
+                        sb.Append("  AND SUBSTRING(T0.CARDCODE,1,5) NOT IN ('S0001','S0623') ");
+                        sb.Append("  AND SUBSTRING(T0.CARDCODE,1,5) NOT IN ('S0001','S0623') ");
+                        break;
+
+                }
+
+            }
+            /*
+            if (txbDocDate.Text != "")
+            {
+                sb.Append("            and Convert(varchar(10),T1.DocDate,112) = '" + txbDocDate.Text + "'");
+            }
+            */
+            sb.Append("            UNION");
+            //最後一行總計
+            sb.Append("             SELECT '','','','','總計','','','', ");
+            sb.Append("             CONVERT(NVARCHAR(20), CAST(sum(t2.quantity) AS Money),1)as 數量, ");
+            sb.Append("             CONVERT(NVARCHAR(20), CAST(sum(cast(T1.DocTotal as decimal) - cast(T1.VatSum as decimal)) AS Money),1)as 未稅總計, ");
+            sb.Append("             CONVERT(NVARCHAR(20), CAST(sum(T1.VatSum) AS Money),1)as 稅額,  ");
+            sb.Append("             CONVERT(NVARCHAR(20), CAST(sum(T1.DocTotal) AS Money),1)as 總計,'','','',  ");
+            sb.Append("             CONVERT(NVARCHAR(20), CAST(sum(cast(T1.DocTotal as float)/cast(T1.U_ACME_rate1 as float)) AS Money),1)as 原幣金額,'','','',''  ");
+            sb.Append("             FROM OPCH T1  ");
+            sb.Append("             LEFT JOIN PCH1 T2 ON  T1.DocEntry = T2.DocEntry ");
+            sb.Append("             LEFT JOIN OPDN T3 ON T2.BaseRef = T3.DocEntry ");
+
+            sb.Append("             WHERE T2.BaseType = '20' ");
+            if (txbShipDateStart.Text != "" || txbShipDateEnd.Text != "")
+            {
+                sb.Append("            and Convert(varchar(10),T1.DocDate,112) between '" + txbShipDateStart.Text + "' and '" + txbShipDateEnd.Text + "'");
+            }
+
+
+            if (txbCardCode.Text != "")
+            {
+                string[] cardcode = txbCardCode.Text.Split('、');
+                for (int i = 0; i < cardcode.Length; i++)
+                {
+                    if (i == 0)
+                    {
+                        sb.Append("           and  T1.cardname like '%" + cardcode[i] + "%'");
+                    }
+                    else
+                    {
+                        sb.Append("             or T1.cardname like '%" + cardcode[i] + "%'");
+                    }
+
+                }
+
+            }
+            else
+            {
+                //只抓S開頭的公司
+                sb.Append("           and  t3.CardCode like 'S%'");
+            }
+
+            if (cmbBU.Text != "")
+            {
+                switch (cmbBU.SelectedValue.ToString())
+                {
+                    case "ALL":
+                        break;
+
+                    case "ADP+AUO全部":
+                        sb.Append("  AND SUBSTRING(T0.CARDCODE,1,5)  IN ('S0001','S0623')  ");
+                        break;
+
+                    case "AUO全部":
+                    case "ADP全部":
+                        sb.Append(" and T0.CARDCODE like '%" + cmbBU.SelectedValue.ToString() + "%'  ");
+                        break;
+
+                    case "Non AUO/ADP":
+                    case "NON AUO/ADP":
+                        sb.Append("  AND SUBSTRING(T0.CARDCODE,1,5) NOT IN ('S0001','S0623') ");
+                        break;
+
+                }
+
+            }
+            /*
+            if (txbDocDate.Text != "")
+            {
+                sb.Append("            and Convert(varchar(10),T1.DocDate,112) = '" + txbDocDate.Text + "'");
+            }
+            */
+
 
             //T0.CARDCODE
             SqlCommand command = new SqlCommand(sb.ToString(), connection);
@@ -159,7 +354,7 @@ namespace ACME
             {
                 string DocEntry = row["OPDNDocEntry"].ToString();
                 string U_Acme_Inv = row["U_PC_BSINV"].ToString();
-                string U_Track = U_Acme_Inv != "" ? U_Acme_Inv.Substring(0, 2):"";
+                string U_Track = U_Acme_Inv != "" ? U_Acme_Inv.Substring(0, 2):""; 
                 string Time = row["shipdate"].ToString().Substring(0, 6);
                 string U_Year = Time.Substring(0, 4);
                 string U_Period = GetPeriod(Time.Substring(4, 2)) ;
@@ -199,6 +394,14 @@ namespace ACME
                     row["TaxIdNumber"] = "";
                     row.EndEdit();
                 }
+                if (row["u_acme_shipday"].ToString() == "") 
+                {
+                    row.BeginEdit();
+
+                    row["u_acme_shipday"] = row["shipdate"];
+
+                    row.EndEdit();
+                }
                 if (U_Acme_Inv != "__________" && U_Acme_Inv !="" &&  CheckYearTrack(U_Track, U_Year, U_Period, InvoiceType) == false )
                 {
                     error += DocEntry + ",";
@@ -213,11 +416,37 @@ namespace ACME
                         //row["Comments"] = "AP過帳月分與採收月份相異";
 
                     }
-                    row["DocDate"] = DocDate;
+                    row["DocDate"] = DocDate;//過帳日期為設定收採明細匯入AP發票之過帳日期
 
                     row.EndEdit();
 
                 }
+                if (row["Signoff"] == "") 
+                {
+                    System.Data.DataTable dtSignoff = GetSignoff(row["por1Docentry"].ToString());
+                    if (dtSignoff.Rows.Count > 0)
+                    {
+                        row.BeginEdit();
+                        if (dtSignoff.Rows.Count > 1)
+                        {
+                            string Signoff = "";
+                            foreach (DataRow rw in dtSignoff.Rows) 
+                            {
+                                Signoff += rw["SIGNOFF"].ToString() + "/";
+                            }
+                            Signoff = Signoff.Trim('/');
+                            row["SIGNOFF"] = Signoff;
+                        }
+                        else 
+                        {
+                            string Signoff = dtSignoff.Rows[0]["SIGNOFF"].ToString();
+                            row["SIGNOFF"] = Signoff;
+
+                        }
+
+                    }
+                }
+                
 
             }
             if (error != "") 
@@ -226,7 +455,8 @@ namespace ACME
             }
 
         }
-        private string GetPeriod(string Month) 
+        
+            private string GetPeriod(string Month) 
         {
             string U_Perid = "";
             switch (Month) 
@@ -433,6 +663,79 @@ namespace ACME
             return ds.Tables[0];
 
         }
+        private System.Data.DataTable GetSignoff(string Docentry)
+        {
+            string FD = "";
+            SqlConnection connection = globals.shipConnection;
+            StringBuilder sb = new StringBuilder();
+
+            if (Docentry.Contains("/"))
+            {
+                string[] DocNum = Docentry.Split('/');
+                sb.Append(" (");
+                for (int i = 0; i < DocNum.Length; i++)
+                {
+
+                    if (i == DocNum.Length - 1)
+                    {
+                        sb.Append(" SELECT  distinct(CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112))UPDATE_DATE  ,U1.SAPDOC, ");
+                        sb.Append(" (USERNAME+' '+(CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112))+' '+ UPDATE_TIME) SIGNOFF  ");
+                        sb.Append(" FROM  AcmeSqlEEP.dbo.SYS_TODOHIS U0   ");
+                        sb.Append(" LEFT JOIN  AcmeSqlEEP.dbo.ACME_POR1 U1 ON (REPLACE(substring(form_presentation,6,DataLength(form_presentation)-6),'''','')=U1.ID)   ");
+                        sb.Append(" where ISNULL(U1.SAPDOC,'') <> '' AND U0.flow_desc = ('採購單簽核流程(TFT)' ) AND U0.STATUS NOT IN ('NR','NF')AND  ( U1.SAPDOC like '"+ DocNum [i]+ "%'  ) AND   ");
+                        sb.Append(" (CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112)) =  (SELECT  MAX(CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112))UPDATE_DATE FROM  AcmeSqlEEP.dbo.SYS_TODOHIS V0  ");
+                        sb.Append(" LEFT JOIN  AcmeSqlEEP.dbo.ACME_POR1 V1 ON (REPLACE(substring(form_presentation,6,DataLength(form_presentation)-6),'''','')=V1.ID) ");
+                        sb.Append(" where ISNULL(V1.SAPDOC,'') <> '' AND V0.flow_desc = ('採購單簽核流程(TFT)' ) AND V0.STATUS NOT IN ('NR','NF') AND V1.SAPDOC =U1.SAPDOC ) ");
+                    }
+                    else
+                    {
+                        sb.Append(" SELECT  distinct(CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112))UPDATE_DATE  ,U1.SAPDOC, ");
+                        sb.Append(" (USERNAME+' '+(CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112))+' '+ UPDATE_TIME) SIGNOFF  ");
+                        sb.Append(" FROM  AcmeSqlEEP.dbo.SYS_TODOHIS U0   ");
+                        sb.Append(" LEFT JOIN  AcmeSqlEEP.dbo.ACME_POR1 U1 ON (REPLACE(substring(form_presentation,6,DataLength(form_presentation)-6),'''','')=U1.ID)   ");
+                        sb.Append(" where ISNULL(U1.SAPDOC,'') <> '' AND U0.flow_desc = ('採購單簽核流程(TFT)' ) AND U0.STATUS NOT IN ('NR','NF')AND  ( U1.SAPDOC like '" + DocNum[i] + "%'  ) AND   ");
+                        sb.Append(" (CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112)) =  (SELECT  MAX(CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112))UPDATE_DATE FROM  AcmeSqlEEP.dbo.SYS_TODOHIS V0  ");
+                        sb.Append(" LEFT JOIN  AcmeSqlEEP.dbo.ACME_POR1 V1 ON (REPLACE(substring(form_presentation,6,DataLength(form_presentation)-6),'''','')=V1.ID) ");
+                        sb.Append(" where ISNULL(V1.SAPDOC,'') <> '' AND V0.flow_desc = ('採購單簽核流程(TFT)' ) AND V0.STATUS NOT IN ('NR','NF') AND V1.SAPDOC =U1.SAPDOC ) ");
+                        sb.Append(" union ");
+                    }
+
+                }
+                sb.Append(" )");
+            }
+            else
+            {
+                sb.Append(" SELECT  distinct(CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112))UPDATE_DATE  ,U1.SAPDOC, ");
+                sb.Append(" (USERNAME+' '+(CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112))+' '+ UPDATE_TIME) SIGNOFF  ");
+                sb.Append(" FROM  AcmeSqlEEP.dbo.SYS_TODOHIS U0   ");
+                sb.Append(" LEFT JOIN  AcmeSqlEEP.dbo.ACME_POR1 U1 ON (REPLACE(substring(form_presentation,6,DataLength(form_presentation)-6),'''','')=U1.ID)   ");
+                sb.Append(" where ISNULL(U1.SAPDOC,'') <> '' AND U0.flow_desc = ('採購單簽核流程(TFT)' ) AND U0.STATUS NOT IN ('NR','NF')AND  ( U1.SAPDOC like '" + Docentry + "%'  ) AND   ");
+                sb.Append(" (CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112)) =  (SELECT  MAX(CONVERT(varchar(12),CAST(UPDATE_DATE AS DATETIME),112))UPDATE_DATE FROM  AcmeSqlEEP.dbo.SYS_TODOHIS V0  ");
+                sb.Append(" LEFT JOIN  AcmeSqlEEP.dbo.ACME_POR1 V1 ON (REPLACE(substring(form_presentation,6,DataLength(form_presentation)-6),'''','')=V1.ID) ");
+                sb.Append(" where ISNULL(V1.SAPDOC,'') <> '' AND V0.flow_desc = ('採購單簽核流程(TFT)' ) AND V0.STATUS NOT IN ('NR','NF') AND V1.SAPDOC =U1.SAPDOC ) ");
+            }
+          
+            //T0.CARDCODE
+            SqlCommand command = new SqlCommand(sb.ToString(), connection);
+            command.CommandType = CommandType.Text;
+
+            command.Parameters.Add(new SqlParameter("@Docentry", Docentry));
+            //command.Parameters.Add(new SqlParameter("@DocDate4", FD));
+            SqlDataAdapter da = new SqlDataAdapter(command);
+            DataSet ds = new DataSet();
+            try
+            {
+                connection.Open();
+                da.Fill(ds, "Signoff");
+            }
+            finally
+            {
+                connection.Close();
+            }
+
+            return ds.Tables[0];
+
+        }
         private void SetDateTimeTextBox() 
         {
             DateTime Now = DateTime.Now;
@@ -442,6 +745,7 @@ namespace ACME
             txbShipDateEnd.Text = Year + Month + Days;
             txbShipDateStart.Text = Year + Month + "01";
             txbDocDate.Text = Now.ToString("yyyyMMdd");
+            txbAPDate.Text = Now.ToString("yyyyMMdd");
         }
         private void SetdgvInvoiceTrack() 
         {
@@ -587,7 +891,7 @@ namespace ACME
                             oPURCHINV.DocDate = Convert.ToDateTime(row.Cells["DocDate"].Value);
                             oPURCHINV.DocTotal = Convert.ToDouble(row.Cells["DocTotalSy"].Value);
                             oPURCHINV.TaxDate = Convert.ToDateTime(row.Cells["DocDate"].Value);
-
+                            oPURCHINV.DiscountPercent = 0;
                             //oPURCHINV.Comments = row.Cells["Comments"].Value.ToString();
                             
 
@@ -644,7 +948,8 @@ namespace ACME
                                 oPURCHINV.Lines.BaseEntry = Convert.ToInt32(RowPDN1["Docentry"]);
                                 oPURCHINV.Lines.BaseLine = BaseLine;
                                 oPURCHINV.Lines.BaseType = 20;
-                               
+                                oPURCHINV.Lines.DiscountPercent = 0;
+
                                 BaseLine += 1;
 
                                 oPURCHINV.Lines.Add();
@@ -653,7 +958,8 @@ namespace ACME
                             if (res != 0)
                             {
                                 string error = oCompany.GetLastErrorDescription();
-                                //MessageBox.Show("上傳錯誤 " + oCompany.GetLastErrorDescription());
+                                MessageBox.Show("上傳錯誤 " + oCompany.GetLastErrorDescription());
+                                return;
                             }
                             else
                             {
@@ -765,7 +1071,15 @@ namespace ACME
         private void btnExcel_Click(object sender, EventArgs e)
         {
             System.Data.DataTable dt = new System.Data.DataTable();
-            GetExcelDataTable(ref dt);
+            if (this.tabControl1.SelectedTab.Text == "收採發票")
+            {
+                GetExcelDataTabledgvAccApInvoice(ref dt);
+            }
+            else if (this.tabControl1.SelectedTab.Text == "AP發票明細") 
+            {
+                GetExcelDataTabledgvApinvoice(ref dt);
+            }
+          
             string location = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetModules()[0].FullyQualifiedName) + "\\Excel\\temp\\AP發票.xls";
             if (dt.Rows.Count > 0)
             {
@@ -783,7 +1097,7 @@ namespace ACME
 
 
         }
-        private void GetExcelDataTable(ref System.Data.DataTable dt) 
+        private void GetExcelDataTabledgvAccApInvoice(ref System.Data.DataTable dt) 
         {
             for (int count = 0; count < dgvAccApInvoice.Columns.Count; count++)
             {
@@ -802,6 +1116,29 @@ namespace ACME
                 for (int count = 0; count < dgvAccApInvoice.Columns.Count; count++)
                 {
                     dr[count] = Convert.ToString(dgvAccApInvoice.Rows[x].Cells[count].FormattedValue);
+                }
+                dt.Rows.Add(dr);
+                x++;
+            }
+        }
+        private void GetExcelDataTabledgvApinvoice(ref System.Data.DataTable dt)
+        {
+            for (int count = 0; count < dgvApinvoice.Columns.Count; count++)
+            {
+                DataColumn dc = new DataColumn(dgvApinvoice.Columns[count].Name);
+                dt.Columns.Add(dc);
+            }
+
+            int x = 0;
+            foreach (DataGridViewRow rows in dgvApinvoice.Rows)
+            {
+
+                // 循環行
+
+                DataRow dr = dt.NewRow();
+                for (int count = 0; count < dgvApinvoice.Columns.Count; count++)
+                {
+                    dr[count] = Convert.ToString(dgvApinvoice.Rows[x].Cells[count].FormattedValue);
                 }
                 dt.Rows.Add(dr);
                 x++;
@@ -911,13 +1248,13 @@ namespace ACME
                 rowcount += 1;
                 foreach (DataRow datarow in dataTable.Rows)
                 {
-                    for (int i = 0; i < dataTable.Columns.Count; i++)
+                    for (int i = 1; i <= dataTable.Columns.Count; i++)
                     {
                         // Filling the excel file 
-                        if (i == 0) data[rowcount, i] = rowcount.ToString();
+                        if (i == 1) data[rowcount, i - 1] = rowcount.ToString();
                         else
                         {
-                            data[rowcount, i] = datarow[i].ToString();
+                            data[rowcount, i - 1] = datarow[i - 1].ToString();
                         }
 
                     }
@@ -1029,6 +1366,7 @@ namespace ACME
                 e.Graphics.DrawString((e.RowIndex + 1).ToString(), e.InheritedRowStyle.Font,
                     b, e.RowBounds.Location.X + 15, e.RowBounds.Location.Y + 6);
             }
+            dgvApinvoice.Rows[dgvApinvoice.Rows.Count - 1].DefaultCellStyle.BackColor = Color.Yellow;
         }
         private void btnCheckCheckBox_Click(object sender, EventArgs e)
         {
@@ -1086,6 +1424,154 @@ namespace ACME
 
             }
             this.dgvAccApInvoice.Refresh();
+        }
+
+        private void dgvAccApInvoice_RowPostPaint_1(object sender, DataGridViewRowPostPaintEventArgs e)
+        {
+
+        }
+
+        private void btnImportInvoiceTrack_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK) 
+            {
+                string file = dialog.FileName;
+                if (file == null) { MessageBox.Show("請選擇檔案"); return; } 
+
+                WriteExcelToInvoiceTrack(file);
+                MessageBox.Show("上傳完成,請重按查詢以更新資料");
+
+            }
+        }
+        private void WriteExcelToInvoiceTrack(string FileName) 
+        {
+            Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
+            excelApp.Visible = true;
+            object oMissing = System.Reflection.Missing.Value;
+
+            //Open the worksheet file
+            Microsoft.Office.Interop.Excel.Workbook excelBook = excelApp.Workbooks.Open(FileName, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing, oMissing);
+
+            //取得  Worksheet
+            Microsoft.Office.Interop.Excel.Worksheet excelSheet = (Microsoft.Office.Interop.Excel.Worksheet)excelBook.Sheets.get_Item(1);
+
+            int iRowCount = excelSheet.UsedRange.Cells.Rows.Count;
+            int iColCount = excelSheet.UsedRange.Cells.Columns.Count;
+
+            Microsoft.Office.Interop.Excel.Range range = null;
+            try
+            {
+                string TaxIdNum = "";
+                string Track = "";
+                string NumStart = "";
+                string NumEnd = "";
+                string Time = "";
+
+                for (int i = 1; i <= iRowCount; i++) 
+                {
+                   //EXCEL要從1開始計數
+                    range = ((Microsoft.Office.Interop.Excel.Range)excelSheet.UsedRange.Cells[i, 1]);
+                    range.Select();
+                    TaxIdNum = range.Text.ToString().Trim();
+
+                    range = ((Microsoft.Office.Interop.Excel.Range)excelSheet.UsedRange.Cells[i, 2]);
+                    range.Select();
+                    Track = range.Text.ToString().Trim();
+
+                    range = ((Microsoft.Office.Interop.Excel.Range)excelSheet.UsedRange.Cells[i, 3]);
+                    range.Select();
+                    NumStart = range.Text.ToString().Trim();
+
+                    range = ((Microsoft.Office.Interop.Excel.Range)excelSheet.UsedRange.Cells[i, 4]);
+                    range.Select();
+                    NumEnd = range.Text.ToString().Trim();
+
+                    range = ((Microsoft.Office.Interop.Excel.Range)excelSheet.UsedRange.Cells[i, 5]);
+                    range.Select();
+                    Time = range.Text.ToString().Trim();
+
+                    if (CheckInvoiceTrack(Time, TaxIdNum) == true) 
+                    {
+                        MessageBox.Show("已有資料");
+                        return;
+
+                    }
+                    InsertInvoiceTrack(TaxIdNum, Track, NumStart, NumEnd, Time);
+                }
+
+            }
+            catch (Exception ex) 
+            {
+                
+            }
+            finally 
+            { 
+                //Quit
+                excelApp.Quit();
+            }
+        }
+        private bool CheckInvoiceTrack(string Time,string TaxIdNum) 
+        {
+            SqlConnection connection = globals.Connection;
+            SqlCommand command = new SqlCommand("SELECT * FROM InvoiceTrack WHERE Time = @Time and TaxIdNum = @TaxIdNum", connection);
+            command.CommandType = CommandType.Text;
+            command.Parameters.Add(new SqlParameter("@Time", Time));
+            command.Parameters.Add(new SqlParameter("@TaxIdNum", TaxIdNum));
+            command.CommandType = CommandType.Text;
+
+            //command.Parameters.Add(new SqlParameter("@DocDate4", FD));
+            SqlDataAdapter da = new SqlDataAdapter(command);
+            DataSet ds = new DataSet();
+            try
+            {
+                connection.Open();
+                da.Fill(ds, "InvoiceTrack");
+            }
+            finally
+            {
+                connection.Close();
+            }
+            if (ds.Tables[0].Rows.Count > 0) 
+            {
+
+                return true;
+            }
+            return false;
+        }
+        private void InsertInvoiceTrack(string TaxIdNum,string Track,string NumStart, string NumEnd,string Time) 
+        {
+            SqlConnection connection = globals.Connection;
+            SqlCommand command = new SqlCommand("Insert into InvoiceTrack(TaxIdNum,Track,NumStart,NumEnd,Time) VALUES(@TaxIdNum,@Track,@NumStart,@NumEnd,@Time)", connection);
+            command.CommandType = CommandType.Text;
+            command.Parameters.Add(new SqlParameter("@TaxIdNum", TaxIdNum));
+            command.Parameters.Add(new SqlParameter("@Track", Track));
+            command.Parameters.Add(new SqlParameter("@NumStart", NumStart));
+            command.Parameters.Add(new SqlParameter("@NumEnd", NumEnd));
+            command.Parameters.Add(new SqlParameter("@Time", Time));
+
+            try
+            {
+
+                try
+                {
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
+        private void btnOpenExample_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(System.Environment.CurrentDirectory + "\\Excel\\" + "InvoiceTrack.xlsx");
         }
     }
 }

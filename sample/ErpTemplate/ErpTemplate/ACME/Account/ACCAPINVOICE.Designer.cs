@@ -30,40 +30,39 @@ namespace ACME
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ACCAPINVOICE));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txbAPDate = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txbShipDateStart = new System.Windows.Forms.TextBox();
-            this.txbShipDateEnd = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnCancelCardCode = new System.Windows.Forms.Button();
+            this.txbShipDateEnd = new System.Windows.Forms.TextBox();
             this.btnCustNumber = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txbDocDate = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cmbBU = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txbCardCode = new System.Windows.Forms.TextBox();
+            this.btnImportInvoiceTrack = new System.Windows.Forms.Button();
             this.btnQuery = new System.Windows.Forms.Button();
             this.btnExcel = new System.Windows.Forms.Button();
             this.btnImport = new System.Windows.Forms.Button();
-            this.cmbBU = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txbCardCode = new System.Windows.Forms.TextBox();
-            this.txbDocDate = new System.Windows.Forms.TextBox();
             this.txbAccountAmount = new System.Windows.Forms.TextBox();
             this.txbOriCurrencyAmount = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.btnMarkCheck = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.dgvInvoiceTrack = new System.Windows.Forms.DataGridView();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.dgvAccApInvoice = new System.Windows.Forms.DataGridView();
             this.ColCheck = new System.Windows.Forms.DataGridViewCheckBoxColumn();
@@ -89,56 +88,105 @@ namespace ACME
             this.TaxIdNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.InvoiceType = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.U_ACME_Invoice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Signoff = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnMarkCheck = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.dgvApinvoice = new System.Windows.Forms.DataGridView();
+            this.APInvoiceDocentry = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.dgvInvoiceTrack = new System.Windows.Forms.DataGridView();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.btnOpenExample = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvInvoiceTrack)).BeginInit();
-            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccApInvoice)).BeginInit();
+            this.panel3.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvApinvoice)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvInvoiceTrack)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.btnOpenExample);
+            this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Controls.Add(this.btnCancelCardCode);
-            this.panel1.Controls.Add(this.btnCustNumber);
+            this.panel1.Controls.Add(this.btnImportInvoiceTrack);
             this.panel1.Controls.Add(this.btnQuery);
             this.panel1.Controls.Add(this.btnExcel);
             this.panel1.Controls.Add(this.btnImport);
-            this.panel1.Controls.Add(this.cmbBU);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.txbCardCode);
-            this.panel1.Controls.Add(this.txbDocDate);
             this.panel1.Controls.Add(this.txbAccountAmount);
             this.panel1.Controls.Add(this.txbOriCurrencyAmount);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1510, 103);
+            this.panel1.Size = new System.Drawing.Size(1510, 128);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.txbAPDate);
+            this.groupBox2.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox2.Location = new System.Drawing.Point(577, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(179, 49);
+            this.groupBox2.TabIndex = 58;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "AP過帳日期";
+            // 
+            // txbAPDate
+            // 
+            this.txbAPDate.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txbAPDate.Location = new System.Drawing.Point(34, 18);
+            this.txbAPDate.Name = "txbAPDate";
+            this.txbAPDate.Size = new System.Drawing.Size(112, 23);
+            this.txbAPDate.TabIndex = 0;
+            // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txbShipDateStart);
+            this.groupBox1.Controls.Add(this.btnCancelCardCode);
             this.groupBox1.Controls.Add(this.txbShipDateEnd);
+            this.groupBox1.Controls.Add(this.btnCustNumber);
             this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.txbDocDate);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.cmbBU);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.txbCardCode);
             this.groupBox1.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox1.Location = new System.Drawing.Point(21, 9);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(330, 49);
+            this.groupBox1.Size = new System.Drawing.Size(550, 108);
             this.groupBox1.TabIndex = 58;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "收貨採購日期";
+            this.groupBox1.Text = "收貨明細查詢項目";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(249, 95);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(0, 13);
+            this.label8.TabIndex = 2;
             // 
             // label1
             // 
@@ -158,6 +206,18 @@ namespace ACME
             this.txbShipDateStart.Size = new System.Drawing.Size(112, 23);
             this.txbShipDateStart.TabIndex = 0;
             // 
+            // btnCancelCardCode
+            // 
+            this.btnCancelCardCode.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnCancelCardCode.Image = global::ACME.Properties.Resources.bnCancelEdit_Image;
+            this.btnCancelCardCode.Location = new System.Drawing.Point(307, 61);
+            this.btnCancelCardCode.Name = "btnCancelCardCode";
+            this.btnCancelCardCode.Size = new System.Drawing.Size(32, 23);
+            this.btnCancelCardCode.TabIndex = 57;
+            this.btnCancelCardCode.Text = "y";
+            this.btnCancelCardCode.UseVisualStyleBackColor = true;
+            this.btnCancelCardCode.Click += new System.EventHandler(this.btnCancelCardCode_Click);
+            // 
             // txbShipDateEnd
             // 
             this.txbShipDateEnd.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
@@ -165,6 +225,18 @@ namespace ACME
             this.txbShipDateEnd.Name = "txbShipDateEnd";
             this.txbShipDateEnd.Size = new System.Drawing.Size(112, 23);
             this.txbShipDateEnd.TabIndex = 0;
+            // 
+            // btnCustNumber
+            // 
+            this.btnCustNumber.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnCustNumber.Image = ((System.Drawing.Image)(resources.GetObject("btnCustNumber.Image")));
+            this.btnCustNumber.Location = new System.Drawing.Point(269, 61);
+            this.btnCustNumber.Name = "btnCustNumber";
+            this.btnCustNumber.Size = new System.Drawing.Size(32, 23);
+            this.btnCustNumber.TabIndex = 57;
+            this.btnCustNumber.Text = "y";
+            this.btnCustNumber.UseVisualStyleBackColor = true;
+            this.btnCustNumber.Click += new System.EventHandler(this.btnCustNumber_Click);
             // 
             // label2
             // 
@@ -176,35 +248,82 @@ namespace ACME
             this.label2.TabIndex = 2;
             this.label2.Text = "訖";
             // 
-            // btnCancelCardCode
+            // label5
             // 
-            this.btnCancelCardCode.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.btnCancelCardCode.Image = global::ACME.Properties.Resources.bnCancelEdit_Image;
-            this.btnCancelCardCode.Location = new System.Drawing.Point(391, 64);
-            this.btnCancelCardCode.Name = "btnCancelCardCode";
-            this.btnCancelCardCode.Size = new System.Drawing.Size(32, 23);
-            this.btnCancelCardCode.TabIndex = 57;
-            this.btnCancelCardCode.Text = "y";
-            this.btnCancelCardCode.UseVisualStyleBackColor = true;
-            this.btnCancelCardCode.Click += new System.EventHandler(this.btnCancelCardCode_Click);
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label5.Location = new System.Drawing.Point(347, 19);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(67, 15);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "過帳日期";
             // 
-            // btnCustNumber
+            // txbDocDate
             // 
-            this.btnCustNumber.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.btnCustNumber.Image = ((System.Drawing.Image)(resources.GetObject("btnCustNumber.Image")));
-            this.btnCustNumber.Location = new System.Drawing.Point(353, 64);
-            this.btnCustNumber.Name = "btnCustNumber";
-            this.btnCustNumber.Size = new System.Drawing.Size(32, 23);
-            this.btnCustNumber.TabIndex = 57;
-            this.btnCustNumber.Text = "y";
-            this.btnCustNumber.UseVisualStyleBackColor = true;
-            this.btnCustNumber.Click += new System.EventHandler(this.btnCustNumber_Click);
+            this.txbDocDate.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txbDocDate.Location = new System.Drawing.Point(420, 17);
+            this.txbDocDate.Name = "txbDocDate";
+            this.txbDocDate.Size = new System.Drawing.Size(112, 23);
+            this.txbDocDate.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(388, 65);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(26, 15);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "BU";
+            // 
+            // cmbBU
+            // 
+            this.cmbBU.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.cmbBU.FormattingEnabled = true;
+            this.cmbBU.Items.AddRange(new object[] {
+            "ALL",
+            "AUO全部",
+            "ADP全部",
+            "ADP+AUO全部",
+            "NON AUO/ADP"});
+            this.cmbBU.Location = new System.Drawing.Point(420, 61);
+            this.cmbBU.Name = "cmbBU";
+            this.cmbBU.Size = new System.Drawing.Size(112, 23);
+            this.cmbBU.TabIndex = 3;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label6.Location = new System.Drawing.Point(20, 65);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(67, 15);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "廠商編號";
+            // 
+            // txbCardCode
+            // 
+            this.txbCardCode.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txbCardCode.Location = new System.Drawing.Point(93, 61);
+            this.txbCardCode.Name = "txbCardCode";
+            this.txbCardCode.Size = new System.Drawing.Size(170, 23);
+            this.txbCardCode.TabIndex = 0;
+            // 
+            // btnImportInvoiceTrack
+            // 
+            this.btnImportInvoiceTrack.Location = new System.Drawing.Point(1078, 74);
+            this.btnImportInvoiceTrack.Name = "btnImportInvoiceTrack";
+            this.btnImportInvoiceTrack.Size = new System.Drawing.Size(86, 35);
+            this.btnImportInvoiceTrack.TabIndex = 4;
+            this.btnImportInvoiceTrack.Text = "匯入發票字軌";
+            this.btnImportInvoiceTrack.UseVisualStyleBackColor = true;
+            this.btnImportInvoiceTrack.Click += new System.EventHandler(this.btnImportInvoiceTrack_Click);
             // 
             // btnQuery
             // 
-            this.btnQuery.Location = new System.Drawing.Point(987, 52);
+            this.btnQuery.Location = new System.Drawing.Point(1078, 27);
             this.btnQuery.Name = "btnQuery";
-            this.btnQuery.Size = new System.Drawing.Size(66, 35);
+            this.btnQuery.Size = new System.Drawing.Size(86, 35);
             this.btnQuery.TabIndex = 4;
             this.btnQuery.Text = "查詢";
             this.btnQuery.UseVisualStyleBackColor = true;
@@ -212,7 +331,7 @@ namespace ACME
             // 
             // btnExcel
             // 
-            this.btnExcel.Location = new System.Drawing.Point(1142, 52);
+            this.btnExcel.Location = new System.Drawing.Point(1254, 27);
             this.btnExcel.Name = "btnExcel";
             this.btnExcel.Size = new System.Drawing.Size(77, 35);
             this.btnExcel.TabIndex = 4;
@@ -222,32 +341,19 @@ namespace ACME
             // 
             // btnImport
             // 
-            this.btnImport.Location = new System.Drawing.Point(1059, 52);
+            this.btnImport.Location = new System.Drawing.Point(1171, 27);
             this.btnImport.Name = "btnImport";
             this.btnImport.Size = new System.Drawing.Size(77, 35);
             this.btnImport.TabIndex = 4;
-            this.btnImport.Text = "轉入AP發票";
+            this.btnImport.Text = "轉至AP發票";
             this.btnImport.UseVisualStyleBackColor = true;
             this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
-            // 
-            // cmbBU
-            // 
-            this.cmbBU.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.cmbBU.FormattingEnabled = true;
-            this.cmbBU.Items.AddRange(new object[] {
-            "AUO全部",
-            "ADP全部",
-            "ADP+AUO全部"});
-            this.cmbBU.Location = new System.Drawing.Point(553, 56);
-            this.cmbBU.Name = "cmbBU";
-            this.cmbBU.Size = new System.Drawing.Size(112, 23);
-            this.cmbBU.TabIndex = 3;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label7.Location = new System.Drawing.Point(693, 59);
+            this.label7.Location = new System.Drawing.Point(778, 79);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(67, 15);
             this.label7.TabIndex = 2;
@@ -257,62 +363,16 @@ namespace ACME
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label4.Location = new System.Drawing.Point(693, 27);
+            this.label4.Location = new System.Drawing.Point(778, 34);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(97, 15);
             this.label4.TabIndex = 2;
             this.label4.Text = "原幣金額加總";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label6.Location = new System.Drawing.Point(18, 67);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 15);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "廠商編號";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label5.Location = new System.Drawing.Point(484, 27);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 15);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "過帳日期";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("新細明體", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(504, 63);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 15);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "BU";
-            // 
-            // txbCardCode
-            // 
-            this.txbCardCode.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txbCardCode.Location = new System.Drawing.Point(91, 62);
-            this.txbCardCode.Name = "txbCardCode";
-            this.txbCardCode.Size = new System.Drawing.Size(246, 23);
-            this.txbCardCode.TabIndex = 0;
-            // 
-            // txbDocDate
-            // 
-            this.txbDocDate.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txbDocDate.Location = new System.Drawing.Point(553, 23);
-            this.txbDocDate.Name = "txbDocDate";
-            this.txbDocDate.Size = new System.Drawing.Size(112, 23);
-            this.txbDocDate.TabIndex = 0;
-            // 
             // txbAccountAmount
             // 
             this.txbAccountAmount.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txbAccountAmount.Location = new System.Drawing.Point(826, 58);
+            this.txbAccountAmount.Location = new System.Drawing.Point(911, 78);
             this.txbAccountAmount.Name = "txbAccountAmount";
             this.txbAccountAmount.Size = new System.Drawing.Size(145, 23);
             this.txbAccountAmount.TabIndex = 0;
@@ -320,7 +380,7 @@ namespace ACME
             // txbOriCurrencyAmount
             // 
             this.txbOriCurrencyAmount.Font = new System.Drawing.Font("新細明體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txbOriCurrencyAmount.Location = new System.Drawing.Point(826, 23);
+            this.txbOriCurrencyAmount.Location = new System.Drawing.Point(911, 30);
             this.txbOriCurrencyAmount.Name = "txbOriCurrencyAmount";
             this.txbOriCurrencyAmount.Size = new System.Drawing.Size(145, 23);
             this.txbOriCurrencyAmount.TabIndex = 0;
@@ -329,20 +389,21 @@ namespace ACME
             // 
             this.panel2.Controls.Add(this.tabControl1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 103);
+            this.panel2.Location = new System.Drawing.Point(0, 128);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1510, 696);
+            this.panel2.Size = new System.Drawing.Size(1510, 671);
             this.panel2.TabIndex = 1;
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1510, 696);
+            this.tabControl1.Size = new System.Drawing.Size(1510, 671);
             this.tabControl1.TabIndex = 2;
             // 
             // tabPage1
@@ -352,63 +413,10 @@ namespace ACME
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1502, 670);
+            this.tabPage1.Size = new System.Drawing.Size(1502, 645);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "AP發票";
+            this.tabPage1.Text = "收採明細";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // btnMarkCheck
-            // 
-            this.btnMarkCheck.Location = new System.Drawing.Point(95, 6);
-            this.btnMarkCheck.Name = "btnMarkCheck";
-            this.btnMarkCheck.Size = new System.Drawing.Size(41, 23);
-            this.btnMarkCheck.TabIndex = 1;
-            this.btnMarkCheck.Text = "部分";
-            this.btnMarkCheck.UseVisualStyleBackColor = true;
-            this.btnMarkCheck.Click += new System.EventHandler(this.btnCheckCheckBox_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(48, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(41, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "全部";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.btnCheckCheckBox_Click);
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.dgvInvoiceTrack);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1502, 670);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "發票字軌";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // dgvInvoiceTrack
-            // 
-            this.dgvInvoiceTrack.AllowUserToAddRows = false;
-            this.dgvInvoiceTrack.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvInvoiceTrack.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvInvoiceTrack.Location = new System.Drawing.Point(3, 3);
-            this.dgvInvoiceTrack.Name = "dgvInvoiceTrack";
-            this.dgvInvoiceTrack.RowTemplate.Height = 24;
-            this.dgvInvoiceTrack.Size = new System.Drawing.Size(1496, 664);
-            this.dgvInvoiceTrack.TabIndex = 0;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.LightGray;
-            this.panel3.Controls.Add(this.btnMarkCheck);
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1496, 33);
-            this.panel3.TabIndex = 1;
             // 
             // panel4
             // 
@@ -416,7 +424,7 @@ namespace ACME
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(3, 36);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1496, 631);
+            this.panel4.Size = new System.Drawing.Size(1496, 606);
             this.panel4.TabIndex = 2;
             // 
             // dgvAccApInvoice
@@ -446,18 +454,19 @@ namespace ACME
             this.U_PC_BSINV,
             this.TaxIdNumber,
             this.InvoiceType,
-            this.U_ACME_Invoice});
+            this.U_ACME_Invoice,
+            this.Signoff});
             this.dgvAccApInvoice.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvAccApInvoice.Location = new System.Drawing.Point(0, 0);
             this.dgvAccApInvoice.Name = "dgvAccApInvoice";
             this.dgvAccApInvoice.RowTemplate.Height = 24;
-            this.dgvAccApInvoice.Size = new System.Drawing.Size(1496, 631);
+            this.dgvAccApInvoice.Size = new System.Drawing.Size(1496, 606);
             this.dgvAccApInvoice.TabIndex = 1;
-            this.dgvAccApInvoice.RowStateChanged += new System.Windows.Forms.DataGridViewRowStateChangedEventHandler(this.dgvAccApInvoice_RowStateChanged);
+            this.dgvAccApInvoice.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dgvAccApInvoice_RowPostPaint);
             // 
             // ColCheck
             // 
-            this.ColCheck.HeaderText = "";
+            this.ColCheck.HeaderText = "檢核";
             this.ColCheck.Name = "ColCheck";
             // 
             // DocDate
@@ -505,36 +514,36 @@ namespace ACME
             // Quantity
             // 
             this.Quantity.DataPropertyName = "Quantity";
-            dataGridViewCellStyle1.Format = "N2";
-            dataGridViewCellStyle1.NullValue = null;
-            this.Quantity.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle6.Format = "N2";
+            dataGridViewCellStyle6.NullValue = null;
+            this.Quantity.DefaultCellStyle = dataGridViewCellStyle6;
             this.Quantity.HeaderText = "數量";
             this.Quantity.Name = "Quantity";
             // 
             // UnTax
             // 
             this.UnTax.DataPropertyName = "UnTax";
-            dataGridViewCellStyle2.Format = "N0";
-            dataGridViewCellStyle2.NullValue = null;
-            this.UnTax.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle7.Format = "N0";
+            dataGridViewCellStyle7.NullValue = null;
+            this.UnTax.DefaultCellStyle = dataGridViewCellStyle7;
             this.UnTax.HeaderText = "未稅總計";
             this.UnTax.Name = "UnTax";
             // 
             // VatSumSy
             // 
             this.VatSumSy.DataPropertyName = "VatSumSy";
-            dataGridViewCellStyle3.Format = "N0";
-            dataGridViewCellStyle3.NullValue = null;
-            this.VatSumSy.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle8.Format = "N0";
+            dataGridViewCellStyle8.NullValue = null;
+            this.VatSumSy.DefaultCellStyle = dataGridViewCellStyle8;
             this.VatSumSy.HeaderText = "稅額";
             this.VatSumSy.Name = "VatSumSy";
             // 
             // DocTotalSy
             // 
             this.DocTotalSy.DataPropertyName = "DocTotalSy";
-            dataGridViewCellStyle4.Format = "N0";
-            dataGridViewCellStyle4.NullValue = null;
-            this.DocTotalSy.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle9.Format = "N0";
+            dataGridViewCellStyle9.NullValue = null;
+            this.DocTotalSy.DefaultCellStyle = dataGridViewCellStyle9;
             this.DocTotalSy.HeaderText = "總計";
             this.DocTotalSy.Name = "DocTotalSy";
             // 
@@ -559,9 +568,9 @@ namespace ACME
             // OriCurrencyAmount
             // 
             this.OriCurrencyAmount.DataPropertyName = "OriCurrencyAmount";
-            dataGridViewCellStyle5.Format = "N2";
-            dataGridViewCellStyle5.NullValue = null;
-            this.OriCurrencyAmount.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle10.Format = "N2";
+            dataGridViewCellStyle10.NullValue = null;
+            this.OriCurrencyAmount.DefaultCellStyle = dataGridViewCellStyle10;
             this.OriCurrencyAmount.HeaderText = "原幣金額";
             this.OriCurrencyAmount.Name = "OriCurrencyAmount";
             // 
@@ -609,6 +618,125 @@ namespace ACME
             this.U_ACME_Invoice.Name = "U_ACME_Invoice";
             this.U_ACME_Invoice.Visible = false;
             // 
+            // Signoff
+            // 
+            this.Signoff.DataPropertyName = "Signoff";
+            this.Signoff.HeaderText = "PO簽核紀錄";
+            this.Signoff.Name = "Signoff";
+            this.Signoff.Width = 200;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.LightGray;
+            this.panel3.Controls.Add(this.btnMarkCheck);
+            this.panel3.Controls.Add(this.button1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1496, 33);
+            this.panel3.TabIndex = 1;
+            // 
+            // btnMarkCheck
+            // 
+            this.btnMarkCheck.Location = new System.Drawing.Point(95, 6);
+            this.btnMarkCheck.Name = "btnMarkCheck";
+            this.btnMarkCheck.Size = new System.Drawing.Size(41, 23);
+            this.btnMarkCheck.TabIndex = 1;
+            this.btnMarkCheck.Text = "部分";
+            this.btnMarkCheck.UseVisualStyleBackColor = true;
+            this.btnMarkCheck.Click += new System.EventHandler(this.btnCheckCheckBox_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(48, 6);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(41, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "全部";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnCheckCheckBox_Click);
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.panel5);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(1502, 645);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "AP發票明細";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.dgvApinvoice);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1502, 645);
+            this.panel5.TabIndex = 0;
+            // 
+            // dgvApinvoice
+            // 
+            this.dgvApinvoice.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvApinvoice.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.APInvoiceDocentry});
+            this.dgvApinvoice.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvApinvoice.Location = new System.Drawing.Point(0, 0);
+            this.dgvApinvoice.Name = "dgvApinvoice";
+            this.dgvApinvoice.RowTemplate.Height = 24;
+            this.dgvApinvoice.Size = new System.Drawing.Size(1502, 645);
+            this.dgvApinvoice.TabIndex = 0;
+            this.dgvApinvoice.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dgvAccApInvoice_RowPostPaint);
+            // 
+            // APInvoiceDocentry
+            // 
+            this.APInvoiceDocentry.DataPropertyName = "APInvoiceDocentry";
+            this.APInvoiceDocentry.HeaderText = "AP單號";
+            this.APInvoiceDocentry.Name = "APInvoiceDocentry";
+            this.APInvoiceDocentry.Visible = false;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.dgvInvoiceTrack);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1502, 645);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "發票字軌";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // dgvInvoiceTrack
+            // 
+            this.dgvInvoiceTrack.AllowUserToAddRows = false;
+            this.dgvInvoiceTrack.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvInvoiceTrack.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvInvoiceTrack.Location = new System.Drawing.Point(3, 3);
+            this.dgvInvoiceTrack.Name = "dgvInvoiceTrack";
+            this.dgvInvoiceTrack.RowTemplate.Height = 24;
+            this.dgvInvoiceTrack.Size = new System.Drawing.Size(1496, 639);
+            this.dgvInvoiceTrack.TabIndex = 0;
+            // 
+            // btnOpenExample
+            // 
+            this.btnOpenExample.Image = global::ACME.Properties.Resources.bnPrint_Image;
+            this.btnOpenExample.Location = new System.Drawing.Point(1171, 74);
+            this.btnOpenExample.Name = "btnOpenExample";
+            this.btnOpenExample.Size = new System.Drawing.Size(32, 35);
+            this.btnOpenExample.TabIndex = 59;
+            this.btnOpenExample.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnOpenExample.UseVisualStyleBackColor = true;
+            this.btnOpenExample.Click += new System.EventHandler(this.btnOpenExample_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(1202, 94);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(125, 12);
+            this.label9.TabIndex = 60;
+            this.label9.Text = "開啟發票字軌範例文件";
+            // 
             // ACCAPINVOICE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -617,19 +745,24 @@ namespace ACME
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "ACCAPINVOICE";
-            this.Text = "ACCAPINVOICE";
+            this.Text = "收貨採購單匯入AP發票";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvInvoiceTrack)).EndInit();
-            this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccApInvoice)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvApinvoice)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvInvoiceTrack)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -667,6 +800,14 @@ namespace ACME
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.DataGridView dgvAccApInvoice;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.DataGridView dgvApinvoice;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn APInvoiceDocentry;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox txbAPDate;
+        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DataGridViewCheckBoxColumn ColCheck;
         private System.Windows.Forms.DataGridViewTextBoxColumn DocDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn por1DocDate;
@@ -690,5 +831,9 @@ namespace ACME
         private System.Windows.Forms.DataGridViewTextBoxColumn TaxIdNumber;
         private System.Windows.Forms.DataGridViewTextBoxColumn InvoiceType;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_ACME_Invoice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Signoff;
+        private System.Windows.Forms.Button btnImportInvoiceTrack;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnOpenExample;
     }
 }

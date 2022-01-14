@@ -754,7 +754,7 @@ namespace ACME
 
                 if (comboBox1.SelectedValue.ToString() == "NAUO")
                 {
-                    sb.Append(" and SUBSTRING(T0.CARDCODE,1,1)='S'  AND SUBSTRING(T0.CARDCODE,1,5) <> 'S0001'   ");
+                    sb.Append(" and SUBSTRING(T0.CARDCODE,1,1)='S'  AND SUBSTRING(T0.CARDCODE,1,5) NOT IN ('S0001','S0623') ");
 
                 }
                 else if (comboBox1.SelectedValue.ToString() == "UCARD")
@@ -1747,7 +1747,7 @@ namespace ACME
             //string pwd = "Y4/45Jh6O4ldH1CvcyXKig==";
             //pwd = Decrypt(pwd, "1234");
 
-            string pwd = "@cmeworkflow";
+            string pwd = "@Cmepoint1502";
 
             //client.Credentials = new System.Net.NetworkCredential("TerryLee@acmepoint.com", pwd);
             client.Credentials = new System.Net.NetworkCredential("workflow@acmepoint.com", pwd);

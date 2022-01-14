@@ -323,16 +323,18 @@ namespace ACME
 
         }
 
-        public void AddADOWNLOAD(string shippingcode, string seq, string filename, string path)
+        public void AddADOWNLOAD(string shippingcode, string seq, string filename, string path,string SA, string SALES)
         {
             SqlConnection connection = globals.Connection;
-            SqlCommand command = new SqlCommand("Insert into Download(shippingcode,seq,filename,path) values(@shippingcode,@seq,@filename,@path)", connection);
+            SqlCommand command = new SqlCommand("Insert into Download(shippingcode,seq,filename,path,SA,SALES) values(@shippingcode,@seq,@filename,@path,@SA,@SALES)", connection);
             command.CommandType = CommandType.Text;
 
             command.Parameters.Add(new SqlParameter("@shippingcode", shippingcode));
             command.Parameters.Add(new SqlParameter("@seq", seq));
             command.Parameters.Add(new SqlParameter("@filename", filename));
             command.Parameters.Add(new SqlParameter("@path", path));
+            command.Parameters.Add(new SqlParameter("@SA", SA));
+            command.Parameters.Add(new SqlParameter("@SALES", SALES));
 
             try
             {
@@ -411,6 +413,35 @@ namespace ACME
             {
                 connection.Close();
             }
+
+        }
+        private System.Data.DataTable GetDocentry(string ShippingCode)
+        {
+
+            SqlConnection connection = globals.Connection;
+            StringBuilder sb = new StringBuilder();
+            sb.Append(" SELECT PINO ");
+            sb.Append(" FROM SHIPPING_MAIN ");
+            sb.Append(" WHERE SHIPPINGCODE = @ShippingCode ");
+            SqlCommand command = new SqlCommand(sb.ToString(), connection);
+            command.CommandType = CommandType.Text;
+            command.Parameters.Add(new SqlParameter("@ShippingCode", ShippingCode));
+
+
+            SqlDataAdapter da = new SqlDataAdapter(command);
+
+            DataSet ds = new DataSet();
+            try
+            {
+                connection.Open();
+                da.Fill(ds, "shipping_main");
+            }
+            finally
+            {
+                connection.Close();
+            }
+
+            return ds.Tables[0];
 
         }
         private System.Data.DataTable GetODLN(string DOC)
@@ -876,7 +907,23 @@ namespace ACME
                                     {
                                         return;
                                     }
-                                    AddADOWNLOAD(SHIP, SEQ, NAME, server2);
+                                    string SA = "";
+                                    string SALES = "";
+                                    string Docentry = "";
+                                    System.Data.DataTable dtPINO = GetDocentry(SHIP);
+                                    if (dtPINO.Rows.Count > 0)
+                                    {
+                                        Docentry = dtPINO.Rows[0]["PINO"].ToString();
+                                        System.Data.DataTable G1 = GetMenu.GetSA(Docentry);
+
+                                        if (G1.Rows.Count > 0)
+                                        {
+                                            SA = G1.Rows[0]["業管"].ToString();
+                                            SALES = G1.Rows[0]["業務"].ToString();
+                                        }
+                                    }
+
+                                    AddADOWNLOAD(SHIP, SEQ, NAME, server2, SA, SALES);
 
                                     System.GC.Collect();
                                     System.GC.WaitForPendingFinalizers();
@@ -1212,7 +1259,23 @@ namespace ACME
                                     }
                                     if (P1 == 1)
                                     {
-                                        AddADOWNLOAD(SHIP, SEQ, NAME, server2);
+                                        string SA = "";
+                                        string SALES = "";
+                                        string Docentry = "";
+                                        System.Data.DataTable dtPINO = GetDocentry(SHIP);
+                                        if (dtPINO.Rows.Count > 0) 
+                                        {
+                                            Docentry = dtPINO.Rows[0]["PINO"].ToString();
+                                            System.Data.DataTable G1 = GetMenu.GetSA(Docentry);
+
+                                            if (G1.Rows.Count > 0)
+                                            {
+                                                SA = G1.Rows[0]["業管"].ToString();
+                                                SALES = G1.Rows[0]["業務"].ToString();
+                                            }
+                                        }
+                                       
+                                        AddADOWNLOAD(SHIP, SEQ, NAME, server2, SA, SALES);
                                     }
                                     else
                                     {

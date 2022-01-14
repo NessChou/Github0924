@@ -388,7 +388,7 @@ namespace ACME
 
             string SqlScript = @"SELECT SeqDelivery , (SELECT ItemCode + '-' + Quantity+'pcs ' 
 FROM WH_ITEM T2
- WHERE T2.SeqDelivery = T1.SeqDelivery  for xml path('')
+ WHERE T2.SeqDelivery = T1.SeqDelivery AND T2.ShippingCode =  '{0}'  for xml path('')
 ) ItemQty FROM WH_ITEM T1 WHERE shippingcode = '{0}'
 GROUP BY SEQDELIVERY
 ORDER by SeqDelivery";
@@ -4500,8 +4500,29 @@ ORDER by SeqDelivery";
 
             else if (aa.Contains("½Õ¼·"))
             {
+                if (docentry.Contains(","))
+                {
+                    sql = "select U_PO_ADD,U_PO_ADD2 from dbo.owtr where ";
+                    string[] DOC = docentry.Split(',');
+                    for (int i = 0; i < DOC.Length; i++) 
+                    {
+                        if (i == DOC.Length - 1)
+                        {
+                            sql += " docnum = '"+ DOC[i]+"'";
+                        }
+                        else 
+                        {
+                            sql += " docnum = '" + DOC[i] + "' or ";
+                        }
+                    }
+                    
+                }
+                else
+                {
+                    sql = "select U_PO_ADD,U_PO_ADD2 from dbo.owtr where docnum = @docentry";
+                }
 
-                sql = "select U_PO_ADD,U_PO_ADD2 from dbo.owtr where docnum = @docentry";
+             
             }
             else
             {

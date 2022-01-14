@@ -6940,6 +6940,10 @@ namespace ACME.ACMEDataSet {
             
             private global::System.Data.DataColumn columnSeqDelivery;
             
+            private global::System.Data.DataColumn columnORDRdocentry;
+            
+            private global::System.Data.DataColumn columnORDRlinenum;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public WH_ItemDataTable() {
@@ -7343,6 +7347,22 @@ namespace ACME.ACMEDataSet {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn ORDRdocentryColumn {
+                get {
+                    return this.columnORDRdocentry;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn ORDRlinenumColumn {
+                get {
+                    return this.columnORDRlinenum;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -7423,7 +7443,9 @@ namespace ACME.ACMEDataSet {
                         string PQTY6, 
                         string NOTICE, 
                         string INVOICE2, 
-                        string SeqDelivery) {
+                        string SeqDelivery, 
+                        string ORDRdocentry, 
+                        string ORDRlinenum) {
                 WH_ItemRow rowWH_ItemRow = ((WH_ItemRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -7471,7 +7493,9 @@ namespace ACME.ACMEDataSet {
                         PQTY6,
                         NOTICE,
                         INVOICE2,
-                        SeqDelivery};
+                        SeqDelivery,
+                        ORDRdocentry,
+                        ORDRlinenum};
                 if ((parentWH_mainRowByWH_main_WH_Item != null)) {
                     columnValuesArray[0] = parentWH_mainRowByWH_main_WH_Item[0];
                 }
@@ -7550,6 +7574,8 @@ namespace ACME.ACMEDataSet {
                 this.columnNOTICE = base.Columns["NOTICE"];
                 this.columnINVOICE2 = base.Columns["INVOICE2"];
                 this.columnSeqDelivery = base.Columns["SeqDelivery"];
+                this.columnORDRdocentry = base.Columns["ORDRdocentry"];
+                this.columnORDRlinenum = base.Columns["ORDRlinenum"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7647,6 +7673,10 @@ namespace ACME.ACMEDataSet {
                 base.Columns.Add(this.columnINVOICE2);
                 this.columnSeqDelivery = new global::System.Data.DataColumn("SeqDelivery", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnSeqDelivery);
+                this.columnORDRdocentry = new global::System.Data.DataColumn("ORDRdocentry", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnORDRdocentry);
+                this.columnORDRlinenum = new global::System.Data.DataColumn("ORDRlinenum", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnORDRlinenum);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnDocentry1}, true));
                 this.columnShippingCode.AllowDBNull = false;
@@ -17165,6 +17195,38 @@ namespace ACME.ACMEDataSet {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string ORDRdocentry {
+                get {
+                    try {
+                        return ((string)(this[this.tableWH_Item.ORDRdocentryColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'WH_Item\' 中資料行 \'ORDRdocentry\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableWH_Item.ORDRdocentryColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string ORDRlinenum {
+                get {
+                    try {
+                        return ((string)(this[this.tableWH_Item.ORDRlinenumColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("資料表 \'WH_Item\' 中資料行 \'ORDRlinenum\' 的值是 DBNull。", e);
+                    }
+                }
+                set {
+                    this[this.tableWH_Item.ORDRlinenumColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public WH_mainRow WH_mainRow {
                 get {
                     return ((WH_mainRow)(this.GetParentRow(this.Table.ParentRelations["WH_main_WH_Item"])));
@@ -17688,6 +17750,30 @@ namespace ACME.ACMEDataSet {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetSeqDeliveryNull() {
                 this[this.tableWH_Item.SeqDeliveryColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsORDRdocentryNull() {
+                return this.IsNull(this.tableWH_Item.ORDRdocentryColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetORDRdocentryNull() {
+                this[this.tableWH_Item.ORDRdocentryColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsORDRlinenumNull() {
+                return this.IsNull(this.tableWH_Item.ORDRlinenumColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetORDRlinenumNull() {
+                this[this.tableWH_Item.ORDRlinenumColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -27679,7 +27765,14 @@ SELECT ShippingCode, Docentry1, SeqNo, Docentry, linenum, ItemRemark, ItemCode, 
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = @"SELECT ShippingCode, Docentry1, SeqNo, Docentry, linenum, ItemRemark, ItemCode, Dscription, Quantity, Remark, INV, PiNo, NowQty, Ver, Grade, Invoice, FrgnName, CardCode, CardName, WhName, ShipDate, U_PAY, U_SHIPDAY, U_SHIPSTATUS, U_MARK, U_MEMO, PO, FrgnName1, LOCATION, TREETYPE, U_CUSTITEMCODE, U_CUSTDOCENTRY, LOT, DATECODE, LPRINT, Printed, PQTY1, PQTY2, ShipDate2, PQTY3, PQTY4, PQTY5, PQTY6, NOTICE, INVOICE2,SeqDelivery FROM WH_Item WHERE (ShippingCode = @ShippingCode) ORDER BY CAST(SeqNo AS int)";
+            this._commandCollection[0].CommandText = @"SELECT          ShippingCode, Docentry1, SeqNo, Docentry, linenum, ItemRemark, ItemCode, Dscription, Quantity, Remark, INV, PiNo, 
+                            NowQty, Ver, Grade, Invoice, FrgnName, CardCode, CardName, WhName, ShipDate, U_PAY, U_SHIPDAY, 
+                            U_SHIPSTATUS, U_MARK, U_MEMO, PO, FrgnName1, LOCATION, TREETYPE, U_CUSTITEMCODE, 
+                            U_CUSTDOCENTRY, LOT, DATECODE, LPRINT, Printed, PQTY1, PQTY2, ShipDate2, PQTY3, PQTY4, PQTY5, PQTY6, 
+                            NOTICE, INVOICE2, SeqDelivery, ORDRdocentry, ORDRlinenum
+FROM              WH_Item
+WHERE          (ShippingCode = @ShippingCode)
+ORDER BY   CAST(SeqNo AS int)";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ShippingCode", global::System.Data.SqlDbType.NVarChar, 30, global::System.Data.ParameterDirection.Input, 0, 0, "ShippingCode", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }

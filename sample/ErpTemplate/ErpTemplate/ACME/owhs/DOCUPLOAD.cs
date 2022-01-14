@@ -1784,6 +1784,7 @@ namespace ACME
                 string ITEMCODE2 = "";//特殊料號
                 string ES = "";
                 string CART = "";
+                string CartonNoTemp = "";
                 int IG1 = FILE.IndexOf("第");
                 int IG2 = FILE.IndexOf("車");
                 if (IG1 != -1 && IG2 != -1)
@@ -1908,6 +1909,12 @@ namespace ACME
                         QTY2 = 0;
                         CARTONQTY2 = 0;
                         Clear(sb);
+                        CartonNoTemp = CARTONNO;
+                    }
+                    else 
+                    {
+                        //上下合併儲存格的時候,有值先記錄在CartonNoTemp沒值再取出
+                        CARTONNO = CartonNoTemp;
                     }
                     int nn;
                     if (int.TryParse(QTY, out nn) && int.TryParse(CARTONQTY, out nn))

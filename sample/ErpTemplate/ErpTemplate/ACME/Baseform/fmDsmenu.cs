@@ -1563,6 +1563,10 @@ namespace ACME
                 range = ((Microsoft.Office.Interop.Excel.Range)excelSheet.UsedRange.Cells[i, 1]);
                 range.Select();
                 KG = range.Text.ToString().Trim();
+                if (!KG.Contains(".")) 
+                {
+                    KG += ".0";
+                }
                 for (int b = 2; b <= 9; b++)
                 {
                     range = ((Microsoft.Office.Interop.Excel.Range)excelSheet.UsedRange.Cells[1, b]);

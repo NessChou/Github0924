@@ -242,6 +242,8 @@ namespace ACME
             this.PQTY5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PQTY6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DocentryS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ORDRdocentry = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ORDRlinenum = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.wH_ItemBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -2008,7 +2010,7 @@ namespace ACME
             this.tabPage1.Location = new System.Drawing.Point(4, 23);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(826, 190);
+            this.tabPage1.Size = new System.Drawing.Size(1362, 436);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "備貨通知單";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -2019,7 +2021,7 @@ namespace ACME
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(3, 126);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(820, 61);
+            this.panel6.Size = new System.Drawing.Size(1356, 307);
             this.panel6.TabIndex = 138;
             // 
             // wH_ItemDataGridView
@@ -2077,7 +2079,9 @@ namespace ACME
             this.PQTY4,
             this.PQTY5,
             this.PQTY6,
-            this.DocentryS});
+            this.DocentryS,
+            this.ORDRdocentry,
+            this.ORDRlinenum});
             this.wH_ItemDataGridView.ContextMenuStrip = this.contextMenuStrip3;
             this.wH_ItemDataGridView.DataSource = this.wH_ItemBindingSource;
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -2100,7 +2104,7 @@ namespace ACME
             dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.wH_ItemDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.wH_ItemDataGridView.RowTemplate.Height = 24;
-            this.wH_ItemDataGridView.Size = new System.Drawing.Size(820, 61);
+            this.wH_ItemDataGridView.Size = new System.Drawing.Size(1356, 307);
             this.wH_ItemDataGridView.TabIndex = 0;
             this.wH_ItemDataGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.wH_ItemDataGridView_CellDoubleClick);
             this.wH_ItemDataGridView.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.wH_ItemDataGridView_CellValueChanged);
@@ -2426,6 +2430,18 @@ namespace ACME
             this.DocentryS.ReadOnly = true;
             this.DocentryS.Visible = false;
             // 
+            // ORDRdocentry
+            // 
+            this.ORDRdocentry.DataPropertyName = "ORDRdocentry";
+            this.ORDRdocentry.HeaderText = "訂單單號";
+            this.ORDRdocentry.Name = "ORDRdocentry";
+            // 
+            // ORDRlinenum
+            // 
+            this.ORDRlinenum.DataPropertyName = "ORDRlinenum";
+            this.ORDRlinenum.HeaderText = "訂單LINENO";
+            this.ORDRlinenum.Name = "ORDRlinenum";
+            // 
             // contextMenuStrip3
             // 
             this.contextMenuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -2479,7 +2495,7 @@ namespace ACME
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(3, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(820, 123);
+            this.panel5.Size = new System.Drawing.Size(1356, 123);
             this.panel5.TabIndex = 137;
             // 
             // button30
@@ -2710,7 +2726,7 @@ namespace ACME
             this.tabPage10.Location = new System.Drawing.Point(4, 23);
             this.tabPage10.Name = "tabPage10";
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(1362, 436);
+            this.tabPage10.Size = new System.Drawing.Size(826, 190);
             this.tabPage10.TabIndex = 11;
             this.tabPage10.Text = "包裝明細";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -2722,7 +2738,7 @@ namespace ACME
             this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel16.Location = new System.Drawing.Point(3, 3);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(1356, 430);
+            this.panel16.Size = new System.Drawing.Size(820, 184);
             this.panel16.TabIndex = 2;
             // 
             // panel15
@@ -2731,7 +2747,7 @@ namespace ACME
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(0, 45);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(1356, 385);
+            this.panel15.Size = new System.Drawing.Size(820, 139);
             this.panel15.TabIndex = 1;
             // 
             // dataGridView2
@@ -2780,7 +2796,7 @@ namespace ACME
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(1356, 385);
+            this.dataGridView2.Size = new System.Drawing.Size(820, 139);
             this.dataGridView2.TabIndex = 0;
             // 
             // SHIPPINGCODE
@@ -2944,7 +2960,7 @@ namespace ACME
             this.panel17.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel17.Location = new System.Drawing.Point(0, 0);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(1356, 45);
+            this.panel17.Size = new System.Drawing.Size(820, 45);
             this.panel17.TabIndex = 2;
             // 
             // textBox7
@@ -2998,7 +3014,7 @@ namespace ACME
             this.tabPage4.ImageIndex = 12;
             this.tabPage4.Location = new System.Drawing.Point(4, 23);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1362, 436);
+            this.tabPage4.Size = new System.Drawing.Size(826, 190);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "放貨單";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -3009,7 +3025,7 @@ namespace ACME
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(0, 112);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1362, 324);
+            this.panel8.Size = new System.Drawing.Size(826, 78);
             this.panel8.TabIndex = 141;
             // 
             // wH_Item2DataGridView
@@ -3044,7 +3060,7 @@ namespace ACME
             this.wH_Item2DataGridView.Location = new System.Drawing.Point(0, 0);
             this.wH_Item2DataGridView.Name = "wH_Item2DataGridView";
             this.wH_Item2DataGridView.RowTemplate.Height = 24;
-            this.wH_Item2DataGridView.Size = new System.Drawing.Size(1362, 324);
+            this.wH_Item2DataGridView.Size = new System.Drawing.Size(826, 78);
             this.wH_Item2DataGridView.TabIndex = 1;
             this.wH_Item2DataGridView.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.wH_Item2DataGridView_DataError);
             this.wH_Item2DataGridView.DefaultValuesNeeded += new System.Windows.Forms.DataGridViewRowEventHandler(this.wH_Item2DataGridView_DefaultValuesNeeded);
@@ -3243,7 +3259,7 @@ namespace ACME
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1362, 112);
+            this.panel7.Size = new System.Drawing.Size(826, 112);
             this.panel7.TabIndex = 140;
             // 
             // groupBox4
@@ -6324,50 +6340,6 @@ namespace ACME
         private System.Windows.Forms.CheckBox s1CheckBox;
         private System.Windows.Forms.CheckBox s6CheckBox;
         private System.Windows.Forms.CheckBox s7CheckBox;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn ColWhItemCheckBox;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SeqDelivery;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SeqNo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DocentryH;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn55;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ItemRemark1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ItemCode2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NOTICE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NowQty;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Grade;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Ver;
-        private System.Windows.Forms.DataGridViewTextBoxColumn INV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Invoice;
-        private System.Windows.Forms.DataGridViewTextBoxColumn LOCATION;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CardName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn59;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn61;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn66;
-        private System.Windows.Forms.DataGridViewTextBoxColumn U_SHIPDAY2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn68;
-        private System.Windows.Forms.DataGridViewTextBoxColumn U_MARK2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn70;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn72;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn31;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TREETYPE1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn LOT;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DATECODE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn LPRINT;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ShipDate2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DocentryS;
         private System.Windows.Forms.Button btnSeqDelivery;
         private System.Windows.Forms.DataGridViewTextBoxColumn SeqNo4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Docentry;
@@ -6424,5 +6396,51 @@ namespace ACME
         private System.Windows.Forms.DataGridViewTextBoxColumn U_CUSTITEMCODE;
         private System.Windows.Forms.DataGridViewTextBoxColumn U_CUSTDOCENTRY;
         private System.Windows.Forms.DataGridViewTextBoxColumn TREETYPE2;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn ColWhItemCheckBox;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SeqDelivery;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SeqNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DocentryH;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn55;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ItemRemark1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ItemCode2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NOTICE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NowQty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Grade;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Ver;
+        private System.Windows.Forms.DataGridViewTextBoxColumn INV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Invoice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LOCATION;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CardName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn59;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn61;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn66;
+        private System.Windows.Forms.DataGridViewTextBoxColumn U_SHIPDAY2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn68;
+        private System.Windows.Forms.DataGridViewTextBoxColumn U_MARK2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn70;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn72;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn31;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TREETYPE1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LOT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DATECODE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LPRINT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ShipDate2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PQTY6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DocentryS;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ORDRdocentry;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ORDRlinenum;
     }
 }

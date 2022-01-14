@@ -2899,14 +2899,16 @@ namespace ACME
 
         }
 
-        public static void AddPACKD(string ShippingCode, string PLNo, string SeqNo, string PackageNo, string CNo, string DescGoods, string Quantity, string Net, string Gross, string MeasurmentCM, string PACKMARK)
+      
+        public static void AddPACKD(string ShippingCode, string PLNo, string SeqNo, string PackageNo, string CNo, string DescGoods, string Quantity, string Net, string Gross, string MeasurmentCM, string PACKMARK, string ItemCode = "")
         {
             SqlConnection Connection = globals.Connection;
-            SqlCommand command = new SqlCommand("Insert into PackingListD(ShippingCode,PLNo,SeqNo,PackageNo,CNo,DescGoods,Quantity,Net,Gross,MeasurmentCM,LOCATION,PACKMARK) values(@ShippingCode,@PLNo,@SeqNo,@PackageNo,@CNo,@DescGoods,@Quantity,@Net,@Gross,@MeasurmentCM,@LOCATION,@PACKMARK)", Connection);
+            SqlCommand command = new SqlCommand("Insert into PackingListD(ShippingCode,PLNo,SeqNo,ItemCode,PackageNo,CNo,DescGoods,Quantity,Net,Gross,MeasurmentCM,LOCATION,PACKMARK) values(@ShippingCode,@PLNo,@SeqNo,@ItemCode,@PackageNo,@CNo,@DescGoods,@Quantity,@Net,@Gross,@MeasurmentCM,@LOCATION,@PACKMARK)", Connection);
             command.CommandType = CommandType.Text;
             command.Parameters.Add(new SqlParameter("@ShippingCode", ShippingCode));
             command.Parameters.Add(new SqlParameter("@PLNo", PLNo));
             command.Parameters.Add(new SqlParameter("@SeqNo", SeqNo));
+            command.Parameters.Add(new SqlParameter("@ItemCode", ItemCode));
             command.Parameters.Add(new SqlParameter("@PackageNo", PackageNo));
             command.Parameters.Add(new SqlParameter("@CNo", CNo));
             command.Parameters.Add(new SqlParameter("@DescGoods", DescGoods));
